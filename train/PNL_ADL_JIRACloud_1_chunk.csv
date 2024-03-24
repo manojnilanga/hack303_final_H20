@@ -1,0 +1,4609 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Project url,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Fix versions,Fix versions.1,Components,Due date,Votes,Labels,Labels.1,Labels.2,Labels.3,Description,Environment,Watchers,Watchers.1,Watchers.2,Watchers.3,Watchers.4,Watchers.5,Watchers.6,Watchers.7,Watchers.8,Watchers.9,Watchers.10,Watchers.11,Watchers.12,Watchers.13,Watchers.14,Watchers Id,Watchers Id.1,Watchers Id.2,Watchers Id.3,Watchers Id.4,Watchers Id.5,Watchers Id.6,Watchers Id.7,Watchers Id.8,Watchers Id.9,Watchers Id.10,Watchers Id.11,Watchers Id.12,Watchers Id.13,Watchers Id.14,Log Work,Log Work.1,Log Work.2,Log Work.3,Log Work.4,Log Work.5,Log Work.6,Log Work.7,Log Work.8,Log Work.9,Log Work.10,Log Work.11,Log Work.12,Log Work.13,Log Work.14,Log Work.15,Log Work.16,Log Work.17,Log Work.18,Log Work.19,Log Work.20,Log Work.21,Log Work.22,Log Work.23,Log Work.24,Log Work.25,Log Work.26,Log Work.27,Log Work.28,Log Work.29,Log Work.30,Log Work.31,Log Work.32,Log Work.33,Log Work.34,Log Work.35,Log Work.36,Log Work.37,Log Work.38,Log Work.39,Log Work.40,Log Work.41,Log Work.42,Log Work.43,Log Work.44,Log Work.45,Log Work.46,Log Work.47,Log Work.48,Log Work.49,Log Work.50,Log Work.51,Log Work.52,Log Work.53,Log Work.54,Log Work.55,Log Work.56,Log Work.57,Log Work.58,Log Work.59,Log Work.60,Log Work.61,Log Work.62,Log Work.63,Log Work.64,Log Work.65,Log Work.66,Log Work.67,Log Work.68,Log Work.69,Log Work.70,Log Work.71,Log Work.72,Log Work.73,Log Work.74,Log Work.75,Log Work.76,Log Work.77,Log Work.78,Log Work.79,Log Work.80,Log Work.81,Log Work.82,Log Work.83,Log Work.84,Log Work.85,Log Work.86,Log Work.87,Log Work.88,Log Work.89,Log Work.90,Log Work.91,Log Work.92,Log Work.93,Log Work.94,Log Work.95,Log Work.96,Log Work.97,Log Work.98,Log Work.99,Log Work.100,Log Work.101,Log Work.102,Log Work.103,Log Work.104,Log Work.105,Log Work.106,Log Work.107,Log Work.108,Log Work.109,Log Work.110,Log Work.111,Log Work.112,Log Work.113,Log Work.114,Log Work.115,Log Work.116,Log Work.117,Log Work.118,Log Work.119,Log Work.120,Log Work.121,Log Work.122,Log Work.123,Log Work.124,Log Work.125,Log Work.126,Log Work.127,Log Work.128,Log Work.129,Log Work.130,Log Work.131,Log Work.132,Log Work.133,Log Work.134,Log Work.135,Log Work.136,Log Work.137,Log Work.138,Log Work.139,Log Work.140,Log Work.141,Log Work.142,Log Work.143,Log Work.144,Log Work.145,Log Work.146,Log Work.147,Log Work.148,Log Work.149,Log Work.150,Log Work.151,Log Work.152,Log Work.153,Log Work.154,Log Work.155,Log Work.156,Log Work.157,Log Work.158,Log Work.159,Log Work.160,Log Work.161,Log Work.162,Log Work.163,Log Work.164,Log Work.165,Log Work.166,Log Work.167,Log Work.168,Log Work.169,Log Work.170,Log Work.171,Log Work.172,Log Work.173,Log Work.174,Log Work.175,Log Work.176,Log Work.177,Log Work.178,Log Work.179,Log Work.180,Log Work.181,Log Work.182,Log Work.183,Log Work.184,Log Work.185,Log Work.186,Log Work.187,Log Work.188,Log Work.189,Log Work.190,Log Work.191,Log Work.192,Log Work.193,Log Work.194,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Inward issue link (Blocks).1,Inward issue link (Blocks).2,Inward issue link (Blocks).3,Inward issue link (Blocks).4,Inward issue link (Blocks).5,Inward issue link (Blocks).6,Outward issue link (Blocks),Outward issue link (Blocks).1,Outward issue link (Blocks).2,Outward issue link (Blocks).3,Outward issue link (Blocks).4,Outward issue link (Blocks).5,Inward issue link (Causes),Outward issue link (Causes),Inward issue link (Cloners),Inward issue link (Cloners).1,Inward issue link (Cloners).2,Inward issue link (Cloners).3,Outward issue link (Cloners),Outward issue link (Cloners).1,Inward issue link (Duplicate),Inward issue link (Duplicate).1,Outward issue link (Duplicate),Inward issue link (Issue split),Inward issue link (Issue split).1,Outward issue link (Issue split),Outward issue link (Issue split).1,Outward issue link (Issue split).2,Inward issue link (Relates),Inward issue link (Relates).1,Inward issue link (Relates).2,Inward issue link (Relates).3,Inward issue link (Relates).4,Inward issue link (Relates).5,Inward issue link (Relates).6,Inward issue link (Relates).7,Outward issue link (Relates),Outward issue link (Relates).1,Outward issue link (Relates).2,Outward issue link (Relates).3,Outward issue link (Relates).4,Outward issue link (Relates).5,Outward issue link (Relates).6,Outward issue link (Relates).7,Outward issue link (Relates).8,Outward issue link (Relates).9,Outward issue link (Relates).10,Outward issue link (Relates).11,Outward issue link (Relates).12,Outward issue link (Relates).13,Outward issue link (Relates).14,Outward issue link (Relates).15,Outward issue link (Relates).16,Outward issue link (Relates).17,Outward issue link (Relates).18,Outward issue link (Relates).19,Outward issue link (Relates).20,Outward issue link (Relates).21,Outward issue link (Relates).22,Outward issue link (Relates).23,Outward issue link (Relates).24,Outward issue link (Relates).25,Outward issue link (Relates).26,Attachment,Attachment.1,Attachment.2,Attachment.3,Attachment.4,Attachment.5,Attachment.6,Attachment.7,Attachment.8,Attachment.9,Attachment.10,Attachment.11,Attachment.12,Attachment.13,Attachment.14,Attachment.15,Attachment.16,Attachment.17,Attachment.18,Attachment.19,Attachment.20,Attachment.21,Attachment.22,Attachment.23,Attachment.24,Attachment.25,Attachment.26,Attachment.27,Attachment.28,Attachment.29,Attachment.30,Attachment.31,Attachment.32,Attachment.33,Attachment.34,Attachment.35,Attachment.36,Attachment.37,Attachment.38,Attachment.39,Attachment.40,Attachment.41,Attachment.42,Attachment.43,Attachment.44,Attachment.45,Attachment.46,Attachment.47,Attachment.48,Attachment.49,Attachment.50,Attachment.51,Attachment.52,Attachment.53,Attachment.54,Attachment.55,Attachment.56,Attachment.57,Attachment.58,Attachment.59,Attachment.60,Attachment.61,Attachment.62,Attachment.63,Attachment.64,Attachment.65,Attachment.66,Attachment.67,Attachment.68,Attachment.69,Attachment.70,Attachment.71,Attachment.72,Attachment.73,Attachment.74,Attachment.75,Attachment.76,Attachment.77,Attachment.78,Attachment.79,Attachment.80,Attachment.81,Attachment.82,Attachment.83,Attachment.84,Attachment.85,Attachment.86,Attachment.87,Attachment.88,Attachment.89,Custom field (Affected services),Custom field (Agile Ceremony Type),Custom field (Airline),Custom field (Airline).1,Custom field (Airline).2,Custom field (Airline).3,Custom field (Airline).4,Custom field (Areas),Custom field (Atlas project key),Custom field (Atlas project status),Custom field (Budget),Custom field (Call - 04.10.2023),Custom field (Category),Custom field (Category).1,Custom field (Change completion date),Custom field (Change reason),Custom field (Change risk),Custom field (Change start date),Custom field (Change type),Custom field (Comments),Custom field (Completed Percentage),Custom field (Completion Percentage),Custom field (Confidence),Custom field (Cost),Custom field (Creation Date),Custom field (Customer),Custom field (Delivery progress),Custom field (Delivery status),Custom field (Department),Custom field (Department).1,Custom field (Department).2,Custom field (Dependent Issue),Custom field (Design),Custom field (Designs ready),Custom field (Development),Custom field (Documents),Custom field (Due Date),Custom field (Due Date).1,Custom field (Due Date).2,Custom field (Due Date).3,Custom field (Due Date).4,Custom field (Effort),Custom field (Epic Color),Custom field (Epic Link),Epic Link Summary,Custom field (Epic Name),Custom field (Epic Status),Custom field (Epic Type),Custom field (FIx Versions),Custom field (Fix Versions),Custom field (Fix Versions).1,Custom field (Fix Versions).2,Custom field (Fix Versions).3,Custom field (Fix Versions).4,Custom field (Fix Versions).5,Custom field (Flagged),Custom field (Idea archived),Custom field (Idea archived on),Custom field (Idea short description),Custom field (Impact),Custom field (Impact).1,Custom field (Impact score),Custom field (Insights),Custom field (InvisionLink),Custom field (InvisionLink).1,Custom field (Issue color),Custom field (Key Results - 30/06/2021),Custom field (Key Results by 30/06/2021),Custom field (Landing page and the reservation system to be translated in russian),Custom field (Linked issues),Custom field (Locked forms),Custom field (Open forms),Custom field (Opportunity value),Custom field (Opportunity value).1,Custom field (Parent-Priority),Custom field (Production Release Date),Custom field (Production Release Date).1,Custom field (Production Release Date).2,Custom field (Production Release Date).3,Custom field (Production Release Date).4,Custom field (ProductionReleaseDate),Custom field (ProductionReleaseStatus),Custom field (Project start),Custom field (Project target),Custom field (Rank),Custom field (Request Type),Custom field (Request language),Custom field (Request participants),Custom field (Roadmap),Satisfaction rating,Custom field (Satisfaction date),Custom field (Spec ready),Sprint,Sprint.1,Sprint.2,Sprint.3,Sprint.4,Sprint.5,Sprint.6,Sprint.7,Sprint.8,Sprint.9,Sprint.10,Sprint.11,Sprint.12,Sprint.13,Sprint.14,Custom field (Sprint End Date),Custom field (Sprint End Date).1,Custom field (Sprint Start Date),Custom field (Sprint Start Date).1,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (TIS [AMORDERV2 board]),Custom field (TIS [PAY board]),Custom field (TIS [Private Board - 282]),Custom field (TIS [XBE board]),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team).1,Custom field (Team).2,Custom field (Ticket Due By),Custom field (Time to resolve),Custom field (Time to resolve).1,Custom field (Total forms),Custom field (Unit/Department),Custom field (Value),Custom field (Value).1,Custom field (Vulnerability),Custom field ([CHART] Date of First Response),Custom field ([CHART] Time in Status),Comment,Comment.1,Comment.2,Comment.3,Comment.4,Comment.5,Comment.6,Comment.7,Comment.8,Comment.9,Comment.10,Comment.11,Comment.12,Comment.13,Comment.14,Comment.15,Comment.16,Comment.17,Comment.18,Comment.19,Comment.20,Comment.21,Comment.22,Comment.23,Comment.24,Comment.25,Comment.26,Comment.27,Comment.28,Comment.29,Comment.30,Comment.31,Comment.32,Comment.33,Comment.34,Comment.35,Comment.36,Comment.37,Comment.38,Comment.39,Comment.40,Comment.41,Comment.42,Comment.43,Comment.44,Comment.45,Comment.46,Comment.47,Comment.48,Comment.49,Comment.50,Comment.51,Comment.52,Comment.53,Comment.54,Comment.55,Comment.56,Comment.57,Comment.58,Comment.59,Comment.60,Comment.61,Comment.62,Comment.63,Comment.64,Comment.65,Comment.66,Comment.67,Comment.68,Comment.69,Comment.70,Comment.71,Comment.72,Comment.73,Comment.74,Comment.75,Comment.76,Comment.77,Comment.78,Comment.79,Comment.80,Comment.81,Comment.82,Comment.83,Comment.84,Comment.85,Comment.86,Comment.87,Comment.88,Comment.89,Comment.90,Comment.91,Comment.92,Comment.93,Comment.94,Comment.95,Comment.96,Comment.97,Comment.98,Comment.99,Comment.100,Comment.101,Comment.102,Comment.103,Comment.104,Comment.105,Comment.106,Comment.107,Comment.108,Comment.109,Comment.110,Comment.111,Comment.112,Comment.113,Comment.114,Comment.115,Comment.116,Comment.117,Comment.118,Comment.119,Comment.120,Comment.121,Comment.122,Comment.123,Comment.124,Comment.125,Comment.126,Comment.127,Comment.128,Comment.129,Comment.130,Comment.131,Comment.132,Comment.133,Comment.134,Comment.135,Comment.136,Comment.137,Comment.138,Comment.139,Comment.140,Comment.141,Comment.142,Comment.143,Comment.144,Comment.145,Comment.146,Comment.147,Comment.148,Comment.149,Comment.150,Comment.151,Comment.152,Comment.153,Comment.154,Comment.155,Comment.156,Comment.157,Comment.158,Comment.159,Comment.160,Comment.161,Comment.162,Comment.163,Comment.164,Comment.165,Comment.166,Comment.167,Comment.168,Comment.169,Comment.170,Comment.171,Comment.172,Comment.173,Comment.174,Comment.175,Comment.176,Comment.177,Comment.178,Comment.179,Comment.180,Comment.181,Comment.182,Comment.183,Comment.184,Comment.185,Comment.186,Comment.187,Comment.188,Comment.189,Comment.190,Comment.191,Comment.192,Comment.193,Comment.194,Comment.195,Comment.196,Comment.197,Comment.198,Comment.199,Comment.200,Comment.201,Comment.202,Comment.203,Comment.204,Comment.205,Comment.206,Comment.207,Comment.208,Comment.209,Comment.210,Comment.211,Comment.212,Comment.213,Comment.214,Comment.215,Comment.216,Comment.217,Comment.218,Comment.219,Comment.220,Comment.221,Comment.222,Comment.223,Comment.224,Comment.225,Comment.226,Comment.227,Comment.228,Comment.229,Comment.230,Comment.231,Comment.232,Comment.233,Comment.234,Comment.235,Comment.236,Comment.237,Comment.238,Comment.239,Comment.240,Comment.241,Comment.242,Comment.243,Comment.244,Comment.245,Comment.246,Comment.247,Comment.248,Comment.249,Comment.250,Comment.251,Comment.252,Comment.253,Comment.254,Comment.255,Comment.256,Comment.257,Comment.258,Comment.259,Comment.260,Comment.261,Comment.262,Comment.263,Comment.264,Comment.265,Comment.266,Comment.267,Comment.268,Comment.269,Comment.270,Comment.271,Comment.272,Comment.273,Comment.274,Comment.275,Comment.276,Comment.277,Comment.278,Comment.279,Comment.280,Comment.281,Comment.282,Comment.283,Comment.284,Comment.285,Comment.286,Comment.287,Comment.288,Comment.289,Comment.290,Comment.291,Comment.292,Comment.293,Comment.294,Comment.295,Comment.296,Comment.297,Comment.298,Comment.299,Comment.300,Comment.301,Comment.302,Comment.303,Comment.304,Comment.305,Comment.306,Comment.307,Comment.308,Comment.309,Comment.310,Comment.311,Comment.312,Comment.313,Comment.314,Comment.315,Comment.316,Comment.317,Comment.318,Comment.319,Comment.320,Comment.321,Comment.322,Comment.323,Comment.324,Comment.325,Comment.326,Comment.327,Comment.328,Comment.329,Comment.330,Comment.331,Comment.332,Comment.333,Comment.334,Comment.335,Comment.336,Comment.337,Comment.338,Comment.339,Comment.340,Comment.341,Comment.342,Comment.343,Comment.344,Comment.345,Comment.346,Comment.347,Comment.348,Comment.349,Comment.350,Comment.351,Comment.352,Comment.353,Comment.354,Comment.355,Comment.356,Comment.357,Comment.358,Comment.359,Comment.360,Comment.361,Comment.362,Comment.363,Comment.364,Comment.365,Comment.366,Comment.367,Comment.368,Comment.369,Comment.370,Comment.371,Comment.372,Comment.373,Comment.374,Comment.375,Comment.376,Comment.377,Comment.378,Comment.379,Comment.380,Comment.381,Comment.382,Comment.383,Comment.384,Comment.385,Comment.386,Comment.387,Comment.388,Comment.389,Comment.390,Comment.391,Comment.392,Comment.393,Comment.394,Comment.395,Comment.396,Comment.397,Comment.398,Comment.399,Comment.400,Comment.401,Comment.402,Comment.403,Comment.404,Comment.405,Comment.406,Comment.407,Comment.408,Comment.409,Comment.410,Comment.411,Comment.412,Comment.413,Comment.414,Comment.415,Comment.416,Comment.417,Comment.418,Comment.419,Comment.420,Comment.421,Comment.422,Comment.423,Comment.424,Comment.425,Comment.426,Comment.427,Comment.428,Parent,Parent summary,Status Category,Status Category Changed
+Invenotry Mismatch -  AccelAero DB Alert - Fly Arna 31-Oct-2023_0020,ASPPI-7374,127004,Task,Done,ASPPI,ISA:AeroSUITE:PPI,software,Rimaz Fawzer,5c3dcdb9b4d5d75a3b52a4cf,Unnamed: 10,Unnamed: 11,Medium,Done.1,Saarrah Isthikar,5ccae37f08e6b211f65b8328,Sujit Samal,5f478dbd333edb00430384ea,Sujit Samal.1,5f478dbd333edb00430384ea.1,2023-10-31 06:34:00,2023-11-05 11:35:00,2024-03-23 06:46:00,2023-10-31 10:12:00,Unnamed: 24,Unnamed: 25,Unnamed: 26,Unnamed: 27,0,Unnamed: 29,Unnamed: 30,Unnamed: 31,Unnamed: 32,Inventory Mismatch(CoNFirmed Adult) Flight_id : 4807 BC : Y6 Segment_code : EVN/DME FCC: 6 RES: 4,Unnamed: 34,Admin,Sujit Samal.2,Unnamed: 37,Unnamed: 38,Unnamed: 39,Unnamed: 40,Unnamed: 41,Unnamed: 42,Unnamed: 43,Unnamed: 44,Unnamed: 45,Unnamed: 46,Unnamed: 47,Unnamed: 48,Unnamed: 49,635771987d4645af4f01bd17,5f478dbd333edb00430384ea.2,Unnamed: 52,Unnamed: 53,Unnamed: 54,Unnamed: 55,Unnamed: 56,Unnamed: 57,Unnamed: 58,Unnamed: 59,Unnamed: 60,Unnamed: 61,Unnamed: 62,Unnamed: 63,Unnamed: 64,Unnamed: 65,Unnamed: 66,Unnamed: 67,Unnamed: 68,Unnamed: 69,Unnamed: 70,Unnamed: 71,Unnamed: 72,Unnamed: 73,Unnamed: 74,Unnamed: 75,Unnamed: 76,Unnamed: 77,Unnamed: 78,Unnamed: 79,Unnamed: 80,Unnamed: 81,Unnamed: 82,Unnamed: 83,Unnamed: 84,Unnamed: 85,Unnamed: 86,Unnamed: 87,Unnamed: 88,Unnamed: 89,Unnamed: 90,Unnamed: 91,Unnamed: 92,Unnamed: 93,Unnamed: 94,Unnamed: 95,Unnamed: 96,Unnamed: 97,Unnamed: 98,Unnamed: 99,Unnamed: 100,Unnamed: 101,Unnamed: 102,Unnamed: 103,Unnamed: 104,Unnamed: 105,Unnamed: 106,Unnamed: 107,Unnamed: 108,Unnamed: 109,Unnamed: 110,Unnamed: 111,Unnamed: 112,Unnamed: 113,Unnamed: 114,Unnamed: 115,Unnamed: 116,Unnamed: 117,Unnamed: 118,Unnamed: 119,Unnamed: 120,Unnamed: 121,Unnamed: 122,Unnamed: 123,Unnamed: 124,Unnamed: 125,Unnamed: 126,Unnamed: 127,Unnamed: 128,Unnamed: 129,Unnamed: 130,Unnamed: 131,Unnamed: 132,Unnamed: 133,Unnamed: 134,Unnamed: 135,Unnamed: 136,Unnamed: 137,Unnamed: 138,Unnamed: 139,Unnamed: 140,Unnamed: 141,Unnamed: 142,Unnamed: 143,Unnamed: 144,Unnamed: 145,Unnamed: 146,Unnamed: 147,Unnamed: 148,Unnamed: 149,Unnamed: 150,Unnamed: 151,Unnamed: 152,Unnamed: 153,Unnamed: 154,Unnamed: 155,Unnamed: 156,Unnamed: 157,Unnamed: 158,Unnamed: 159,Unnamed: 160,Unnamed: 161,Unnamed: 162,Unnamed: 163,Unnamed: 164,Unnamed: 165,Unnamed: 166,Unnamed: 167,Unnamed: 168,Unnamed: 169,Unnamed: 170,Unnamed: 171,Unnamed: 172,Unnamed: 173,Unnamed: 174,Unnamed: 175,Unnamed: 176,Unnamed: 177,Unnamed: 178,Unnamed: 179,Unnamed: 180,Unnamed: 181,Unnamed: 182,Unnamed: 183,Unnamed: 184,Unnamed: 185,Unnamed: 186,Unnamed: 187,Unnamed: 188,Unnamed: 189,Unnamed: 190,Unnamed: 191,Unnamed: 192,Unnamed: 193,Unnamed: 194,Unnamed: 195,Unnamed: 196,Unnamed: 197,Unnamed: 198,Unnamed: 199,Unnamed: 200,Unnamed: 201,Unnamed: 202,Unnamed: 203,Unnamed: 204,Unnamed: 205,Unnamed: 206,Unnamed: 207,Unnamed: 208,Unnamed: 209,Unnamed: 210,Unnamed: 211,Unnamed: 212,Unnamed: 213,Unnamed: 214,Unnamed: 215,Unnamed: 216,Unnamed: 217,Unnamed: 218,Unnamed: 219,Unnamed: 220,Unnamed: 221,Unnamed: 222,Unnamed: 223,Unnamed: 224,Unnamed: 225,Unnamed: 226,Unnamed: 227,Unnamed: 228,Unnamed: 229,Unnamed: 230,Unnamed: 231,Unnamed: 232,Unnamed: 233,Unnamed: 234,Unnamed: 235,Unnamed: 236,Unnamed: 237,Unnamed: 238,Unnamed: 239,Unnamed: 240,Unnamed: 241,Unnamed: 242,Unnamed: 243,Unnamed: 244,Unnamed: 245,Unnamed: 246,Unnamed: 247,Unnamed: 248,Unnamed: 249,Unnamed: 250,Unnamed: 251,Unnamed: 252,Unnamed: 253,Unnamed: 254,Unnamed: 255,Unnamed: 256,Unnamed: 257,Unnamed: 258,Unnamed: 259,Unnamed: 260,Unnamed: 261,Unnamed: 262,Unnamed: 263,Unnamed: 264,Unnamed: 265,Unnamed: 266,Unnamed: 267,Unnamed: 268,Unnamed: 269,Unnamed: 270,Unnamed: 271,Unnamed: 272,Unnamed: 273,Unnamed: 274,Unnamed: 275,Unnamed: 276,Unnamed: 277,Unnamed: 278,Unnamed: 279,Unnamed: 280,Unnamed: 281,Unnamed: 282,Unnamed: 283,Unnamed: 284,Unnamed: 285,Unnamed: 286,Unnamed: 287,Unnamed: 288,Unnamed: 289,Unnamed: 290,Unnamed: 291,Unnamed: 292,Unnamed: 293,Unnamed: 294,Unnamed: 295,Unnamed: 296,Unnamed: 297,Unnamed: 298,Unnamed: 299,Unnamed: 300,Unnamed: 301,Unnamed: 302,Unnamed: 303,Unnamed: 304,Unnamed: 305,Unnamed: 306,Unnamed: 307,Unnamed: 308,Unnamed: 309,Unnamed: 310,Unnamed: 311,Unnamed: 312,Unnamed: 313,Unnamed: 314,Unnamed: 315,Unnamed: 316,Unnamed: 317,Unnamed: 318,Unnamed: 319,Unnamed: 320,Unnamed: 321,Unnamed: 322,Unnamed: 323,Unnamed: 324,Unnamed: 325,Unnamed: 326,Unnamed: 327,Unnamed: 328,Unnamed: 329,Unnamed: 330,Unnamed: 331,31/Oct/23 6:35 AM;635771987d4645af4f01bd17;1698719556037.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/144284,Unnamed: 333,Unnamed: 334,Unnamed: 335,Unnamed: 336,Unnamed: 337,Unnamed: 338,Unnamed: 339,Unnamed: 340,Unnamed: 341,Unnamed: 342,Unnamed: 343,Unnamed: 344,Unnamed: 345,Unnamed: 346,Unnamed: 347,Unnamed: 348,Unnamed: 349,Unnamed: 350,Unnamed: 351,Unnamed: 352,Unnamed: 353,Unnamed: 354,Unnamed: 355,Unnamed: 356,Unnamed: 357,Unnamed: 358,Unnamed: 359,Unnamed: 360,Unnamed: 361,Unnamed: 362,Unnamed: 363,Unnamed: 364,Unnamed: 365,Unnamed: 366,Unnamed: 367,Unnamed: 368,Unnamed: 369,Unnamed: 370,Unnamed: 371,Unnamed: 372,Unnamed: 373,Unnamed: 374,Unnamed: 375,Unnamed: 376,Unnamed: 377,Unnamed: 378,Unnamed: 379,Unnamed: 380,Unnamed: 381,Unnamed: 382,Unnamed: 383,Unnamed: 384,Unnamed: 385,Unnamed: 386,Unnamed: 387,Unnamed: 388,Unnamed: 389,Unnamed: 390,Unnamed: 391,Unnamed: 392,Unnamed: 393,Unnamed: 394,Unnamed: 395,Unnamed: 396,Unnamed: 397,Unnamed: 398,Unnamed: 399,Unnamed: 400,Unnamed: 401,Unnamed: 402,Unnamed: 403,Unnamed: 404,Unnamed: 405,Unnamed: 406,Unnamed: 407,Unnamed: 408,Unnamed: 409,Unnamed: 410,Unnamed: 411,Unnamed: 412,Unnamed: 413,Unnamed: 414,Unnamed: 415,Unnamed: 416,Unnamed: 417,Unnamed: 418,Unnamed: 419,Unnamed: 420,Unnamed: 421,Unnamed: 422,Unnamed: 423,Unnamed: 424,Unnamed: 425,Unnamed: 426,Unnamed: 427,Unnamed: 428,Unnamed: 429,Unnamed: 430,Unnamed: 431,Unnamed: 432,Unnamed: 433,Unnamed: 434,Unnamed: 435,Unnamed: 436,Unnamed: 437,Unnamed: 438,Unnamed: 439,Unnamed: 440,Unnamed: 441,0.1,Unnamed: 443,Unnamed: 444,Unnamed: 445,Unnamed: 446,Unnamed: 447,Unnamed: 448,Unnamed: 449,Unnamed: 450,Unnamed: 451,Unnamed: 452,Unnamed: 453,Unnamed: 454,Unnamed: 455,{},Unnamed: 457,Unnamed: 458,Unnamed: 459,Unnamed: 460,Unnamed: 461,Unnamed: 462,Unnamed: 463,Unnamed: 464,Unnamed: 465,Unnamed: 466,Unnamed: 467,Unnamed: 468,Unnamed: 469,Unnamed: 470,Unnamed: 471,Unnamed: 472,Unnamed: 473,Unnamed: 474,Unnamed: 475,Unnamed: 476,Unnamed: 477,Unnamed: 478,Unnamed: 479,Unnamed: 480,Unnamed: 481,Unnamed: 482,Unnamed: 483,Unnamed: 484,Unnamed: 485,Unnamed: 486,Unnamed: 487,Unnamed: 488,Unnamed: 489,Unnamed: 490,Unnamed: 491,Unnamed: 492,Unnamed: 493,Unnamed: 494,Unnamed: 495,Unnamed: 496,Unnamed: 497,Unnamed: 498,Unnamed: 499,Unnamed: 500,Unnamed: 501,Unnamed: 502,Unnamed: 503,Unnamed: 504,Unnamed: 505,1|hzyanb:,Unnamed: 507,Unnamed: 508,Unnamed: 509,Unnamed: 510,Unnamed: 511,Unnamed: 512,Unnamed: 513,Unnamed: 514,Unnamed: 515,Unnamed: 516,Unnamed: 517,Unnamed: 518,Unnamed: 519,Unnamed: 520,Unnamed: 521,Unnamed: 522,Unnamed: 523,Unnamed: 524,Unnamed: 525,Unnamed: 526,Unnamed: 527,Unnamed: 528,Unnamed: 529,Unnamed: 530,Unnamed: 531,Unnamed: 532,Unnamed: 533,Unnamed: 534,Unnamed: 535,Unnamed: 536,Unnamed: 537,Unnamed: 538,Unnamed: 539,Unnamed: 540,Unnamed: 541,Unnamed: 542,Unnamed: 543,Unnamed: 544,Unnamed: 545,Unnamed: 546,10000_*:*_1_*:*_13085744_*|*_10001_*:*_1_*:*_0,Unnamed: 548,Unnamed: 549,Unnamed: 550,Unnamed: 551,Unnamed: 552,Unnamed: 553,2023-10-31 02:35:34.368000,10000_*:*_1_*:*_13085744_*|*_10001_*:*_1_*:*_0.1,"31/Oct/23 6:35 AM;635771987d4645af4f01bd17;Freshservice issue linked to Jira:
+ #INC-663145 (https://airarabia.freshservice.com/a/tickets/663145) - Fw: AccelAero DB Alert - Fly Arna 31-Oct-2023_0020
+","31/Oct/23 6:35 AM;635771987d4645af4f01bd17;Note added by NOC Accelaero in Freshservice:
+ 
+Dear Team,
+
+
+
+
+
+
+We have received the alert below. kindly look into it.
+
+
+
+
+
+
+Regards,
+ISA NOC
+
+
+
+
+
+
+","31/Oct/23 6:35 AM;635771987d4645af4f01bd17;Note added by NOC Accelaero in Freshservice:
+ 
+
+
+
+Dear Team,
+
+
+
+We have received a similar alert. Kindly look into this.
+
+
+
+
+
+
+Event
+ : 31-Oct-2023 02:22
+Client:
+ G6
+
+
+
+31-Oct-2023
+ 02:22(GMT) # No of Flights without PNL = 1
+
+
+
+
+
+
+
+
+Regards,
+ISA NOC
+
+
+
+
+
+
+
+
+
+
+","31/Oct/23 6:35 AM;635771987d4645af4f01bd17;Note added by Sujit Samal in Freshservice:
+ 
+31-Oct-2023 02:22(GMT) # No of Flights without PNL = 1
+
+
+ !1698719556037.png! 
+
+
+","31/Oct/23 6:35 AM;635771987d4645af4f01bd17;Note added by Sujit Samal in Freshservice:
+ 
+Inventory Mismatch(CoNFirmed Adult) Flight_id : 4807 BC : Y6 Segment_code : EVN/DME FCC: 6 RES: 4
+
+
+https://jiraisa.atlassian.net/browse/ASPPI-7374
+
+
+
+
+
+",31/Oct/23 6:36 AM;635771987d4645af4f01bd17;Freshservice Ticket issue status changed to : In-Progress,31/Oct/23 11:34 AM;635771987d4645af4f01bd17;Freshservice Ticket issue status changed to : Resolved,05/Nov/23 11:35 AM;635771987d4645af4f01bd17;Freshservice Ticket issue status changed to : Closed,Unnamed: 564,Unnamed: 565,Unnamed: 566,Unnamed: 567,Unnamed: 568,Unnamed: 569,Unnamed: 570,Unnamed: 571,Unnamed: 572,Unnamed: 573,Unnamed: 574,Unnamed: 575,Unnamed: 576,Unnamed: 577,Unnamed: 578,Unnamed: 579,Unnamed: 580,Unnamed: 581,Unnamed: 582,Unnamed: 583,Unnamed: 584,Unnamed: 585,Unnamed: 586,Unnamed: 587,Unnamed: 588,Unnamed: 589,Unnamed: 590,Unnamed: 591,Unnamed: 592,Unnamed: 593,Unnamed: 594,Unnamed: 595,Unnamed: 596,Unnamed: 597,Unnamed: 598,Unnamed: 599,Unnamed: 600,Unnamed: 601,Unnamed: 602,Unnamed: 603,Unnamed: 604,Unnamed: 605,Unnamed: 606,Unnamed: 607,Unnamed: 608,Unnamed: 609,Unnamed: 610,Unnamed: 611,Unnamed: 612,Unnamed: 613,Unnamed: 614,Unnamed: 615,Unnamed: 616,Unnamed: 617,Unnamed: 618,Unnamed: 619,Unnamed: 620,Unnamed: 621,Unnamed: 622,Unnamed: 623,Unnamed: 624,Unnamed: 625,Unnamed: 626,Unnamed: 627,Unnamed: 628,Unnamed: 629,Unnamed: 630,Unnamed: 631,Unnamed: 632,Unnamed: 633,Unnamed: 634,Unnamed: 635,Unnamed: 636,Unnamed: 637,Unnamed: 638,Unnamed: 639,Unnamed: 640,Unnamed: 641,Unnamed: 642,Unnamed: 643,Unnamed: 644,Unnamed: 645,Unnamed: 646,Unnamed: 647,Unnamed: 648,Unnamed: 649,Unnamed: 650,Unnamed: 651,Unnamed: 652,Unnamed: 653,Unnamed: 654,Unnamed: 655,Unnamed: 656,Unnamed: 657,Unnamed: 658,Unnamed: 659,Unnamed: 660,Unnamed: 661,Unnamed: 662,Unnamed: 663,Unnamed: 664,Unnamed: 665,Unnamed: 666,Unnamed: 667,Unnamed: 668,Unnamed: 669,Unnamed: 670,Unnamed: 671,Unnamed: 672,Unnamed: 673,Unnamed: 674,Unnamed: 675,Unnamed: 676,Unnamed: 677,Unnamed: 678,Unnamed: 679,Unnamed: 680,Unnamed: 681,Unnamed: 682,Unnamed: 683,Unnamed: 684,Unnamed: 685,Unnamed: 686,Unnamed: 687,Unnamed: 688,Unnamed: 689,Unnamed: 690,Unnamed: 691,Unnamed: 692,Unnamed: 693,Unnamed: 694,Unnamed: 695,Unnamed: 696,Unnamed: 697,Unnamed: 698,Unnamed: 699,Unnamed: 700,Unnamed: 701,Unnamed: 702,Unnamed: 703,Unnamed: 704,Unnamed: 705,Unnamed: 706,Unnamed: 707,Unnamed: 708,Unnamed: 709,Unnamed: 710,Unnamed: 711,Unnamed: 712,Unnamed: 713,Unnamed: 714,Unnamed: 715,Unnamed: 716,Unnamed: 717,Unnamed: 718,Unnamed: 719,Unnamed: 720,Unnamed: 721,Unnamed: 722,Unnamed: 723,Unnamed: 724,Unnamed: 725,Unnamed: 726,Unnamed: 727,Unnamed: 728,Unnamed: 729,Unnamed: 730,Unnamed: 731,Unnamed: 732,Unnamed: 733,Unnamed: 734,Unnamed: 735,Unnamed: 736,Unnamed: 737,Unnamed: 738,Unnamed: 739,Unnamed: 740,Unnamed: 741,Unnamed: 742,Unnamed: 743,Unnamed: 744,Unnamed: 745,Unnamed: 746,Unnamed: 747,Unnamed: 748,Unnamed: 749,Unnamed: 750,Unnamed: 751,Unnamed: 752,Unnamed: 753,Unnamed: 754,Unnamed: 755,Unnamed: 756,Unnamed: 757,Unnamed: 758,Unnamed: 759,Unnamed: 760,Unnamed: 761,Unnamed: 762,Unnamed: 763,Unnamed: 764,Unnamed: 765,Unnamed: 766,Unnamed: 767,Unnamed: 768,Unnamed: 769,Unnamed: 770,Unnamed: 771,Unnamed: 772,Unnamed: 773,Unnamed: 774,Unnamed: 775,Unnamed: 776,Unnamed: 777,Unnamed: 778,Unnamed: 779,Unnamed: 780,Unnamed: 781,Unnamed: 782,Unnamed: 783,Unnamed: 784,Unnamed: 785,Unnamed: 786,Unnamed: 787,Unnamed: 788,Unnamed: 789,Unnamed: 790,Unnamed: 791,Unnamed: 792,Unnamed: 793,Unnamed: 794,Unnamed: 795,Unnamed: 796,Unnamed: 797,Unnamed: 798,Unnamed: 799,Unnamed: 800,Unnamed: 801,Unnamed: 802,Unnamed: 803,Unnamed: 804,Unnamed: 805,Unnamed: 806,Unnamed: 807,Unnamed: 808,Unnamed: 809,Unnamed: 810,Unnamed: 811,Unnamed: 812,Unnamed: 813,Unnamed: 814,Unnamed: 815,Unnamed: 816,Unnamed: 817,Unnamed: 818,Unnamed: 819,Unnamed: 820,Unnamed: 821,Unnamed: 822,Unnamed: 823,Unnamed: 824,Unnamed: 825,Unnamed: 826,Unnamed: 827,Unnamed: 828,Unnamed: 829,Unnamed: 830,Unnamed: 831,Unnamed: 832,Unnamed: 833,Unnamed: 834,Unnamed: 835,Unnamed: 836,Unnamed: 837,Unnamed: 838,Unnamed: 839,Unnamed: 840,Unnamed: 841,Unnamed: 842,Unnamed: 843,Unnamed: 844,Unnamed: 845,Unnamed: 846,Unnamed: 847,Unnamed: 848,Unnamed: 849,Unnamed: 850,Unnamed: 851,Unnamed: 852,Unnamed: 853,Unnamed: 854,Unnamed: 855,Unnamed: 856,Unnamed: 857,Unnamed: 858,Unnamed: 859,Unnamed: 860,Unnamed: 861,Unnamed: 862,Unnamed: 863,Unnamed: 864,Unnamed: 865,Unnamed: 866,Unnamed: 867,Unnamed: 868,Unnamed: 869,Unnamed: 870,Unnamed: 871,Unnamed: 872,Unnamed: 873,Unnamed: 874,Unnamed: 875,Unnamed: 876,Unnamed: 877,Unnamed: 878,Unnamed: 879,Unnamed: 880,Unnamed: 881,Unnamed: 882,Unnamed: 883,Unnamed: 884,Unnamed: 885,Unnamed: 886,Unnamed: 887,Unnamed: 888,Unnamed: 889,Unnamed: 890,Unnamed: 891,Unnamed: 892,Unnamed: 893,Unnamed: 894,Unnamed: 895,Unnamed: 896,Unnamed: 897,Unnamed: 898,Unnamed: 899,Unnamed: 900,Unnamed: 901,Unnamed: 902,Unnamed: 903,Unnamed: 904,Unnamed: 905,Unnamed: 906,Unnamed: 907,Unnamed: 908,Unnamed: 909,Unnamed: 910,Unnamed: 911,Unnamed: 912,Unnamed: 913,Unnamed: 914,Unnamed: 915,Unnamed: 916,Unnamed: 917,Unnamed: 918,Unnamed: 919,Unnamed: 920,Unnamed: 921,Unnamed: 922,Unnamed: 923,Unnamed: 924,Unnamed: 925,Unnamed: 926,Unnamed: 927,Unnamed: 928,Unnamed: 929,Unnamed: 930,Unnamed: 931,Unnamed: 932,Unnamed: 933,Unnamed: 934,Unnamed: 935,Unnamed: 936,Unnamed: 937,Unnamed: 938,Unnamed: 939,Unnamed: 940,Unnamed: 941,Unnamed: 942,Unnamed: 943,Unnamed: 944,Unnamed: 945,Unnamed: 946,Unnamed: 947,Unnamed: 948,Unnamed: 949,Unnamed: 950,Unnamed: 951,Unnamed: 952,Unnamed: 953,Unnamed: 954,Unnamed: 955,Unnamed: 956,Unnamed: 957,Unnamed: 958,Unnamed: 959,Unnamed: 960,Unnamed: 961,Unnamed: 962,Unnamed: 963,Unnamed: 964,Unnamed: 965,Unnamed: 966,Unnamed: 967,Unnamed: 968,Unnamed: 969,Unnamed: 970,Unnamed: 971,Unnamed: 972,Unnamed: 973,Unnamed: 974,Unnamed: 975,Unnamed: 976,Unnamed: 977,Unnamed: 978,Unnamed: 979,Unnamed: 980,Unnamed: 981,Unnamed: 982,Unnamed: 983,Unnamed: 984,Unnamed: 985,Unnamed: 986,Done.2,2023-10-31 10:12:00.1
+ADL Groupcode issue after transfer segment from airadmin,ASPPI-7338,126676,Bug,Done,ASPPI,ISA:AeroSUITE:PPI,software,Rimaz Fawzer,5c3dcdb9b4d5d75a3b52a4cf,,,High,Done,Chathu Hettiarachchi,5c3dcb4dad984b521086207c,Shaharsad Salam,5c9c93b4a063736c5f65c099,Shaharsad Salam,5c9c93b4a063736c5f65c099,2023-10-26 16:38:00,2023-12-28 05:05:00,2024-03-19 12:39:00,2023-12-28 05:05:00,,,,,0,,,,,"Issue : Incorrect group code sent in the ADL after transferring a segment from airadmin
+
+Steps :
+
+1.Crate one new CNF booking with multiple pax (G9285)
+
+2.Send PNL/ADL, it will be sent with one group code
+
+3.Transfer the PNR to another flight from airadmin (G9112)
+
+4.Send the PNL/ADL for the new flight  G9112
+
+5.PNR will be sent with incorrect group code (sent with the same group code which used in previous flight G9285, but the same is already used for some other PNR in the flight G9112 which results in duplicate group code)
+
+
+
+Live PNR 
+
+1. 610240399
+
+IN THE G9478 25/10 flight, pnr sent with F3 grp code 
+
+PNL
+G9478/25OCT SHJ PART2
+-IKA036Y
+1KHOSRAVI/VAHIDMR-*F3 .L/610240399*
+.R/TKNE HK1 5142358167712/2-1KHOSRAVI/VAHIDMR
+.R/XBAG HK1 BAGS 1/30
+1MASOUMI/NAZILAMS .L/610232753
+
+The PNR got transferred to G9201, In the G9201 25 OCT flight, PNR sent as M3, but other 2 pax sent with F3 
+
+ADL
+G9201/25OCT SHJ PART2
+-IKA104Y
+ADD
+1HUSSAINI/ABULFAZLMR .L/610283586
+.R/TKNE HK1 5142344890912/1-1HUSSAINI/ABULFAZLMR
+.R/XBAG HK1 BAGS 2/40
+2JAVADI/REZAMR/MORTEZAMR-E2 .L/610139789
+.R/TKNE HK1 5142358006088/2-1JAVADI/REZAMR
+.R/TKNE HK1 5142358006089/2-1JAVADI/MORTEZAMR
+.R/DOCS HK1/P/IR/W53617459/IR/25AUG79/M/06MAR26/JAVADI/REZA-1JAV
+.RN/ADI/REZAMR
+.R/DOCS HK1/P/IR/H55268803/IR/06OCT45/M/29NOV26/JAVADI/MORTEZA-1
+.RN/JAVADI/MORTEZAMR .R/XBAG HK1 BAGS 1/30-1JAVADI/REZAMR
+.R/XBAG HK1 BAGS 1/30-1JAVADI/MORTEZAMR
+*1KHOSRAVI/VAHIDMR-M3 .L/610240399*
+.R/TKNE HK1 5142358167712/2-1KHOSRAVI/VAHIDMR
+.R/XBAG HK1 BAGS 1/30
+1MASOUMI/NAZILAMS .L/610232753
+
+…
+
+*1SAKAKI/SEYEDMOHAMADMR-F3*
+.R/TKNE HK1 5142358167711/2-1SAKAKI/SEYEDMOHAMADMR
+.R/XBAG HK1 BAGS 1/30
+1SHARIFI/NASERMR .L/610376053
+.R/TKNE HK1 5142358295755/1-1SHARIFI/NASERMR
+.R/XBAG HK1 BAGS 1/30
+1TAJMIRRIAHI/ARMANMR .L/609940498
+.R/TKNE HK1 5142357755588/2-1TAJMIRRIAHI/ARMANMR
+.R/DOCS HK1/P/IR/I54871876/IR/21JAN86/M/18OCT26/TAJMIRRIAHI/ARMA
+.RN/N-1TAJMIRRIAHI/ARMANMR .R/XBAG HK1 BAGS 0/0
+*1VALIDY/ROZBEHMR-F3* .R/TKNE HK1 5142358167710/2-1VALIDY/ROZBEHMR
+.R/XBAG HK1 BAGS 1/30
+
+
+
+
+
+Issue recreated in g96 with pnrs *600038733,600038720*
+
+Initial flight segment was G9285 28OCT, Then it transferred to G9112
+
+in the G9285 flight, it went with I3 group code, 
+
+ADL
+
+G9285/28OCT SHJ PART1
+-BAH019Y
+DEL
+1ADULT/AAAMR-A2 .L/600037662
+1CHILD/AAAMISS-A2
+ADD
+3ADULT/BBBMR/CCCMRS/AAAMS*-I3 .L/600038733*
+.R/TKNE HK1 5142190556861/1-1ADULT/BBBMR
+.R/TKNE HK1 5142190556863/1-1ADULT/CCCMRS
+.R/TKNE HK1 5142190556862/1-1ADULT/AAAMS
+.R/XBAG HK1 BAGS 2/5-1ADULT/BBBMR
+.R/XBAG HK1 BAGS 2/5-1ADULT/CCCMRS
+.R/XBAG HK1 BAGS 2/5-1ADULT/AAAMS
+ENDADL
+
+Transferred to G9112, after transfer ADL sent with grp code I3 (This flight has already 'I' grp code for some other PNR 600038731 -I4 , hence it ended up in duplicate group code)
+
+ADL
+G9112/28OCT SHJ PART1
+-BAH030Y
+ADD
+1ADULT/CCCMRS .L/600038731
+.R/TKNE HK1 5142190556860/1-1ADULT/CCCMRS .R/XBAG HK1 BAGS 2/5
+3ADULT/BBBMR/CCCMRS/AAAMS*-I3 .L/600038733*
+.R/TKNE HK1 5142190556861/1-1ADULT/BBBMR
+.R/TKNE HK1 5142190556863/1-1ADULT/CCCMRS
+.R/TKNE HK1 5142190556862/1-1ADULT/AAAMS
+.R/XBAG HK1 BAGS 2/5-1ADULT/BBBMR
+.R/XBAG HK1 BAGS 2/5-1ADULT/CCCMRS
+.R/XBAG HK1 BAGS 2/5-1ADULT/AAAMS
+ENDADL",,Chathu Hettiarachchi,Shaharsad Salam,,,,,,,,,,,,,,5c3dcb4dad984b521086207c,5c9c93b4a063736c5f65c099,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,XBE-3475,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26/Oct/23 4:38 PM;sshaharsad;1698111568755.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143874,26/Oct/23 4:38 PM;sshaharsad;1698111579913.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143875,26/Oct/23 4:38 PM;sshaharsad;1698111586791.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143876,26/Oct/23 4:38 PM;sshaharsad;1698147378407.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143877,26/Oct/23 4:38 PM;sshaharsad;1698147385676.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143878,26/Oct/23 4:38 PM;sshaharsad;1698219077445.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143879,26/Oct/23 4:38 PM;sshaharsad;Outlook-hatphf53.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143880,26/Oct/23 4:38 PM;sshaharsad;Outlook-j0z0infm.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143881,26/Oct/23 4:38 PM;sshaharsad;Outlook-kkon5mw4.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143882,26/Oct/23 4:38 PM;sshaharsad;Outlook-p1xvusfl.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143883,26/Oct/23 4:38 PM;sshaharsad;Outlook-ru2u532n.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143884,26/Oct/23 4:38 PM;sshaharsad;Outlook-s1bxtboq.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143885,26/Oct/23 4:38 PM;sshaharsad;Outlook-wo11wpxa.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143886,26/Oct/23 4:38 PM;sshaharsad;PHOTO-2023-10-23-20-46-40.jpg;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143887,26/Oct/23 4:38 PM;sshaharsad;Print - ADL 01.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143888,26/Oct/23 4:38 PM;sshaharsad;Print - ADL 02.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143889,26/Oct/23 4:38 PM;sshaharsad;Print - ADL 03.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143890,26/Oct/23 4:38 PM;sshaharsad;Print - PNL 01.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143891,26/Oct/23 4:38 PM;sshaharsad;Print - PNL02.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143892,26/Oct/23 4:38 PM;sshaharsad;Print_-_ADL_01.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143893,26/Oct/23 4:38 PM;sshaharsad;Print_-_ADL_02.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143894,26/Oct/23 4:38 PM;sshaharsad;Print_-_ADL_03.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143895,26/Oct/23 4:38 PM;sshaharsad;Print_-_PNL02.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143896,26/Oct/23 4:38 PM;sshaharsad;Print_-_PNL_01.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143897,26/Oct/23 4:38 PM;sshaharsad;g9943manifest.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143898,26/Oct/23 4:38 PM;sshaharsad;g9943manifest.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143899,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,"{pullrequest={dataType=pullrequest, state=OPEN, stateCount=2}, json={""cachedValue"":{""errors"":[],""summary"":{""pullrequest"":{""overall"":{""count"":2,""lastUpdated"":""2024-03-16T10:55:38.400+0400"",""stateCount"":2,""state"":""OPEN"",""dataType"":""pullrequest"",""open"":true},""byInstanceType"":{""bitbucket"":{""count"":2,""name"":""Bitbucket Cloud""}}}}},""isStale"":true}}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1|hzy8hb:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10806_*:*_1_*:*_3192817_*|*_10805_*:*_1_*:*_1753611093_*|*_10000_*:*_1_*:*_3644808914_*|*_10001_*:*_1_*:*_0,,,,,,,2023-12-28 00:44:07.969,10806_*:*_1_*:*_3192817_*|*_10805_*:*_1_*:*_1753611093_*|*_10000_*:*_1_*:*_3644808914_*|*_10001_*:*_1_*:*_0,"28/Dec/23 4:44 AM;5c3dcb4dad984b521086207c;Verify the issue by transfer by one flight number to another flight number using flight cancel button option.  Transfer flight In ADL new group code was generated for transfer PNRs under 'ADD'.
+
+ 600041036, 600041037 ( Transfer flight PNRs)
+600041038, 600041039
+
+Verify the issue by transfer by one flight number to another flight number using flight cancel button option.  Transfer flight In ADL new group code generated for transfer PNRs under 'change'.
+
+600041040 , 600041041( Transfer flight PNRs)
+
+600041042 ,600041043, 600041044, 600041045
+
+Verify the issue by transfer by one flight number to another flight number using flight reprotect button option.  Transfer flight In ADL new group code was generated for transfer PNRs under 'Add'.
+
+600041057
+
+600041046,  600041047 , 600041050  600041048 ,  600041049, (Transfer flight PNR) 
+
+Verify the issue by transfer by one flight number to another flight number using flight reprotect button option.  Transfer flight In ADL new group code was generated for transfer PNRs under 'delete/ Add'.
+
+600041058 , 600041059 ( Transfer flight ) 	
+
+600041060 ,  	( cancel PNR)
+600041061,  	
+600041062 , 600041063
+
+Verify the issue by transfer by one flight number to another flight number using flight reprotect button option.  Transfer flight In ADL new group code was generated for transfer PNRs under ' Add'.
+
+600041068,  	
+600041069,  600041070,  600041097, 600041098,600041099, 600041101, 600041102	
+
+600041071, 600041072, 600041073, 600041074, 600041075 , 600041076,600041077, 600041078, 600041079, 600041080
+600041081, 600041082, 600041083, 600041085, 600041087 , 600041088 ,  	
+600041089, 600041090 , 600041091, 600041092, 600041093 , 600041094,600041095, 600041095
+
+Verify the issue by transfer by one flight number to another flight number using flight reprotect button option.  Transfer flight In ADL new group code was generated for transfer PNRs under ' Delete/Add'.
+
+600041105 ( Transfer PNR) 
+
+600041107  	
+600041111
+
+Verify the issue by transfer by one flight number to another flight number using flight reprotect button option.  Transfer flight In ADL new group code was generated for transfer PNRs under ' Change/Add'.
+
+600041112 (Transfer PNR) 
+
+600041113
+
+
+
+Verify the issue by transfer by one flight number to another flight number using flight reprotect button option.  Transfer flight In ADL new group code was generated for transfer PNRs under ' Change/delete/Add'.
+
+600041114,600041116 ( transfer)  	
+
+600041117 , 600041118, 600041120
+
+Verify the issue by transfer by one flight number to another flight number using flight reprotect button option.  Transfer flight In PNL new group code was generated for transfer PNRs 
+
+600041141,600041142(Transfer PNR)
+600041143, 600041144 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Done,2023-12-28 05:05:00
+Pax name missing in the PNL/ADL ,ASPPI-7323,126551,Bug,To Do,ASPPI,ISA:AeroSUITE:PPI,software,Rimaz Fawzer,5c3dcdb9b4d5d75a3b52a4cf,,,High,,Shaharsad Salam,5c9c93b4a063736c5f65c099,Nesa Stephila Mary,611a692946c6b500716d840f,Nesa Stephila Mary,611a692946c6b500716d840f,2023-10-25 15:49:00,2024-03-19 13:05:00,2024-03-23 06:46:00,,,,,,0,,,,,"Issue : Pax name is missing in the PNL/ADL and this is noticed intermittently
+
+Steps ;
+
+
+
+1.Create one cnf booking with multiple pax
+
+2. Send PNL/ADL
+
+3. Noticed one pax name missing in the PNL/ADL and count also reduced by 1
+
+
+
+Recreated from g96:
+
+Created one confirmed booking with 3 pax, sent ADL.. CCC pax name is missing in the ADL, also pax count sent as 2
+
+1.600038720
+
+ADL
+G9285/28OCT SHJ PART1
+-BAH014Y
+DEL
+3ADULT/CCCMR/AAAMRS/BBBMS-E3 .L/600038717
+ADD
+*2ADULT/AAAMS/BBBMS-G2 .L/600038720*
+.R/TKNE HK1 5142190556844/1-1ADULT/AAAMS
+.R/TKNE HK1 5142190556845/1-1ADULT/BBBMS
+.R/XBAG HK1 BAGS 2/5-1ADULT/AAAMS
+.R/XBAG HK1 BAGS 2/5-1ADULT/BBBMS
+1SHREE/NAYANAMS .L/600038712
+.R/TKNE HK1 5142190556834/1-1SHREE/NAYANAMS
+.R/EPAY KK1 CC/XXXX-XXXX-XXXX-8902 .R/XBAG HK1 BAGS 2/10
+ENDADL
+
+!image-20231025-114738.png|width=865,height=277!
+
+
+
+*2.600038703* created with 4 pax, but PNL sent with grp code 3 (CCC pax missing)
+
+PNL
+G9285/28OCT SHJ PART1
+-BAH005Y
+1ADULT/AAAMR-A2 .L/600037662 .I/G9399Y28MCT0800HK
+.R/TKNE HK1 5142190555181/4-1ADULT/AAAMR
+.R/INFT HK1 01OCT23 INFANT/AAA-1ADULT/AAAMR
+.R/TKNE HK1 INF5142190555183/4-1ADULT/AAAMR .R/RQST HK1 4D
+.R/SPML HK1 3VESW .R/EPAY KK1 CC/XXXX-XXXX-XXXX-8902
+.R/XBAG HK1 BAGS 2/25
+*3ADULT/AAAMR/BBBMS/DDDMS-B3 .L/600038703*
+.R/TKNE HK1 5142190556827/1-1ADULT/AAAMR
+.R/TKNE HK1 5142190556829/1-1ADULT/BBBMS
+.R/TKNE HK1 5142190556828/1-1ADULT/DDDMS
+.R/XBAG HK1 BAGS 2/5-1ADULT/AAAMR
+.R/XBAG HK1 BAGS 2/5-1ADULT/BBBMS
+.R/XBAG HK1 BAGS 2/5-1ADULT/DDDMS
+1CHILD/AAAMISS-A2 .R/TKNE HK1 5142190555182/4-1CHILD/AAAMISS
+.R/CHLD HK1 -1CHILD/AAAMISS .R/RQST HK1 4E .R/SPML HK1 3VESW
+.R/EPAY KK1 CC/XXXX-XXXX-XXXX-8902 .R/XBAG HK1 BAGS 2/25
+ENDPNL
+
+!image-20231025-114701.png|width=853,height=294!",,Nesa Stephila Mary,,,,,,,,,,,,,,,611a692946c6b500716d840f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25/Oct/23 3:49 PM;ug:02579944-76f5-4fc9-9542-fb7cba43e24a;image-20231025-114701.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143639,25/Oct/23 3:49 PM;ug:02579944-76f5-4fc9-9542-fb7cba43e24a;image-20231025-114738.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143640,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1|hzy7uf:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,2023-10-25 15:49:00
+ADL Groupcode issue after transfer segment from airadmin,ASPPI-7322,126548,Bug,Done,ASPPI,ISA:AeroSUITE:PPI,software,Rimaz Fawzer,5c3dcdb9b4d5d75a3b52a4cf,,,High,Done,Chathu Hettiarachchi,5c3dcb4dad984b521086207c,Nesa Stephila Mary,611a692946c6b500716d840f,Nesa Stephila Mary,611a692946c6b500716d840f,2023-10-25 15:40:00,2024-01-05 12:51:00,2024-03-23 06:46:00,2023-12-28 05:04:00,,,,,0,,,,,"Issue : Incorrect group code sent in the ADL after transferring a segment from airadmin
+
+Steps :
+
+1.Crate one new CNF booking with multiple pax (G9285)
+
+2.Send PNL/ADL, it will be sent with one group code
+
+3.Transfer the PNR to another flight from airadmin (G9112)
+
+4.Send the PNL/ADL for the new flight  G9112
+
+5.PNR will be sent with incorrect group code (sent with the same group code which used in previous flight G9285, but the same is already used for some other PNR in the flight G9112 which results in duplicate group code)
+
+
+
+Live PNR 
+
+1. 610240399
+
+IN THE G9478 25/10 flight, pnr sent with F3 grp code 
+
+PNL
+G9478/25OCT SHJ PART2
+-IKA036Y
+1KHOSRAVI/VAHIDMR-*F3 .L/610240399*
+.R/TKNE HK1 5142358167712/2-1KHOSRAVI/VAHIDMR
+.R/XBAG HK1 BAGS 1/30
+1MASOUMI/NAZILAMS .L/610232753
+
+The PNR got transferred to G9201, In the G9201 25 OCT flight, PNR sent as M3, but other 2 pax sent with F3 
+
+ADL
+G9201/25OCT SHJ PART2
+-IKA104Y
+ADD
+1HUSSAINI/ABULFAZLMR .L/610283586
+.R/TKNE HK1 5142344890912/1-1HUSSAINI/ABULFAZLMR
+.R/XBAG HK1 BAGS 2/40
+2JAVADI/REZAMR/MORTEZAMR-E2 .L/610139789
+.R/TKNE HK1 5142358006088/2-1JAVADI/REZAMR
+.R/TKNE HK1 5142358006089/2-1JAVADI/MORTEZAMR
+.R/DOCS HK1/P/IR/W53617459/IR/25AUG79/M/06MAR26/JAVADI/REZA-1JAV
+.RN/ADI/REZAMR
+.R/DOCS HK1/P/IR/H55268803/IR/06OCT45/M/29NOV26/JAVADI/MORTEZA-1
+.RN/JAVADI/MORTEZAMR .R/XBAG HK1 BAGS 1/30-1JAVADI/REZAMR
+.R/XBAG HK1 BAGS 1/30-1JAVADI/MORTEZAMR
+*1KHOSRAVI/VAHIDMR-M3 .L/610240399*
+.R/TKNE HK1 5142358167712/2-1KHOSRAVI/VAHIDMR
+.R/XBAG HK1 BAGS 1/30
+1MASOUMI/NAZILAMS .L/610232753
+
+…
+
+*1SAKAKI/SEYEDMOHAMADMR-F3*
+.R/TKNE HK1 5142358167711/2-1SAKAKI/SEYEDMOHAMADMR
+.R/XBAG HK1 BAGS 1/30
+1SHARIFI/NASERMR .L/610376053
+.R/TKNE HK1 5142358295755/1-1SHARIFI/NASERMR
+.R/XBAG HK1 BAGS 1/30
+1TAJMIRRIAHI/ARMANMR .L/609940498
+.R/TKNE HK1 5142357755588/2-1TAJMIRRIAHI/ARMANMR
+.R/DOCS HK1/P/IR/I54871876/IR/21JAN86/M/18OCT26/TAJMIRRIAHI/ARMA
+.RN/N-1TAJMIRRIAHI/ARMANMR .R/XBAG HK1 BAGS 0/0
+*1VALIDY/ROZBEHMR-F3* .R/TKNE HK1 5142358167710/2-1VALIDY/ROZBEHMR
+.R/XBAG HK1 BAGS 1/30
+
+
+
+
+
+Issue recreated in g96 with pnrs *600038733,600038720*
+
+Initial flight segment was G9285 28OCT, Then it transferred to G9112
+
+in the G9285 flight, it went with I3 group code, 
+
+ADL
+
+G9285/28OCT SHJ PART1
+-BAH019Y
+DEL
+1ADULT/AAAMR-A2 .L/600037662
+1CHILD/AAAMISS-A2
+ADD
+3ADULT/BBBMR/CCCMRS/AAAMS*-I3 .L/600038733*
+.R/TKNE HK1 5142190556861/1-1ADULT/BBBMR
+.R/TKNE HK1 5142190556863/1-1ADULT/CCCMRS
+.R/TKNE HK1 5142190556862/1-1ADULT/AAAMS
+.R/XBAG HK1 BAGS 2/5-1ADULT/BBBMR
+.R/XBAG HK1 BAGS 2/5-1ADULT/CCCMRS
+.R/XBAG HK1 BAGS 2/5-1ADULT/AAAMS
+ENDADL
+
+Transferred to G9112, after transfer ADL sent with grp code I3 (This flight has already 'I' grp code for some other PNR 600038731 -I4 , hence it ended up in duplicate group code)
+
+ADL
+G9112/28OCT SHJ PART1
+-BAH030Y
+ADD
+1ADULT/CCCMRS .L/600038731
+.R/TKNE HK1 5142190556860/1-1ADULT/CCCMRS .R/XBAG HK1 BAGS 2/5
+3ADULT/BBBMR/CCCMRS/AAAMS*-I3 .L/600038733*
+.R/TKNE HK1 5142190556861/1-1ADULT/BBBMR
+.R/TKNE HK1 5142190556863/1-1ADULT/CCCMRS
+.R/TKNE HK1 5142190556862/1-1ADULT/AAAMS
+.R/XBAG HK1 BAGS 2/5-1ADULT/BBBMR
+.R/XBAG HK1 BAGS 2/5-1ADULT/CCCMRS
+.R/XBAG HK1 BAGS 2/5-1ADULT/AAAMS
+ENDADL",,Admin,Amalika Lahiruni,Ashik Shajahan,Chathu Hettiarachchi,Nesa Stephila Mary,,,,,,,,,,,635771987d4645af4f01bd17,6418307d407493675d46c1ea,712020:687845e5-adc7-4e90-9f44-1cf76486ebb9,5c3dcb4dad984b521086207c,611a692946c6b500716d840f,,,,,,,,,,,time-tracking;05/Dec/23 8:39 PM;addon_is.origo.jira.tempo-plugin;12600,time-tracking;05/Dec/23 8:40 PM;addon_is.origo.jira.tempo-plugin;2700,time-tracking;05/Dec/23 8:40 PM;addon_is.origo.jira.tempo-plugin;3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18900.0,,,,18900.0,,,,,,,,,,,,,,,,,XBE-3475,,,,,,,,,,,,,,,,,,,,,,XBE-3534,,,,,,,,,,,,,,,,,,,,,,,,,,,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;1698111568755.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143656,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;1698111579913.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143657,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;1698111586791.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143658,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;1698147378407.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143660,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;1698147385676.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143659,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;1698219077445.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143667,21/Dec/23 6:08 PM;635771987d4645af4f01bd17;IMG_5528.jpeg;https://jiraisa.atlassian.net/rest/api/3/attachment/content/153451,01/Dec/23 7:36 PM;635771987d4645af4f01bd17;Outlook-3a5l3zw2.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/150083,27/Nov/23 1:25 AM;635771987d4645af4f01bd17;Outlook-3o32oopl.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148863,27/Nov/23 1:23 AM;635771987d4645af4f01bd17;Outlook-a3o5f1jw.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148838,20/Nov/23 10:24 AM;635771987d4645af4f01bd17;Outlook-cid_c20cae.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/147426,14/Dec/23 12:41 PM;635771987d4645af4f01bd17;Outlook-cid_c20cae.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/152190,27/Nov/23 1:23 AM;635771987d4645af4f01bd17;Outlook-gj4wmfla.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148843,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Outlook-hatphf53.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143648,14/Dec/23 12:41 PM;635771987d4645af4f01bd17;Outlook-hhisn3ip.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/152192,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Outlook-j0z0infm.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143644,27/Nov/23 1:23 AM;635771987d4645af4f01bd17;Outlook-jglmr4y2.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148836,27/Nov/23 1:23 AM;635771987d4645af4f01bd17;Outlook-jyvygzkx.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148837,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Outlook-kkon5mw4.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143647,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Outlook-p1xvusfl.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143645,27/Nov/23 1:23 AM;635771987d4645af4f01bd17;Outlook-pmi3occg.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148842,27/Nov/23 1:23 AM;635771987d4645af4f01bd17;Outlook-rs1izm2y.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148840,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Outlook-ru2u532n.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143643,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Outlook-s1bxtboq.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143642,27/Nov/23 1:23 AM;635771987d4645af4f01bd17;Outlook-tzk34qgk.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148839,27/Nov/23 1:23 AM;635771987d4645af4f01bd17;Outlook-vbep12ck.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148841,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Outlook-wo11wpxa.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143646,27/Nov/23 1:27 AM;635771987d4645af4f01bd17;Outlook-xizjf3jv.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148867,27/Nov/23 1:24 AM;635771987d4645af4f01bd17;Outlook-xizjf3jv.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148851,27/Nov/23 1:23 AM;635771987d4645af4f01bd17;Outlook-xizjf3jv.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148847,14/Dec/23 12:41 PM;635771987d4645af4f01bd17;Outlook-ysmeoo4h.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/152191,27/Nov/23 1:27 AM;635771987d4645af4f01bd17;Outlook-zb1hrv4q.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148870,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;PHOTO-2023-10-23-20-46-40.jpg;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143649,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Print - ADL 01.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143650,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Print - ADL 02.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143651,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Print - ADL 03.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143652,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Print - PNL 01.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143653,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Print - PNL02.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143654,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Print_-_ADL_01.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143661,09/Nov/23 11:22 PM;635771987d4645af4f01bd17;Print_-_ADL_01.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/145783,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Print_-_ADL_02.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143662,09/Nov/23 11:22 PM;635771987d4645af4f01bd17;Print_-_ADL_02.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/145784,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Print_-_ADL_03.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143663,09/Nov/23 11:22 PM;635771987d4645af4f01bd17;Print_-_ADL_03.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/145785,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Print_-_PNL02.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143665,09/Nov/23 11:22 PM;635771987d4645af4f01bd17;Print_-_PNL02.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/145787,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Print_-_PNL_01.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143664,09/Nov/23 11:22 PM;635771987d4645af4f01bd17;Print_-_PNL_01.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/145786,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;g9943manifest.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143655,25/Oct/23 3:55 PM;635771987d4645af4f01bd17;g9943manifest.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143666,09/Nov/23 11:22 PM;635771987d4645af4f01bd17;g9943manifest.pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/145788,27/Nov/23 1:24 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148848,27/Nov/23 1:25 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148854,27/Nov/23 1:25 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148860,27/Nov/23 1:27 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148866,27/Nov/23 1:24 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148849,27/Nov/23 1:25 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148855,27/Nov/23 1:25 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148861,27/Nov/23 1:24 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148850,27/Nov/23 1:25 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148856,27/Nov/23 1:25 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148862,27/Nov/23 1:27 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148868,27/Nov/23 1:23 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148844,27/Nov/23 1:23 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148846,27/Nov/23 1:25 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148857,27/Nov/23 1:27 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148869,27/Nov/23 1:23 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148845,27/Nov/23 1:25 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148852,27/Nov/23 1:25 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148858,27/Nov/23 1:27 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148864,20/Nov/23 10:23 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/147421,20/Nov/23 10:24 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/147422,20/Nov/23 10:24 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/147423,20/Nov/23 10:24 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/147424,20/Nov/23 10:24 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/147425,27/Nov/23 1:25 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148853,27/Nov/23 1:25 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148859,27/Nov/23 1:27 AM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/148865,01/Dec/23 1:36 PM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/149950,01/Dec/23 1:36 PM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/149951,01/Dec/23 1:36 PM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/149952,01/Dec/23 1:36 PM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/149953,01/Dec/23 1:36 PM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/149954,01/Dec/23 1:36 PM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/149955,01/Dec/23 1:36 PM;635771987d4645af4f01bd17;image001.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/149949,21/Dec/23 6:08 PM;635771987d4645af4f01bd17;image001.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/153452,21/Dec/23 6:08 PM;635771987d4645af4f01bd17;image002.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/153453,05/Jan/24 12:51 PM;635771987d4645af4f01bd17;image003.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/155218,21/Dec/23 6:08 PM;635771987d4645af4f01bd17;image003.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/153454,05/Jan/24 12:51 PM;635771987d4645af4f01bd17;~WRD2123.jpg;https://jiraisa.atlassian.net/rest/api/3/attachment/content/155219,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,"{pullrequest={dataType=pullrequest, state=OPEN, stateCount=2}, json={""cachedValue"":{""errors"":[],""summary"":{""pullrequest"":{""overall"":{""count"":2,""lastUpdated"":""2024-03-16T10:55:38.400+0400"",""stateCount"":2,""state"":""OPEN"",""dataType"":""pullrequest"",""open"":true},""byInstanceType"":{""bitbucket"":{""count"":2,""name"":""Bitbucket Cloud""}}}}},""isStale"":true}}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1|hzy7tz:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_3_*:*_2269336705_*|*_10806_*:*_2_*:*_894485382_*|*_10805_*:*_4_*:*_502135632_*|*_10000_*:*_2_*:*_1825509302_*|*_10001_*:*_1_*:*_0,,,,,,,2023-10-25 11:55:14.653,3_*:*_3_*:*_2269336705_*|*_10806_*:*_2_*:*_894485382_*|*_10805_*:*_4_*:*_502135632_*|*_10000_*:*_2_*:*_1825509302_*|*_10001_*:*_1_*:*_0,"25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Freshservice issue linked to Jira:
+ #INC-657586 (https://airarabia.freshservice.com/a/tickets/657586) - KZN 
+","25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Note added by Sajeesh Ozhukunnath in Freshservice:
+ 
+
+
+Hi,
+
+
+
+Team will be sending the fresh PNL shortly.
+
+
+
+
+
+
+Thanks and
+ regards
+
+
+Sajeesh Ozhukunnath
+
+
+
+
+
+
+
+
+","25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Note added by Berest Alla in Freshservice:
+ 
+
+
+But part of pax are accepted… 
+What should they do ? 
+
+
+
+
+Get 
+Outlook for iOS
+
+
+
+
+
+
+
+","25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Note added by Aravind Babu in Freshservice:
+ 
+Dear KZN Team,
+
+
+
+
+While sending PNL some pax got unchecked. Pax details are below. Kindly accept these pax.
+
+
+
+
+
+
+
+
+
+|2 |BELOVA ANNA MS |KZN |SHJ | |Y |Y |15A |ACCEPTED |RUS 754675538 |
+|8 |DAVLETOVA REZIDA MS |KZN |SHJ | |Y |Y |13A |ACCEPTED |RUS 750716098 |
+|9 |DAVLIATBAEV RAMIL MR |KZN |SHJ | |Y |Y | | |RUS 666109518 |
+|11 |ISAEV ALEKSAN DR |KZN |SHJ | |Y |Y | | |RUS 758591568 |
+|12 |KHAIRULLIN ISKANDER MR |KZN |SHJ | |Y |Y |12C |ACCEPTED |RUS 660420906 |
+|13 |KHAMIDULLOV MARAT MR |KZN |SHJ | |Y |Y |12B |ACCEPTED |RUS 758629269 |
+|14 |KHVOINITSKII VLADISLAV MR |KZN |SHJ | |Y |Y |12A |ACCEPTED |RUS 752104759 |
+|15 |KIM LIUSIA MRS |KZN |SHJ | |Y |Y | | |RUS 663153935 |
+|18 |KONIAEVA LIUDMILA MS |KZN |SHJ | |Y |Y |16D |ACCEPTED |RUS 771315231 |
+|24 |LEBEDEVA ARINA MRS |KZN |SHJ | |Y |Y |19A |ACCEPTED |RUS 668043026 |
+|26 |LIPIN ILIA MR |KZN |SHJ | |Y |Y |18B |ACCEPTED |RUS 759751749 
+|35 |NURISLAMOVA LEISAN MS |KZN |SHJ | |Y |Y |15B |ACCEPTED |RUS 766938930 |
+|38 |RASSABIN MAKSIM |KZN |SHJ | |Y |Y |26A |ACCEPTED |RUS 760540726 |
+|39 |RASSABINA ANNA |KZN |SHJ | |Y |Y |26B |ACCEPTED |RUS 760485379 |
+|42 |SHAMSUTDINOV ZUFAR MR |KZN |SHJ | |Y |Y |8A |ACCEPTED |RUS 733545797 |
+|43 |SHAMSUTDINOVA AIRAT MR |KZN |SHJ | |Y |Y |8C |ACCEPTED |RUS 733532938 |
+|44 |SHAMSUTDINOVA K. MISSCHILD |KZN |SHJ | |Y |Y |8F |ACCEPTED |RUS 763399115 |
+|45 |SHAMSUTDINOVA S. MISSCHILD |KZN |SHJ | |Y |Y |8E |ACCEPTED |RUS 761050273 |
+|46 |SHAMSUTDINOVA ZULFIIA MS |KZN |SHJ | |Y |Y |8B |ACCEPTED |RUS 733545972 |
+|50 |ZINNUROVA ANNA |KZN |SHJ | |Y |Y | | |RUS 733424504 |
+
+
+
+
+
+Best Regards,
+
+
+
+
+
+
+
+ !Outlook-s1bxtboq.png! 
+
+
+
+Aravind Babu
+
+FMC Agent
+
++971 97165088805/806/809
+
+
+
+
+
+
+ !Outlook-ru2u532n.png! 
+
+
+
+
+
+
+ !Outlook-j0z0infm.png!  
+ !Outlook-p1xvusfl.png!   !Outlook-wo11wpxa.png!   !Outlook-kkon5mw4.png!   !Outlook-hatphf53.png! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+","25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Note added by Sajeesh Ozhukunnath in Freshservice:
+ 
+Dear KZN Team,
+
+
+
+We apologize for the inconvenience and will look into it with the Aeromart team to identify
+ the root cause.
+
+
+Thank you for your cooperation and the great effort in reducing the delay.    
+
+
+Thanks Aravind for the follow up.
+    
+
+
+
+
+
+Thanks and regards
+
+
+Sajeesh Ozhukunnath
+
+
+T+97165088273
+M+971564337252
+  
+
+
+
+
+
+
+
+
+
+
+
+","25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Ticket with id 657601 is merged into this ticket.
+","25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Merged from ticket 657601
+      Subject: G9943 technical issues 
+      Description:
+
+
+
+
+Dear team we have technical issues with Altea system. Most of the passengers have cancelled tickets and we cannot check in them right now. The picture is at the attachment. 
+
+
+
+
+
+
+
+Скачайте 
+Outlook для iOS
+
+
+
+
+
+
+
+ !PHOTO-2023-10-23-20-46-40.jpg|thumbnail! ","25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Note added by System in Freshservice:
+ FMC Team : Merged from ticket 657601
+      Subject: G9943 technical issues 
+      Description:
+
+
+
+
+Dear team we have technical issues with Altea system. Most of the passengers have cancelled tickets and we cannot check in them right now. The picture is at the attachment. 
+
+
+
+
+
+
+
+Скачайте 
+Outlook для iOS
+
+
+
+
+
+
+","25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Note added by System in Freshservice:
+ FMC Team : Merged from ticket 657601
+      Subject: G9943 technical issues 
+      Description:
+
+
+
+
+Dear team we have technical issues with Altea system. Most of the passengers have cancelled tickets and we cannot check in them right now. The picture is at the attachment. 
+
+
+
+
+
+
+
+Скачайте 
+Outlook для iOS
+
+
+
+
+
+
+","25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ 
+v !1698111568755.png! 
+
+
+ !1698111579913.png! 
+
+ !1698111586791.png! 
+
+
+
+ !Print - ADL 01.pdf|thumbnail! 
+ !Print - ADL 02.pdf|thumbnail! 
+ !Print - ADL 03.pdf|thumbnail! 
+ !Print - PNL 01.pdf|thumbnail! 
+ !Print - PNL02.pdf|thumbnail! 
+ !g9943manifest.pdf|thumbnail! ","25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Note added by Nesa Stephila in Freshservice:
+ 
+Dear FMC,
+
+We have verified the PNL sent for the mentioned flight for KZN and we dont find any issue in the PNL. Also we have attached the PNL sent for 2 different airports and there is no difference between them. Please verify and rever us back if any action required from our end.
+
+KZN
+
+ !1698147385676.png! 
+
+
+SHJ
+
+ !1698147378407.png! 
+
+","25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ 
+
+Hello Team, On investigating the reported issue, we could see CPR was created withNONAME for some pax in the group CPR:https://loggingfacility.amadeus.com/v3/#/log-viewer/search-id/137442801073345//PSPIUQ:https://loggingfacility.amadeus.com/v3/#/log-viewer/search-id/20605192591148// PNR S7H4BY was created for group of 40. !RCI+:S7H4BY:M'IRV++++1ARES:0'DUM'!TIF+PNLGROUP/ONE:G:40' From the logs we could see out of 40, few names(12) were only added fromreservation and same was reflected in the CPR and for other pax namewere reflected as NO Name in CPR. !TIF+PNLGROUP/ONE:G:40'IRV+++NCC+::UCI:3101B2970047964D'RCI+G9:610380949' !TIF+BUTENIN::1+DENISMR'ETI++UN:Y:::BUTENIN:DENISMR'IRV+++NCP+1ARES:1:UCI:3101B29700479632+1ANAM:1'RCI+G9:610380949' !TIF+GAFUROVA::1+ALENAMRS'ETI++UN:Y:::GAFUROVA:ALENAMRS'IRV+++NCP+1ARES:1:UCI:3101B29700479634+1ANAM:1'RCI+G9:610380949' Since name was not updated  from reservation for some pax in the group,for them NO NAME was reflected in CPR. *Name:NURISLAMOV DAMIR*UCI:3101B297004797F2*PNR:S76DR6 @2023/10/23 18:36:52.422827 from customer history and logs we could seeflight product was cancelled from reservation. 23OCT23 18:36:53#Transaction: New Booking From ReservationsFlight: G9943 23OCT23 KZN-SHJCustomer: NURISLAMOV DAMIR!Changed: Status: Confirmed -> CancelledUnchanged: Class: Y Cabin: Y Added: Disassociation Reason: Flight Product CancelledChanged: Association Type: Associated -> DisassociatedDeleted: Coupon number: 2 Ticket Number: 5142358290915 FE:https://loggingfacility.amadeus.com/v3/#/log-viewer/search-id/633514779065970//SI:https://loggingfacility.amadeus.com/v3/#/log-viewer/search-id/887294015213858// #UNH+1+PSPIUQ:15:1:1A+000100KEIZJ8RYTVL+20231023:2300:20231024:0500+KZN+SHJ+G9+0943:Y'!IRV+++CNX+1ARES:1:DID:3104E299000F3F65'SDI+BCR+ZT+2023:10:23:0:0' Since CM received flight product cancelled message from RES, same statusis indicated as 'cancelled' (HX). Hope this clarifies. Regards,Pravinraj.B
+
+24Oct23 13:24P. BALASUBRAMANIANExpert Product for BAG/REG/TKT/SSR/PAY/CPR
+
+Attached file ""G9DCH_PRD_3101B297004797F2 _ CM History Viewer.html"" Owner alerted#Summary of the scenario and impacts ##Explanation of System behaviour ##Workaround/Additional Comments
+
+
+24Oct23 13:30K. VAGHELAAirline Support Center - DCS Airline IT
+
+Answer acknowledged Guidance providedHello Sajeesh, Please check above feedback shared by our support team on this. Hope this helps. Regards,Kalpesh #Incident descriptionIncorrect PNL processed and cancelled.##Root causeCancellation message received from RES##Follow-up actionsNA##WorkaroundNA The summary provided within this record details the scenario, systembehavior/design and any relevant next steps
+
+
+ATTACHMENTS
+
+","25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ 
+
+
+
+
+
+ !Print_-_ADL_01.pdf|thumbnail! 
+ !Print_-_ADL_02.pdf|thumbnail! 
+ !Print_-_ADL_03.pdf|thumbnail! 
+ !Print_-_PNL_01.pdf|thumbnail! 
+ !Print_-_PNL02.pdf|thumbnail! 
+ !g9943manifest.pdf|thumbnail! ","25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Note added by Raina Kollamkandy in Freshservice:
+ Record locator is missing  in dcs for PNR :610240399for same pnr two group code in PNLADLG9201/25OCT SHJ PART3-IKA104YADD1ROSTAMI/BEHZADMR-H2.R/TKNE HK1 5142358366612/2-1ROSTAMI/BEHZADMR.R/DOCS HK1/P/IR/J65131280/IR/19JUL84/M/28AUG28/ROSTAMI/BEHZAD-1.RN/ROSTAMI/BEHZADMR .R/RQST HK1 28A .R/SPML HK1 1CURYSW.R/XBAG HK1 BAGS 2/301SAFI/PARIMS-C3 .R/TKNE HK1 5142344895102/1-1SAFI/PARIMS.R/XBAG HK1 BAGS 1/301SAKAKI/SEYEDMOHAMADMR-F3.R/TKNE HK1 5142358167711/2-1SAKAKI/SEYEDMOHAMADMR.R/XBAG HK1 BAGS 1/301SHARIFI/NASERMR .L/610376053.R/TKNE HK1 5142358295755/1-1SHARIFI/NASERMR.R/XBAG HK1 BAGS 1/301TAJMIRRIAHI/ARMANMR .L/609940498.R/TKNE HK1 5142357755588/2-1TAJMIRRIAHI/ARMANMR.R/DOCS HK1/P/IR/I54871876/IR/21JAN86/M/18OCT26/TAJMIRRIAHI/ARMA.RN/N-1TAJMIRRIAHI/ARMANMR .R/XBAG HK1 BAGS 0/01VALIDY/ROZBEHMR-F3 .R/TKNE HK1 5142358167710/2-1VALIDY/ROZBEHMR.R/XBAG HK1 BAGS 1/301YAZDANPANAH/SEYEDMORTEZAMR-G2.R/TKNE HK1 5142358320424/1-1YAZDANPANAH/SEYEDMORTEZAMR.R/SPML HK1 1ZINGER .R/EPAY KK1 CC/XXXX-XXXX-XXXX-4732.R/XBAG HK1 BAGS 2/301YOUSEFPOURGHOUSHCHI/GHASEMMR-B2.R/TKNE HK1 5142357824681/2-1YOUSEFPOURGHOUSHCHI/GHASEMMR.R/RQST HK1 8B .R/SPML HK1 1CHANA .R/XBAG HK1 BAGS 2/30ENDADL1KHOSRAVI/VAHIDMR-M3 .L/610240399.R/TKNE HK1 5142358167712/2-1KHOSRAVI/VAHIDMR.R/XBAG HK1 BAGS 1/301MASOUMI/NAZILAMS .L/610232753.R/TKNE HK1 5142358123363/1-1MASOUMI/NAZILAMS .R/RQST HK1 9D.R/SPML HK1 1CMAYO .R/EPAY KK1 CC/XXXX-XXXX-XXXX-4438.R/XBAG HK1 BAGS 2/30
+",25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Freshservice Ticket issue status changed to : Known Issue - BUG,"25/Oct/23 3:55 PM;635771987d4645af4f01bd17;Note added by Nesa Stephila in Freshservice:
+ 
+Dear Sajeesh,
+
+As discussed, please note that all 40Pax names sent in the PNL for the PNR , and some are grouped and sent in one line if its last name are same.
+
+Please verify and let us know if any other issues are noticed in the PNL/ADL, please revert us back with the PNR and issue details
+
+ !1698219077445.png! 
+
+","26/Oct/23 4:45 PM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ * Parallel investigation modified:Group: Expert Product for BAG/REG/TKT/SSR/PAY/CPRStatus: Completed - Investigation TransferredComment Summary: Kindly Assist Hello Team, G9 has reported an issue concerning flight G9943/23OCT, where numerouspassengers are appearing as 'NO NAME,' and their status is indicated as'cancelled' (HX). PNR S7H4BY was created for group of 40. https://loggingfacility.amadeus.com/v3/#/log-viewer/search-id/20605192591148// !RCI+:S7H4BY:M'IRV++++1ARES:0'DUM'!TIF+PNLGROUP/ONE:G:40' From the logs we could see few names in TIF segment others asPNLGROUP/ONE TIF+PNLGROUP/ONE:G:40'IRV+++NCC+::UCI:3101B2970047964D'RCI+G9:610380949' TIF+PNLGROUP/ONE:G:40'IRV+++NCC+::UCI:3101B2970047964C'RCI+G9:610380949'  TIF+BUTENIN::1+DENISMR'ETI++UN:Y:::BUTENIN:DENISMR'IRV+++NCP+1ARES:1:UCI:3101B29700479632+1ANAM:1'RCI+G9:610380949' TIF+GAFUROVA::1+ALENAMRS'ETI++UN:Y:::GAFUROVA:ALENAMRS'IRV+++NCP+1ARES:1:UCI:3101B29700479634+1ANAM:1'RCI+G9:610380949'  G9 states 40Pax names sent in the PNL for the PNR , and someare grouped and sent in one line if its last name are same. Opening PI to RES-DCS Synchro and Services to check and advice furtheron the issue. Regards,Pravinraj.B * Parallel investigation added:Group: RES-DCS Synchro and ServicesComment Summary: PNL/ADL
+","09/Nov/23 11:20 PM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ 
+
+
+
+
+","09/Nov/23 11:22 PM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ 
+
+
+
+
+
+ !Print_-_ADL_01.pdf|thumbnail! 
+ !Print_-_ADL_02.pdf|thumbnail! 
+ !Print_-_ADL_03.pdf|thumbnail! 
+ !Print_-_PNL_01.pdf|thumbnail! 
+ !Print_-_PNL02.pdf|thumbnail! 
+ !g9943manifest.pdf|thumbnail! ","13/Nov/23 3:14 PM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ 
+Amadeus update :-
+
+
+first of all, regarding the error highlighted,
+.R/EPAY KK1  CC/XXXX-XXXX-XXXX-5137
+-> the format is not correct, character -  should not split the CC, the
+ADL should be injected with an EPAY with this format: .R/EPAY KK1
+CC/XXXXXXXXXXXX5137
+
+
+
+
+On the 10th of November, the issue regarding the remark elements for
+EPAY occured for multiple passengers, which explains why several
+bookings are missing.
+ 
+Also, more recently, a few errors like '
+Can not Add PAX 1SHEIKH/MOHMEDHANIFADAMMOHMEDMR<0> to PNR. It is not a
+group PNR.' have been returned.
+The reason is that a booking already exist for that passenger on 1A side
+(here, recloc J4W2FF), created by a previous PNL or ADL.
+ 
+If the airline want to UPDATE the information for an existing passenger,
+ADL CHG should be used, but not ADL ADD
+
+","20/Nov/23 10:23 AM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Ticket with id 671619 is merged into this ticket.
+","20/Nov/23 10:24 AM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Merged from ticket 671619
+      Subject: ADL - G9222/19NOV
+      Description:
+
+
+Dear All,
+
+
+
+
+On flight G9922/19Nov ADL not reflecting in DCS under PR 609210233 showing all passengers HX(cancelled) even ADL was received through mail with different group code. Please note some passengers having ASR seats. See below screenshot.
+
+
+
+ !image.png! 
+ !image.png! 
+
+
+
+ !image.png! 
+
+
+
+
+ !image.png! 
+
+
+ !image.png! 
+
+
+Thanks & ​Regards,
+
+
+Lecel
+
+Flight Controller
+
+
+
+Phone # +971 6 5141127​
+
+
+                +971 6 5141138​
+
+
+Email:  fmu@sharjahaviation.com
+
+
+Web:  
+www.sharjahaviation.com
+
+
+Sharjah Aviation Services, P.O. Box 70888, Sharjah United Arab Emirates.
+
+
+ !Outlook-cid_c20cae.png! 
+
+
+
+
+
+
+","27/Nov/23 1:23 AM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Ticket with id 675362 is merged into this ticket.
+","27/Nov/23 1:23 AM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Merged from ticket 675362
+      Subject: Re: PNL ISSUE - 26NOV23
+      Description:
+
+Dear FMC Team,
+
+
+Please assist to understand and solve the below issue, I've been receiving so many calls from AUH APT and CCU APT passengers' bookings
+ being canceled on DCS, despite the bookings being confirmed on Accelaero.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+Sami Ksaies
+
+Notify Support Agent
+
+Landline: +97165088854 - MOB: +971504629168
+
+E: sksaies@airarabia.com   
+http://www.airarabia.com
+
+
+
+
+
+ !Outlook-jglmr4y2.png! 
+
+
+
+
+
+From: Hina Arouj Khan <hakhan@airarabia.com>
+Sent: Monday, November 27, 2023 12:25 AM
+To: Rajesh Murugan <rmurugan@isa.ae>; FMCSPV <FMCSPV@airarabia.com>; FMC <DL-fmc@airarabia.com>; DCS Support <dcssupport@isa.ae>; Notify Team <notify@airarabia.com>
+Cc: AUH-3L Ground OPS <auh@airarabia.com>
+Subject: Re: PNL ISSUE - 26NOV23
+ 
+
+
+
+++ 
+@Notify Team
+
+
+
+
+
+
+
+
+
+Hina Arouj Khan
+
+
+
+Customer Services Manager
+
+
+
+
+
+
+T +971  
+ 2  7773114   hakhan@airarabia.com
+
+
+M +971 56 6841891    www.airarabia.com
+
+
+
+
+
+
+Air Arabia Abu Dhabi L.L.C
+
+
+Business Park 1,  Abu Dhabi Airport
+
+
+Post box 43222, Abu Dhabi, U. A. E
+
+
+ 
+
+
+
+
+
+
+
+
+
+From: Rajesh Murugan <rmurugan@isa.ae>
+Sent: Sunday, November 26, 2023 5:15:27 PM
+To: Hina Arouj Khan <hakhan@airarabia.com>; FMCSPV <FMCSPV@airarabia.com>; FMC <DL-fmc@airarabia.com>; DCS Support <dcssupport@isa.ae>
+Cc: AUH-3L Ground OPS <auh@airarabia.com>
+Subject: Re: PNL ISSUE - 26NOV23
+ 
+
+
+
+
+Dear Team,
+
+
+
+
+
+
+Mail Noted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ !Outlook-jyvygzkx.png! 
+
+
+Rajesh Murugan
+FMC-Agent
+E fmc@airarabia.com
+
++971 65088806/805/809
+
+
+
+
+
+
+ !Outlook-a3o5f1jw.png! 
+
+
+
+
+
+
+ !Outlook-tzk34qgk.png!  
+ !Outlook-rs1izm2y.png!   !Outlook-vbep12ck.png!   !Outlook-pmi3occg.png!   !Outlook-gj4wmfla.png! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+From: Hina Arouj Khan <hakhan@airarabia.com>
+Sent: Sunday, November 26, 2023 6:40 PM
+To: FMCSPV <FMCSPV@airarabia.com>; FMC <DL-fmc@airarabia.com>; DCS Support <dcssupport@isa.ae>
+Cc: AUH-3L Ground OPS <auh@airarabia.com>
+Subject: PNL ISSUE - 26NOV23
+ 
+
+
+
+
+Dear Team,
+
+
+
+
+Please find below flight where the booked load is different in both Altea and AccelAero.
+
+
+
+
+3L017/BAH
+
+3L133/TRV
+
+3L141/MAA
+
+3L127/COK
+
+3L123/CCJ
+
+
+
+ !image.png! 
+ !image.png! 
+ !image.png! 
+
+
+
+
+
+
+Regards,
+Hina Arouj Khan
+Customer Services Manager
+
+T +971   2  7773114   hakhan@airarabia.com
+
+
+M +971 56 6841891   
+www.airarabia.com
+
+ 
+
+Air Arabia Abu Dhabi L.L.C
+
+
+Business Park 1,  Abu Dhabi Airport
+
+Post box 43222, Abu Dhabi, U. A. E
+ 
+ !Outlook-xizjf3jv.png! 
+
+
+
+
+
+
+
+","27/Nov/23 1:24 AM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Merged from ticket 675270
+      Subject: PNL ISSUE - 26NOV23
+      Description:
+
+
+Dear Team,
+
+
+
+
+Please find below flight where the booked load is different in both Altea and AccelAero.
+
+
+
+
+3L017/BAH
+
+3L133/TRV
+
+3L141/MAA
+
+3L127/COK
+
+3L123/CCJ
+
+
+
+ !image.png! 
+ !image.png! 
+ !image.png! 
+
+
+
+
+
+
+Regards,
+Hina Arouj Khan
+Customer Services Manager
+
+T +971   2  7773114   hakhan@airarabia.com
+
+
+M +971 56 6841891   
+www.airarabia.com
+
+ 
+
+Air Arabia Abu Dhabi L.L.C
+
+
+Business Park 1,  Abu Dhabi Airport
+
+Post box 43222, Abu Dhabi, U. A. E
+ 
+ !Outlook-xizjf3jv.png! 
+
+
+
+
+","27/Nov/23 1:25 AM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Ticket with id 675270 is merged into this ticket.
+","27/Nov/23 1:25 AM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Merged from ticket 674850
+      Subject: PNL Issue 
+      Description:
+
+
+Dear FMC & DCS, 
+
+
+
+
+Kindly note that we faced today issue in updated PNL as we had missing name discrepancies in Altea ,  same resulted in consuming more time in check in to verify 
+
+PNR confirmation and accepting passenger as NOREC , appreciate to look into the matter seriously as it's been repeatedly occurred from yesterday .
+
+
+
+
+
+
+
+Dear Notify , appreciate your outcome on subjected issue .
+
+
+
+ !image.png! 
+
+
+ !image.png! 
+
+
+ !image.png! 
+ !image.png! 
+ !image.png! 
+
+
+ !image.png! 
+
+
+ !image.png! 
+
+
+ !image.png! 
+ !image.png! 
+
+
+ !image.png! 
+
+
+ !image.png! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Halima Saleh
+
+
+
+
+
+
+Customer Service Manager 
+
+
+ 
+
+
+T +971 2 7773114     
+hsaleh@airarabia.com
+
+
+M +971 566841891      
+www.airarabia.com
+
+
+ 
+
+
+Air Arabia Abu Dhabi L.L.C
+
+
+Business Park 1, Abu Dhabi Airport
+
+
+Abu Dhabi, UAE
+
+
+ 
+
+
+ !Outlook-3o32oopl.png! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+","27/Nov/23 1:25 AM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Ticket with id 674850 is merged into this ticket.
+","27/Nov/23 1:27 AM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Merged from ticket 675270
+      Subject: PNL ISSUE - 26NOV23
+      Description:
+
+
+Dear Team,
+
+
+
+
+Please find below flight where the booked load is different in both Altea and AccelAero.
+
+
+
+
+3L017/BAH
+
+3L133/TRV
+
+3L141/MAA
+
+3L127/COK
+
+3L123/CCJ
+
+
+
+ !image.png! 
+ !image.png! 
+ !image.png! 
+
+
+
+
+
+
+Regards,
+Hina Arouj Khan
+Customer Services Manager
+
+T +971   2  7773114   hakhan@airarabia.com
+
+
+M +971 56 6841891   
+www.airarabia.com
+
+ 
+
+Air Arabia Abu Dhabi L.L.C
+
+
+Business Park 1,  Abu Dhabi Airport
+
+Post box 43222, Abu Dhabi, U. A. E
+ 
+ !Outlook-xizjf3jv.png! 
+
+
+
+
+","27/Nov/23 1:27 AM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Merged from ticket 673366
+      Subject: NAMES NOT REFLECTING IN ALTEA 
+      Description:
+
+
+Dear FMC,
+
+
+
+
+Please find below screen shot of 3L020/223NOV AUHKWI AccelAero & Altea where the book load differs. We had to NOREC 10 passengers on 3L020/22NOV, kindly investigate and share the outcome.
+
+
+
+
+
+
+ !image.png! 
+ !image.png! 
+
+
+
+
+Regards,
+Hina Arouj Khan
+Customer Services Manager
+
+T +971   2  7773114   hakhan@airarabia.com
+
+
+M +971 56 6841891   
+www.airarabia.com
+
+ 
+
+Air Arabia Abu Dhabi L.L.C
+
+
+Business Park 1,  Abu Dhabi Airport
+
+Post box 43222, Abu Dhabi, U. A. E
+ 
+ !Outlook-zb1hrv4q.png! 
+
+
+
+
+","27/Nov/23 1:27 AM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Ticket with ids 673366 and 675270 are merged into this ticket.
+","01/Dec/23 1:36 PM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Merged from ticket 675703
+      Subject: FW: EY pax Names Not Reflecting On DCS  (3L44 25 Nov 23)
+      Description:
+
+
+Dear DCS Team/Sajeesh/FMC,
+
+
+
+ 
+
+Request you to please check and advise as names were not reflecting on DCS for the below PNRS.
+
+
+
+ 
+
+
+Booking Reference:       QA5YN8
+
+
+
+
+                                   SVVXBB
+
+
+
+
+                                   67HW1M
+
+
+
+                                    PQUDQ8
+
+
+
+ 
+
+
+ 
+
+
+Dear Jeevan /Sukrit,
+
+
+
+
+ 
+
+
+Request you to advise with the correct record locators and error screenshot to the DCS team to identify the below issue.
+
+
+
+
+ 
+
+
+ 
+
+
+Best regards,
+
+
+
+Pratik Deolekar
+
+
+
+
+Codeshare & Alliance Support
+
+
+
+
+ T  +971 6 5088776           pdeolekar@airarabia.com
+
+
+
+
+                                              www.airarabia.com
+
+
+
+
+                                             @airarabiagroup
+
+
+
+ !image001.png! 
+
+
+
+
+ 
+
+
+
+
+From: Geliziaer Mahemuti <GMahemuti@airarabia.com> 
+Sent: Saturday, November 25, 2023 1:50 PM
+To: Jeevan Neupane (KTM) <Neupane@airarabia.com>; Sukrit Hamal (KTM) <shamal@airarabia.com>; Pratik Jeevan Deolekar <pdeolekar@airarabia.com>; Mohamed Mouloua <mmouloua@airarabia.com>; Notify Team <notify@airarabia.com>
+Cc: Santanu Sen (APMKTM) <APMKTM@airarabia.com>; Kathmandu (OSTN) <ktm@airarabia.com>; Munir Parambath <mparambath@airarabia.com>; Shadi Salah <ssalah@airarabia.com>
+Subject: Re: EY pax Names Not Reflecting On DCS (3L44 25 Nov 23)
+
+
+
+
+
+ 
+
+
+Dear Jeevan
+
+
+
+
+
+ 
+
+
+
+Booking confirmed as below
+
+
+
+
+
+ 
+
+
+
+ !image.png! 
+
+
+
+
+
+ 
+
+
+
+ !image.png! 
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+Thanks & Regards
+
+
+
+
+Gulijiaer
+
+
+
+
+
+T
+00971 65088854  | 
+E 
+gmahemuti@airarabia.com
+
+
+
+
+
+http://www.airarabia.com
+
+
+
+
+
+
+
+
+
+From: Jeevan Neupane (KTM) <Neupane@airarabia.com>
+Sent: Saturday, November 25, 2023 1:45 PM
+To: Geliziaer Mahemuti <GMahemuti@airarabia.com>; Sukrit Hamal (KTM) <shamal@airarabia.com>; Pratik Jeevan Deolekar <pdeolekar@airarabia.com>;
+ Mohamed Mouloua <mmouloua@airarabia.com>; Notify Team <notify@airarabia.com>
+Cc: Santanu Sen (APMKTM) <APMKTM@airarabia.com>; Kathmandu (OSTN) <ktm@airarabia.com>; Munir Parambath <mparambath@airarabia.com>;
+ Shadi Salah <ssalah@airarabia.com>
+Subject: Re: EY pax Names Not Reflecting On DCS (3L44 25 Nov 23) 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Dear Gulijiaer,
+
+
+
+
+
+ 
+
+
+
+Please advised (Pn7tc7)PNR 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+REGARDS,
+
+
+
+
+
+
+
+
+
+
+
+Jeevan 
+
+
+
+
+
+
+
+
+ 
+
+
+Get 
+Outlook for iOS
+
+
+
+
+
+
+
+
+
+From: Geliziaer Mahemuti <GMahemuti@airarabia.com>
+Sent: Saturday, November 25, 2023 3:16:48 PM
+To: Sukrit Hamal (KTM) <shamal@airarabia.com>; Jeevan Neupane (KTM) <Neupane@airarabia.com>; Pratik Jeevan Deolekar <pdeolekar@airarabia.com>;
+ Mohamed Mouloua <mmouloua@airarabia.com>; Notify Team <notify@airarabia.com>
+Cc: Santanu Sen (APMKTM) <APMKTM@airarabia.com>; Kathmandu (OSTN) <ktm@airarabia.com>; Munir Parambath <mparambath@airarabia.com>;
+ Shadi Salah <ssalah@airarabia.com>
+Subject: Re: EY pax Names Not Reflecting On DCS (3L44 25 Nov 23) 
+
+
+
+
+ 
+
+
+
+
+
+
+Below also confirmed
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+ !image.png! 
+
+
+
+
+ !image.png! 
+
+
+
+
+
+
+ 
+
+
+
+ !image.png! 
+
+
+
+
+ !image.png! 
+
+
+
+
+
+ 
+
+
+
+Thanks & Regards
+
+
+
+
+Gulijiaer
+
+
+
+
+
+T
+00971 65088854  | 
+E 
+gmahemuti@airarabia.com
+
+
+
+
+
+http://www.airarabia.com
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+From: Sukrit Hamal (KTM) <shamal@airarabia.com>
+Sent: Saturday, November 25, 2023 1:22 PM
+To: Jeevan Neupane (KTM) <Neupane@airarabia.com>; Pratik Jeevan Deolekar <pdeolekar@airarabia.com>; Mohamed Mouloua <mmouloua@airarabia.com>;
+ Notify Team <notify@airarabia.com>
+Cc: Santanu Sen (APMKTM) <APMKTM@airarabia.com>; Kathmandu (OSTN) <ktm@airarabia.com>; Munir Parambath <mparambath@airarabia.com>;
+ Shadi Salah <ssalah@airarabia.com>
+Subject: Re: EY pax Names Not Reflecting On DCS (3L44 25 Nov 23) 
+
+
+
+
+ 
+
+
+
+
+
+Dear All,
+
+
+
+
+
+ 
+
+
+
+The
+
+
+
+
+03 pax Booking Refrence:67sw1m
+
+
+
+
+                                             Pqudq8
+
+
+
+
+                                             Pn7tc7
+
+
+
+
+
+ 
+
+
+
+Are not reflecting In the system
+
+
+
+
+
+ 
+
+
+
+Please advise
+
+
+
+
+
+ 
+
+
+
+Regards,
+
+
+
+
+
+ 
+
+
+
+Sukrit
+
+
+
+
+
+
+ 
+
+
+Get 
+Outlook for Android
+
+
+
+
+
+
+
+
+
+From: Jeevan Neupane (KTM) <Neupane@airarabia.com>
+Sent: Saturday, November 25, 2023 2:46:00 PM
+To: Sukrit Hamal (KTM) <shamal@airarabia.com>; Pratik Jeevan Deolekar <pdeolekar@airarabia.com>; Mohamed Mouloua <mmouloua@airarabia.com>;
+ Notify Team <notify@airarabia.com>
+Cc: Santanu Sen (APMKTM) <APMKTM@airarabia.com>; Kathmandu (OSTN) <ktm@airarabia.com>; Munir Parambath <mparambath@airarabia.com>;
+ Shadi Salah <ssalah@airarabia.com>
+Subject: Re: EY pax Names Not Reflecting On DCS (3L44 25 Nov 23) 
+
+
+
+
+ 
+
+
+
+
+
+Dear Sod,
+
+
+
+
+
+ 
+
+
+
+Any update said case please advised we are going counter closed after 15 Mins .
+
+
+
+
+
+ 
+
+
+
+Regards,
+
+
+
+
+
+ 
+
+
+
+Jeevan 
+
+
+
+
+
+
+ 
+
+
+Get 
+Outlook for iOS
+
+
+
+
+
+
+
+
+
+From: Sukrit Hamal (KTM) <shamal@airarabia.com>
+Sent: Saturday, November 25, 2023 2:35:09 PM
+To: Pratik Jeevan Deolekar <pdeolekar@airarabia.com>; Mohamed Mouloua <mmouloua@airarabia.com>; Notify Team <notify@airarabia.com>
+Cc: Santanu Sen (APMKTM) <APMKTM@airarabia.com>; Kathmandu (OSTN) <ktm@airarabia.com>; Munir Parambath <mparambath@airarabia.com>;
+ Shadi Salah <ssalah@airarabia.com>
+Subject: Re: EY pax Names Not Reflecting On DCS (3L44 25 Nov 23) 
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+Dear All,
+
+
+
+
+
+ 
+
+
+
+Please find the attachment of their Itineary
+
+
+
+
+
+ 
+
+
+
+Regards,
+
+
+
+
+
+ 
+
+
+
+Sukrit
+
+
+
+Get 
+Outlook for Android
+
+
+
+
+
+
+
+
+
+From: Sukrit Hamal (KTM) <shamal@airarabia.com>
+Sent: Saturday, November 25, 2023 2:31:29 PM
+To: Pratik Jeevan Deolekar <pdeolekar@airarabia.com>; Mohamed Mouloua <mmouloua@airarabia.com>; Notify Team <notify@airarabia.com>
+Cc: Santanu Sen (APMKTM) <APMKTM@airarabia.com>; Kathmandu (OSTN) <ktm@airarabia.com>; Munir Parambath <mparambath@airarabia.com>;
+ Shadi Salah <ssalah@airarabia.com>
+Subject: EY pax Names Not Reflecting On DCS (3L44 25 Nov 23) 
+
+
+
+ 
+
+
+
+
+
+Dear All
+
+
+
+
+We 04 Ey Pax
+
+
+
+
+Booking Reference:QA5YN8
+
+
+
+
+                                   SVVXBB
+
+
+
+
+                                   67HW1M
+
+
+
+
+                                    PQUDQ
+
+
+
+
+Their names Are not Reflecting on the DCS System
+
+
+
+
+
+ 
+
+
+
+Please advise if we can accept the pax or not.
+
+
+
+
+
+ 
+
+
+
+Thanks and Regards,
+
+
+
+
+
+ 
+
+
+
+Sukrit
+
+
+
+
+
+
+ 
+
+
+Get 
+Outlook for Android
+
+
+
+
+
+
+
+
+
+
+","01/Dec/23 1:36 PM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Ticket with id 675703 is merged into this ticket.
+","01/Dec/23 7:36 PM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Ticket with id 676275 is merged into this ticket.
+","01/Dec/23 7:36 PM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Merged from ticket 676275
+      Subject: DCS Issue 3L015 / 28 NOV 
+      Description:
+
+
+Dear DCS Team, 
+
+
+
+
+We have issue with 02 inbound passengers holding boarding passes from origin were found not accepted in DCS and holding boarding pass.
+
+
+
+
+Attached FYI , kindly investigate and revert as this issue may create discrepancies and delay at boarding process
+
+
+
+
+
+
+
+Regards,
+
+
+
+
+
+
+
+
+
+
+
+
+
+Samee Ahmed Qureshi
+Ramp Standards Manager
+
+
+M +971  503938919     
+
+
+E : 
+squreshi@airarabia.com
+
+
+www.airarabia.com
+
+
+ 
+
+
+Air Arabia Abu Dhabi L.L.C
+
+
+Business Park 1, Abu Dhabi Airport
+
+
+P.O.Box: 43222, Abu Dhabi, UAE
+
+
+  !Outlook-3a5l3zw2.png! 
+
+
+
+
+
+
+
+
+
+
+
+","05/Dec/23 5:44 PM;6418307d407493675d46c1ea;Remove Hyphen in card details in EPAY:
+
+Resolved in PNL
+
+| |
+| |
+|PNL
+G9285/14DEC SHJ PART1
+-BAH001Y
+1ADULT/AAAMRS .L/600040275
+.R/TKNE HK1 5142190559122/1-1ADULT/AAAMRS .R/EPAY HK1 TEST
+.R/EPAY KK1 CC/XXXXXXXXXXXX1237 .R/XBAG HK1 BAGS 0/0|
+
+Resolved in ADL
+
+| |
+| |
+|ADL
+G9285/14DEC SHJ PART1
+-BAH002Y
+ADD
+1ADULT/AAAMRS .L/600040276
+.R/TKNE HK1 5142190559123/1-1ADULT/AAAMRS .R/EPAY HK1 TEST
+.R/EPAY KK1 CC/XXXXXXXXXXXX1237 .R/XBAG HK1 BAGS 0/0
+ENDADL|","12/Dec/23 10:25 PM;5c3dcb4dad984b521086207c;The issue still exists.
+
+Reproduce steps
+
+i). Place 4 pax 2 reservations using G9731(SHJ/MCT) flight(15th) and send PNL.
+
+ii). Next Place 4 pax reservation from G9116(SHJ/MCT)(15th)  and send PNL.
+
+iii). Again  place 4 pax reservation from G9116(SHJ/MCT)(15th)  and transfer G9731(15th)  to G9116(15th) 
+
+iv). Next send ADL for G9116(15th), and ADL contain B4 with 2 different PNRs. 
+
+ADL
+G9116/15DEC SHJ PART1
+-MCT016Y
+ADD
+1CHILD/NINAMSTR-*B4 .L/600040641*
+.R/TKNE HK1 5142190559706/1-1CHILD/NINAMSTR
+.R/CHLD HK1 -1CHILD/NINAMSTR .R/XBAG HK1 BAGS 1/30
+1EEE/KATMR-A4 .R/TKNE HK1 5142190559707/1-1EEE/KATMR
+.R/INFT HK1 15DEC22 SSS/PEPS-1EEE/KATMR
+.R/TKNE HK1 INF5142190559710/1-1EEE/KATMR .R/XBAG HK1 BAGS 1/30
+1EEEE/COMEMISS-B4 .L/600040642
+.R/TKNE HK1 5142190559714/1-1EEEE/COMEMISS
+.R/CHLD HK1 -1EEEE/COMEMISS .R/XBAG HK1 BAGS 2/30
+1HHH/MICHMRS-*B4 .L/600040644*
+.R/TKNE HK1 5142190559725/1-1HHH/MICHMRS
+.R/INFT HK1 15DEC22 YEP/AAA-1HHH/MICHMRS
+.R/TKNE HK1 INF5142190559726/1-1HHH/MICHMRS
+.R/XBAG HK1 BAGS 1/30","14/Dec/23 12:41 PM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Ticket with id 683496 is merged into this ticket.
+","14/Dec/23 12:41 PM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Merged from ticket 683496
+      Subject: Re: Passengers Accepted as NOREC
+      Description:
+
+
+Dear IT,
+
+
+
+
+For your kind info and necessary action.
+
+
+
+
+Thanks & ​Regards,
+
+
+Sky
+
+Flight Controller
+
+
+
+Phone # +971 6 5141127​
+
+
+                +971 6 5141138​
+
+
+Email:  fmu@sharjahaviation.com
+
+
+Web:  
+www.sharjahaviation.com
+
+
+Sharjah Aviation Services, P.O. Box 70888, Sharjah United Arab Emirates.
+
+
+ !Outlook-cid_c20cae.png! 
+
+
+
+
+
+
+From: Airport Manager(APMLHE) <apmlhe@airarabia.com>
+Sent: Thursday, December 14, 2023 10:24
+To: FMU <fmu@sharjahaviation.com>; Notify Team <notify@airarabia.com>; FMC <DL-fmc@airarabia.com>; FMCSPV <FMCSPV@airarabia.com>
+Cc: Faisal Ejaz (APMPAK) <APMPAK@airarabia.com>; Rashid Ali <raali@airarabia.com>; Muhammed Azeem Mehmood <mmehmood@airarabia.com>
+Subject: Passengers Accepted as NOREC
+ 
+
+
+
+Dear Team,
+ 
+We are regularly facing the issue that some passengers' confirmation tickets are in Accel
+ Aero, but their names are not reflecting in the Altea DCS system. We need to accept them as NREC, which results in a delay in counter closing and also causes passengers to suffer at the counter, which is not good for customer service and shows a bad impression.
+On today's flight G9855, we accepted 10 passengers as NOREC. And most of the time, on different
+ flights, we observe that one of the group tickets is not updated in the Altea DCS system.
+Kindly look into the matter and resolve it permanently in future. Some tickets are attached for your reference.
+ 
+
+
+
+ 
+Regards,
+
+
+
+
+Hafiz Omer Riaz
+Airport Manager LHE
+
+T
++92 300 8023356 |
+E
+apmlhe@airarabia.com
+http://www.airarabia.com
+ !Outlook-ysmeoo4h.png! 
+
+
+
+
+
+
+
+
+
+From: Airport Manager(APMLHE) <apmlhe@airarabia.com>
+Sent: Monday, November 27, 2023 4:29 AM
+To: FMU <fmu@sharjahaviation.com>; Notify Team <notify@airarabia.com>
+Cc: Faisal Ejaz (APMPAK) <APMPAK@airarabia.com>; Rashid Ali <raali@airarabia.com>
+Subject: Passengers Accepted as NOREC
+ 
+
+
+Dear FMU/Notify Team,
+
+
+
+On today Flight G9855 dated November 27, 2023, we are facing the issue that eleven passengers have
+ confirmed tickets in Accel Aero, but their names are not reflecting in the Altea DCS system, and due to this, we are unable to close the counter timely. We also faced the same issue on a recent couple of flights.
+Kindly look into the matter and ensure that PNL is fully updated in the DCS system so that passengers
+ do not face any difficulties at the counters.
+Passengers tickets are attached for your reference.
+
+
+
+ 
+Regards,
+
+
+
+
+Hafiz Omer Riaz
+Airport Manager LHE
+
+T
++92 300 8023356 |
+E
+apmlhe@airarabia.com
+http://www.airarabia.com
+ !Outlook-hhisn3ip.png! 
+
+
+
+
+
+
+","21/Dec/23 6:08 PM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Merged from ticket 666219
+      Subject: FW: No name 
+      Description:
+
+
+Dear DCS Team,
+
+
+
+ 
+
+Request you to please check and advise as below name not reflecting in DCS.
+
+
+
+ 
+
+
+PNL
+3L043/05NOV AUH PART2
+-KTM175Y
+1BISHUNKE/PRAKASHMR .L/59QBBN .M/EY1384Q05AUHKTM0935HK
+.I/EY594Q04TLV1855HK
+.R/TKNE HK1 6079378357821/4-1BISHUNKE/PRAKASHMR .R/SPML HK1 1CBY
+.R/XBAG HK1 BAGS 2/40
+
+
+
+
+ 
+
+ !image001.png! 
+
+
+
+ 
+
+ !image002.png! 
+
+
+
+Best regards,
+
+
+
+Pratik Deolekar
+
+
+
+
+Codeshare & Alliance Support
+
+
+
+
+ T  +971 6 5088776           pdeolekar@airarabia.com
+
+
+
+
+                                              www.airarabia.com
+
+
+
+
+                                             @airarabiagroup
+
+
+
+ !image003.png! 
+
+
+
+
+ 
+
+
+
+
+From: Mohamed Abdalla Zewin <mzewin@airarabia.com> 
+Sent: Saturday, November 4, 2023 8:13 PM
+To: Business Solutions Center <BusSol@etihad.ae>
+Cc: Notify Team <notify@airarabia.com>; Pratik Jeevan Deolekar <pdeolekar@airarabia.com>; Aamir Dewani <adewani@airarabia.com>
+Subject: Fw: No name 
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+Dear Team,
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+Kindly Advise with below TKT status
+
+
+
+
+
+
+ 
+
+
+
+PNR 59QBBN
+
+
+
+
+
+ 
+
+
+
+
+PAX name :PRAKASH BISHUNKE
+
+
+
+
+
+
+ 
+
+
+
+AUH/KTM
+
+
+
+ 
+
+
+
+
+Regards,
+
+
+
+
+
+
+
+ 
+
+
+
+
+Mohamed Zewin
+
+
+
+
+
+
+Notify Support Agent
+
+
+
+
+
+
+ 
+
+
+
+
+T 00971 
+ 65088854    |  E 
+mzewin@airarabia.com
+
+
+
+
+
+http://www.airarabia.com
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+From: Thanuja Abeyratne <TAbeyratne@etihad.ae>
+Sent: Saturday, November 4, 2023 8:02 PM
+To: Mohamed Abdalla Zewin <mzewin@airarabia.com>; Notify Team <notify@airarabia.com>
+Cc: Abu Dhabi Transfer Desk <auhtransferdesk@etihad.ae>
+Subject: Re: No name 
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+From: Mohamed Abdalla Zewin <mzewin@airarabia.com>
+Sent: Saturday, November 4, 2023 7:51 PM
+To: Thanuja Abeyratne <TAbeyratne@etihad.ae>; Notify Team <notify@airarabia.com>
+Cc: Abu Dhabi Transfer Desk <auhtransferdesk@etihad.ae>
+Subject: Re: No name 
+
+
+
+
+ 
+
+
+
+
+
+
+
+This email comes from an
+EXTERNAL source. 
+
+
+
+
+
+
+Dear Team
+
+
+
+
+
+ 
+
+
+
+Kindly share PNR and passenger pp copy to check
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+Regards,
+
+
+
+
+
+ 
+
+
+
+
+Mohamed Zewin
+
+
+
+
+
+
+Notify Support Agent
+
+
+
+
+
+
+ 
+
+
+
+
+T 00971 
+ 65088854    |  E 
+mzewin@airarabia.com
+
+
+
+
+
+http://www.airarabia.com
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+From: Thanuja Abeyratne <TAbeyratne@etihad.ae>
+Sent: Saturday, November 4, 2023 7:37 PM
+To: Notify Team <notify@airarabia.com>
+Cc: Abu Dhabi Transfer Desk <auhtransferdesk@etihad.ae>
+Subject: No name 
+
+
+
+
+ 
+
+
+
+
+
+
+Dear 3L Notify 
+
+
+ 
+
+
+Kindly find attached document
+
+
+ 
+
+
+Kindly advise if ok to NOREC on 3L43/AUH-KTM/05Nov.
+
+
+
+ 
+
+Best regards.
+
+
+
+ 
+
+Thanuja.
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+CONFIDENTIALITY / DISCLAIMER NOTICE:
+
+This e-mail and any attachments may contain confidential and privileged information. If you are not the intended recipient, please notify the sender immediately by return e-mail, delete this e-mail and destroy any copies. Any dissemination or use of this information
+ by a person other than the intended recipient is unauthorised and may be illegal. Etihad Aviation Group or its employees are not responsible for any auto-generated spurious messages that you may receive from Etihad email addresses.
+
+http://www.etihad.com/
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+CONFIDENTIALITY / DISCLAIMER NOTICE:
+
+This e-mail and any attachments may contain confidential and privileged information. If you are not the intended recipient, please notify the sender immediately by return e-mail, delete this e-mail and destroy any copies. Any dissemination or use of this information
+ by a person other than the intended recipient is unauthorised and may be illegal. Etihad Aviation Group or its employees are not responsible for any auto-generated spurious messages that you may receive from Etihad email addresses.
+
+http://www.etihad.com/
+
+
+
+
+
+
+
+
+
+
+ !IMG_5528.jpeg|thumbnail! ","21/Dec/23 6:08 PM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Ticket with id 666219 is merged into this ticket.
+","26/Dec/23 3:08 AM;5c3dcb4dad984b521086207c;Verify the issue by transfer by one flight number to another flight number using flight cancel button option.  Transfer flight In ADL new group code was generated for transfer PNRs under 'ADD'.
+
+ 600041036, 600041037 ( Transfer flight PNRs)
+600041038, 600041039
+
+Verify the issue by transfer by one flight number to another flight number using flight cancel button option.  Transfer flight In ADL new group code generated for transfer PNRs under 'change'.
+
+600041040 , 600041041( Transfer flight PNRs)
+
+600041042 ,600041043, 600041044, 600041045
+
+Verify the issue by transfer by one flight number to another flight number using flight reprotect button option.  Transfer flight In ADL new group code was generated for transfer PNRs under 'Add'.
+
+600041057
+
+600041046,  600041047 , 600041050  600041048 ,  600041049, (Transfer flight PNR) 
+
+Verify the issue by transfer by one flight number to another flight number using flight reprotect button option.  Transfer flight In ADL new group code was generated for transfer PNRs under 'delete/ Add'.
+
+600041058 , 600041059 ( Transfer flight ) 	
+
+600041060 ,  	( cancel PNR)
+600041061,  	
+600041062 , 600041063
+
+Verify the issue by transfer by one flight number to another flight number using flight reprotect button option.  Transfer flight In ADL new group code was generated for transfer PNRs under ' Add'.
+
+600041068,  	
+600041069,  600041070,  600041097, 600041098,600041099, 600041101, 600041102	
+
+600041071, 600041072, 600041073, 600041074, 600041075 , 600041076,600041077, 600041078, 600041079, 600041080
+600041081, 600041082, 600041083, 600041085, 600041087 , 600041088 ,  	
+600041089, 600041090 , 600041091, 600041092, 600041093 , 600041094,600041095, 600041095
+
+Verify the issue by transfer by one flight number to another flight number using flight reprotect button option.  Transfer flight In ADL new group code was generated for transfer PNRs under ' Delete/Add'.
+
+600041105 ( Transfer PNR) 
+
+600041107  	
+600041111
+
+Verify the issue by transfer by one flight number to another flight number using flight reprotect button option.  Transfer flight In ADL new group code was generated for transfer PNRs under ' Change/Add'.
+
+600041112 (Transfer PNR) 
+
+600041113
+
+
+
+Verify the issue by transfer by one flight number to another flight number using flight reprotect button option.  Transfer flight In ADL new group code was generated for transfer PNRs under ' Change/delete/Add'.
+
+600041114,600041116 ( transfer)  	
+
+600041117 , 600041118, 600041120
+
+Verify the issue by transfer by one flight number to another flight number using flight reprotect button option.  Transfer flight In PNL new group code was generated for transfer PNRs 
+
+600041141,600041142(Transfer PNR)
+600041143, 600041144 ","05/Jan/24 12:51 PM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Merged from ticket 691988
+      Subject: EY Code Share Urgent //4M5N3K// TRV-AUH-JFK Dated  03 Jan 24
+      Description:
+
+
+
+
+
+Dear sir/Madam
+
+
+
+ Greetings from Trivandrum station
+
+
+
+
+
+
+
+
+ 
+
+We have one pax reported at counters and her booking is cancelled in DCS Pax traveling to JFK via AUH. Kindly advise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Please Find the Details :-
+ 
+PNR No:-4M5N3K
+Name :- santhi Herbert Bala singh
+Routing - TRV/AUH/JFK 03 Jan 24
+ 
+ 
+ 
+Thanks & Regards
+
+ 
+Sajitha 
+
+Customer Service Supervisor,
+Trivandrum
+ 
+
+t: +91 8086855081         
+m: +91 9495832466     
+e: www.aisats.in
+
+ 
+Air India SATS Airport Services Pvt. Ltd. CIN: U74900DL2010PTC201763
+Address: 1st Floor Panachamootil Square, Enchakkal Junction , Vallakadavu Post
+Trivandrum, Kerala 695008, India
+
+ !image003.png! 
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+ !~WRD2123.jpg! 
+
+
+AISATS is ISAGO & ISO 9001: 2015 certified
+
+
+This message may contain information which is confidential and privileged to Air India SATS Airport Services Private Limited (AISATS). If you are not the intended addressee, please notify AISATS by return
+ email and delete the message immediately. Any use, copying, transmission or disclosure of the message or any information contained therein to anyone for any purpose other than as permitted by AISATS is strictly prohibited and any such use may result in legal
+ proceedings. AISATS does not guarantee and is not liable for the security of any information electronically transmitted or for the proper and complete transmission of the information contained in this communication, or for any delay in its receipt. AISATS
+ accepts no liability for the content of this email, or for the consequences of any actions taken on the basis of the information provided, unless that information is subsequently confirmed in writing. Any views or opinions presented in this email are solely
+ those of the author and do not necessarily represent those of the company.
+
+
+Please Consider the environment before printing this e-mail.
+
+
+
+
+
+
+
+
+
+
+
+
+AISATS is ISAGO & ISO 9001: 2015 certified
+
+
+This message may contain information which is confidential and privileged to Air India SATS Airport Services Private Limited (AISATS). If you are not the intended addressee, please notify AISATS by return
+ email and delete the message immediately. Any use, copying, transmission or disclosure of the message or any information contained therein to anyone for any purpose other than as permitted by AISATS is strictly prohibited and any such use may result in legal
+ proceedings. AISATS does not guarantee and is not liable for the security of any information electronically transmitted or for the proper and complete transmission of the information contained in this communication, or for any delay in its receipt. AISATS
+ accepts no liability for the content of this email, or for the consequences of any actions taken on the basis of the information provided, unless that information is subsequently confirmed in writing. Any views or opinions presented in this email are solely
+ those of the author and do not necessarily represent those of the company.
+
+
+Please Consider the environment before printing this e-mail.
+
+
+
+
+
+
+
+
+
+AISATS is ISAGO & ISO 9001: 2015 certified
+This message may contain information which is confidential and privileged to Air India SATS Airport Services Private
+ Limited (AISATS). If you are not the intended addressee, please notify AISATS by return email and delete the message immediately. Any use, copying, transmission or disclosure of the message or any information contained therein to anyone for any purpose other
+ than as permitted by AISATS is strictly prohibited and any such use may result in legal proceedings. AISATS does not guarantee and is not liable for the security of any information electronically transmitted or for the proper and complete transmission of the
+ information contained in this communication, or for any delay in its receipt. AISATS accepts no liability for the content of this email, or for the consequences of any actions taken on the basis of the information provided, unless that information is subsequently
+ confirmed in writing. Any views or opinions presented in this email are solely those of the author and do not necessarily represent those of the company.
+Please Consider the environment before printing this e-mail.
+
+
+
+
+
+","05/Jan/24 12:51 PM;635771987d4645af4f01bd17;Note added by FMC Team in Freshservice:
+ Ticket with id 691988 is merged into this ticket.
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Done,2023-12-28 05:04:00
+ADL issue after split and cancel,ASPPI-7320,126543,Bug,Done,ASPPI,ISA:AeroSUITE:PPI,software,Rimaz Fawzer,5c3dcdb9b4d5d75a3b52a4cf,,,High,Done,Chathu Hettiarachchi,5c3dcb4dad984b521086207c,Nesa Stephila Mary,611a692946c6b500716d840f,Nesa Stephila Mary,611a692946c6b500716d840f,2023-10-25 15:17:00,2024-03-22 09:19:00,2024-03-22 22:16:00,2024-02-16 11:11:00,,,,,0,,,,,"Issue : Cancelled PNR pax (after split) showing as CNF status in DCS
+
+old PNR 400783144 created with 4 pax , then it split to new PNR 400784596 with 2 pax
+
+Split new pnr created and cancelled immediately, so in the ADL, new PNR sent in DEL section and the grp code of parent PNR also incorrect. 
+
+ADL
+9P672/17OCT KHI PART1
+-ISB158Y
+DEL
+1ASHFAQ/OSAMAMR *.L/400784596*
+1FAROOQ/MUHAMMADUMERMR-*W2 .L/400783144*
+1HUSSAIN/ZEESHANMR-W2
+ADD
+1FAROOQ/MUHAMMADUMERMR-*W2 .L/400783144* .O/9P675Y17KHI2130HK
+.R/TKNE HK1 7722300709437/1-1FAROOQ/MUHAMMADUMERMR
+.R/RQST HK1 11D .R/SPML HK1 1TCHWA .R/XBAG HK1 BAGS 1/23
+1HUSSAIN/ZEESHANMR-W2
+.R/TKNE HK1 7722300709436/1-1HUSSAIN/ZEESHANMR .R/RQST HK1 11F
+.R/SPML HK1 1TCHWA .R/XBAG HK1 BAGS 1/23
+1KAMRAN/CHAUDHARYMUHAMMADMR .L/400784576
+.R/TKNE HK1 7722300710809/1-1KAMRAN/CHAUDHARYMUHAMMADMR
+.R/XBAG HK1 BAGS 1/23
+1YASEEN/MUHAMMADYASIRMR .L/400784570
+.R/TKNE HK1 7722300710810/1-1YASEEN/MUHAMMADYASIRMR
+.R/XBAG HK1 BAGS 0/0
+ENDADL
+
+issue recreated in g96
+
+Steps :
+
+create one pnr with 4 pax
+
+send PNL/ADL
+
+split 2 pax into new pnr
+
+cancel the new split pnr
+
+send new adl
+
+New ADL sent with DEL of new PNR and group code sent in the parent PNR in the DEL also incorrect
+
+
+
+
+
+parent pnr created with 4 pax 600038704
+
+  
+
+ADL
+
+G9285/28OCT SHJ PART1
+
+-BAH009Y
+
+ADD
+
+4ADULT/AAAMR/DDDMRS/CCCMRS/BBBMS-C4 .L/600038704
+
+.R/TKNE HK1 5142190556833/1-1ADULT/AAAMR
+
+.R/TKNE HK1 5142190556831/1-1ADULT/DDDMRS
+
+.R/TKNE HK1 5142190556830/1-1ADULT/CCCMRS
+
+.R/TKNE HK1 5142190556832/1-1ADULT/BBBMS
+
+.R/XBAG HK1 BAGS 2/5-1ADULT/AAAMR
+
+.R/XBAG HK1 BAGS 2/5-1ADULT/DDDMRS
+
+.R/XBAG HK1 BAGS 2/5-1ADULT/CCCMRS
+
+.R/XBAG HK1 BAGS 2/5-1ADULT/BBBMS
+
+ENDADL
+
+ 
+
+ 
+
+ 
+
+ 2 pax split and new pnr cancelled immediately 600038705
+
+   
+
+ADL
+
+G9285/28OCT SHJ PART1
+
+-BAH007Y
+
+DEL
+
+2ADULT/CCCMRS/DDDMRS*-C2 .L/600038704*
+
+2ADULT/AAAMR/BBBMS-*D2 .L/600038705*
+
+ADD
+
+2ADULT/DDDMRS/CCCMRS*-C2 .L/600038704*
+
+.R/TKNE HK1 5142190556831/1-1ADULT/DDDMRS
+
+.R/TKNE HK1 5142190556830/1-1ADULT/CCCMRS
+
+.R/XBAG HK1 BAGS 2/5-1ADULT/DDDMRS
+
+.R/XBAG HK1 BAGS 2/5-1ADULT/CCCMRS
+
+ENDADL
+
+ ",,Admin,Ashik Shajahan,Chathu Hettiarachchi,Nesa Stephila Mary,,,,,,,,,,,,635771987d4645af4f01bd17,712020:687845e5-adc7-4e90-9f44-1cf76486ebb9,5c3dcb4dad984b521086207c,611a692946c6b500716d840f,,,,,,,,,,,,time-tracking;17/Jan/24 3:41 PM;addon_is.origo.jira.tempo-plugin;1800,time-tracking;19/Jan/24 10:03 AM;addon_is.origo.jira.tempo-plugin;10800,time-tracking;19/Jan/24 10:04 AM;addon_is.origo.jira.tempo-plugin;18000,time-tracking;09/Feb/24 8:51 AM;addon_is.origo.jira.tempo-plugin;3600,time-tracking;09/Feb/24 4:40 PM;addon_is.origo.jira.tempo-plugin;6000,time-tracking;12/Feb/24 11:10 AM;addon_is.origo.jira.tempo-plugin;1440,time-tracking;12/Feb/24 5:25 PM;addon_is.origo.jira.tempo-plugin;18000,time-tracking;13/Feb/24 10:24 AM;addon_is.origo.jira.tempo-plugin;600,time-tracking;13/Feb/24 12:10 PM;addon_is.origo.jira.tempo-plugin;900,time-tracking;13/Feb/24 12:13 PM;addon_is.origo.jira.tempo-plugin;5400,time-tracking;15/Feb/24 10:03 AM;addon_is.origo.jira.tempo-plugin;1800,time-tracking;16/Feb/24 10:04 AM;addon_is.origo.jira.tempo-plugin;18000,time-tracking;12/Mar/24 10:11 AM;addon_is.origo.jira.tempo-plugin;14400,time-tracking;13/Mar/24 9:57 AM;addon_is.origo.jira.tempo-plugin;12600,time-tracking;14/Mar/24 2:55 PM;addon_is.origo.jira.tempo-plugin;18000,time-tracking;18/Mar/24 4:22 PM;addon_is.origo.jira.tempo-plugin;2700,time-tracking;20/Mar/24 9:26 AM;addon_is.origo.jira.tempo-plugin;9000,time-tracking;20/Mar/24 9:26 AM;addon_is.origo.jira.tempo-plugin;5400,time-tracking;20/Mar/24 9:28 AM;addon_is.origo.jira.tempo-plugin;14400,time-tracking;21/Mar/24 8:42 AM;addon_is.origo.jira.tempo-plugin;16200,time-tracking;22/Mar/24 9:19 AM;addon_is.origo.jira.tempo-plugin;14400,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,193440.0,,,,193440.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,XBE-3637,XBE-3791,,,,,,,,,,,,,,,,,,,,,,,,,,15/Dec/23 10:13 AM;635771987d4645af4f01bd17;1702619839417.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/152313,15/Dec/23 10:13 AM;635771987d4645af4f01bd17;1702619901555.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/152314,15/Dec/23 10:13 AM;635771987d4645af4f01bd17;1702619979479.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/152316,15/Dec/23 10:13 AM;635771987d4645af4f01bd17;1702620056150.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/152315,17/Jan/24 1:33 PM;635771987d4645af4f01bd17;1705312867416.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/157214,15/Dec/23 10:13 AM;635771987d4645af4f01bd17;DOC-20231102-WA0000..pdf;https://jiraisa.atlassian.net/rest/api/3/attachment/content/152310,25/Oct/23 3:18 PM;635771987d4645af4f01bd17;Outlook-30lhl1zs.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143629,27/Oct/23 2:47 PM;635771987d4645af4f01bd17;Outlook-3ghi2pmn.jpg;https://jiraisa.atlassian.net/rest/api/3/attachment/content/144008,25/Oct/23 3:18 PM;635771987d4645af4f01bd17;Outlook-gqzoaqxg.jpg;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143628,25/Oct/23 3:18 PM;635771987d4645af4f01bd17;Outlook-llmg0lvo.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143634,25/Oct/23 3:18 PM;635771987d4645af4f01bd17;Outlook-p1fjz1us.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143633,25/Oct/23 3:18 PM;635771987d4645af4f01bd17;Outlook-qmz2lha4.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143630,25/Oct/23 3:18 PM;635771987d4645af4f01bd17;Outlook-xtvimfc5.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143632,25/Oct/23 3:18 PM;635771987d4645af4f01bd17;Outlook-xuwoihr5.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143631,25/Oct/23 3:18 PM;635771987d4645af4f01bd17;Outlook-xwkmcuca.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143635,15/Dec/23 10:13 AM;635771987d4645af4f01bd17;WhatsApp Image 2023-12-13 at 11.42.02.jpeg;https://jiraisa.atlassian.net/rest/api/3/attachment/content/152311,15/Dec/23 10:13 AM;635771987d4645af4f01bd17;WhatsApp Image 2023-12-13 at 11.42.03.jpeg;https://jiraisa.atlassian.net/rest/api/3/attachment/content/152312,25/Oct/23 3:18 PM;635771987d4645af4f01bd17;image.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143627,17/Jan/24 1:33 PM;635771987d4645af4f01bd17;pastedImage.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/157212,17/Jan/24 1:33 PM;635771987d4645af4f01bd17;pastedImage.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/157213,18/Jan/24 10:21 PM;635771987d4645af4f01bd17;pastedImage.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/157705,18/Jan/24 10:22 PM;635771987d4645af4f01bd17;pastedImage.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/157706,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,"{repository={count=13, dataType=repository}, json={""cachedValue"":{""errors"":[],""summary"":{""repository"":{""overall"":{""count"":13,""lastUpdated"":""2024-03-22T22:04:18.000+0400"",""dataType"":""repository""},""byInstanceType"":{""bitbucket"":{""count"":13,""name"":""Bitbucket Cloud""}}}}},""isStale"":true}}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1|hzy7sn:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_2_*:*_574475636_*|*_4_*:*_1_*:*_17601204_*|*_10806_*:*_2_*:*_41630597_*|*_10805_*:*_2_*:*_188498631_*|*_10000_*:*_1_*:*_7258948227_*|*_11024_*:*_1_*:*_1753650090_*|*_10001_*:*_1_*:*_0,,,,,,,2023-10-25 11:18:23.390,3_*:*_2_*:*_574475636_*|*_4_*:*_1_*:*_17601204_*|*_10806_*:*_2_*:*_41630597_*|*_10805_*:*_2_*:*_188498631_*|*_10000_*:*_1_*:*_7258948227_*|*_11024_*:*_1_*:*_1753650090_*|*_10001_*:*_1_*:*_0,"25/Oct/23 3:18 PM;635771987d4645af4f01bd17;Freshservice issue linked to Jira:
+ #INC-653796 (https://airarabia.freshservice.com/a/tickets/653796) - Booking cancelled in Accel Aero in DCS show confirmed
+","25/Oct/23 3:18 PM;635771987d4645af4f01bd17;Note added by Kamran Yaqoob in Freshservice:
+ 
+Adding Accel Aero History Pax Ashfaq Osama NO show. 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ !image.png! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Best Regards,
+
+Kamran Yaqoob
+
+
+Customer
+ Services Manager
+
+
+M  0346-8775787
+
+
+E  Kyaqoob@flyjinnah.com 
+
+ !Outlook-gqzoaqxg.jpg! 
+
+
+
+
+
+
+
+
+
+
+
+","25/Oct/23 3:18 PM;635771987d4645af4f01bd17;Note added by Muhammad Faheem Saeed in Freshservice:
+ 
+++ 
+@IT Service Desk
+
+
+++ 
+@Syed Muhammad Usama
+
+
+
+
+
+
+Dear Team,
+
+
+
+
+
+Kindly do
+ not add AcceAero Network Operation Center in loop while addressing IT.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ !Outlook-30lhl1zs.png! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Faheem Saeed
+
+
+Senior IT Analyst
+
+
++971 6 508 8832
+
+
+
+
+
+
+ !Outlook-qmz2lha4.png!  !Outlook-xuwoihr5.png!    !Outlook-xtvimfc5.png!   !Outlook-p1fjz1us.png!   !Outlook-llmg0lvo.png!   !Outlook-xwkmcuca.png! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Classification: External
+
+
+
+
+
+","25/Oct/23 3:18 PM;635771987d4645af4f01bd17;Note added by Admin Account in Freshservice:
+ Ticket with id 654131 is merged into this ticket.
+","26/Oct/23 11:30 AM;635771987d4645af4f01bd17;Note added by Ashiksha Shajahan in Freshservice:
+ 
+
+
+
+ISSUE: The parent PNR
+ was split and the new PNR was cancelled immediately, which led to an error and an incorrect message being sent to DCS, which in turn caused additional list rejections.
+
+
+
+
+
+Hello Kamran,
+
+
+
+
+Greetings of the day.
+
+
+
+This is to let you know that our team has identified the primary source of the issue
+ highlighted in the trailing email below and is actively trying to apply a permanent fix.
+
+
+
+(#INC-653796) Parent ticket
+ shall update you on developments
+
+
+
+ 
+
+Best Regards,
+Ashik
+Application Lead - DCS
+
+
+
+M+971
+ 56 506 7576| E
+ashajahan@isa.ae
+
+
+T+97165088234
+
+
+
+
+
+
+","26/Oct/23 11:31 AM;635771987d4645af4f01bd17;Note added by Ashiksha Shajahan in Freshservice:
+ 
+
+
+
+ISSUE: The parent PNR
+ was split and the new PNR was cancelled immediately, which led to an error and an incorrect message being sent to DCS, which in turn caused additional list rejections.
+
+
+
+
+
+Hello Kamran,
+
+
+
+
+Greetings of the day.
+
+
+
+This is to let you know that our team has identified the primary source of the issue
+ highlighted in the trailing email below and is actively trying to apply a permanent fix.
+
+
+
+(#INC-653796) Parent ticket
+ shall update you on developments
+
+
+
+ 
+
+Best Regards,
+Ashik
+Application Lead - DCS
+
+
+
+M+971
+ 56 506 7576| E
+ashajahan@isa.ae
+
+
+T+97165088234
+
+
+
+
+
+
+","27/Oct/23 2:47 PM;635771987d4645af4f01bd17;Note added by Kamran Yaqoob in Freshservice:
+ 
+Dear Ashik
+
+Accept Greetings
+
+
+
+
+Excellent! Thank you so much.
+
+
+
+
+
+
+
+
+
+
+
+
+Best Regards,
+
+Kamran Yaqoob
+
+
+Customer
+ Services Manager
+
+
+M  0346-8775787
+
+
+E  Kyaqoob@flyjinnah.com 
+
+ !Outlook-3ghi2pmn.jpg! 
+
+
+
+
+
+
+
+
+","24/Nov/23 9:32 AM;635771987d4645af4f01bd17;Note added by Ashiksha Shajahan in Freshservice:
+ Please assign back once Jira deployed 
+",28/Nov/23 10:50 AM;635771987d4645af4f01bd17;Freshservice Ticket issue status changed to : Known Issue - BUG,"15/Dec/23 10:13 AM;635771987d4645af4f01bd17;Freshservice issue linked to Jira:
+ #INC-683083 (https://airarabia.freshservice.com/a/tickets/683083) - CANCEL PAP ACTIVE IN DCS-3L
+","15/Dec/23 10:13 AM;635771987d4645af4f01bd17;Note added by Sivaprakash Sockalingam in Freshservice:
+ 
+Parent PNR(14046874) split into 1 more PNR(14275038) for cancellation. Status is cancelled for the split PNR. 
+ !1702619839417.png! 
+PNL sent with group code Z3 for 3pax.
+ !1702619901555.png! 
+
+ADL sent incorrectly with group code Z2
+
+
+
+ !1702620056150.png! 
+
+ !1702619979479.png! 
+
+
+","17/Jan/24 1:33 PM;635771987d4645af4f01bd17;Freshservice issue linked to Jira:
+ #INC-695669 (https://airarabia.freshservice.com/a/tickets/695669) - *****DEL/ADD details for Splitted PNRs...TOP URGENT******
+","17/Jan/24 1:33 PM;635771987d4645af4f01bd17;Note added by Narges Sharifi in Freshservice:
+ 
+Dear Support,
+
+
+
+kindly you may find same scenario in flights W51008 9JAN : 
+
+
+I would be appreciative if you give us advise .
+
+
+thanks ,
+Narges 
+
+
+
+
+
+PNL
+W51008/09JAN THR PART6
+-KHD081L
+1RAHIMZADEH/HAMEDMR-J3
+.R/TKNE HK1 5379566393034/1-1RAHIMZADEH/HAMEDMR
+.R/DOCS HK1/I//0534764614/IR/23DEC85/M//RAHIMZADEH/HAMED-1RAHIMZ
+.RN/ADEH/HAMEDMR
+1ROUZBEH/ALIMR-M2 .R/TKNE HK1 5379566467412/1-1ROUZBEH/ALIMR
+.R/DOCS HK1/I//3931867013/IR/06MAR69/M//ROUZBEH/ALI-1ROUZBEH/ALI
+.RN/MR
+1SABERI/REZAMR-F2 .R/TKNE HK1 5379566461449/1-1SABERI/REZAMR
+.R/DOCS HK1/I//0067058329/IR/22DEC79/M//SABERI/REZA-1SABERI/REZA
+.RN/MR
+1SAEIDINEZHAD/ATEFEHMR .L/36253240
+.R/TKNE HK1 5379566487059/1-1SAEIDINEZHAD/ATEFEHMR
+.R/DOCS HK1/I//0493502602/IR/09JAN67/M//SAEIDINEZHAD/ATEFEH-1SAE
+.RN/IDINEZHAD/ATEFEHMR
+1SAFDARI/AMIRMR-L2 .R/TKNE HK1 5379566459134/1-1SAFDARI/AMIRMR
+.R/DOCS HK1/I//0057299201/IR/03NOV72/M//SAFDARI/AMIR-1SAFDARI/AM
+.RN/IRMR
+1SAHAMI/PANTEAMS-S2 .R/TKNE HK1 5379566484349/1-1SAHAMI/PANTEAMS
+.R/DOCS HK1/I//0014546027/IR/14APR92/F//SAHAMI/PANTEA-1SAHAMI/PA
+.RN/NTEAMS
+1SHAHBAZI/MASOUMEHMS .L/36221733
+.R/TKNE HK1 5379566432184/1-1SHAHBAZI/MASOUMEHMS
+.R/DOCS HK1/I//3961722439/IR/30APR62/F//SHAHBAZI/MASOUMEH-1SHAHB
+.RN/AZI/MASOUMEHMS
+1SHAHBAZIAZARGAVGANI/AHADMR .L/36253178
+.R/TKNE HK1 5379566486950/1-1SHAHBAZIAZARGAVGANI/AHADMR
+.R/DOCS HK1/I//1699933979/IR/19AUG97/M//SHAHBAZIAZARGAVGANI/AHAD
+.RN/-1SHAHBAZIAZARGAVGANI/AHADMR
+1SHAHMOHAMADI/VAHIDMR .L/36258269
+.R/TKNE HK1 5379566495134/1-1SHAHMOHAMADI/VAHIDMR
+.R/DOCS HK1/I//0065972368/IR/20FEB85/M//SHAHMOHAMADI/VAHID-1SHAH
+.RN/MOHAMADI/VAHIDMR
+1SHAHRIYARIKHALAJI/MOHAMMADSADEGHMR .L/36210506
+.O/W51005L10THR1705HK
+.R/TKNE HK1 5379566411725/1-1SHAHRIYARIKHALAJI/MOHAMMADSADEGHMR
+.R/DOCS HK1/I//0430103115/IR/09SEP82/M//SHAHRIYARIKHALAJI/MOHAMM
+.RN/ADSADEGH-1SHAHRIYARIKHALAJI/MOHAMMADSADEGHMR
+1SHAMSAIE/MOHAMMADMAHDIMR-R3
+.R/TKNE HK1 5379566398375/1-1SHAMSAIE/MOHAMMADMAHDIMR
+.R/DOCS HK1/I//0073293091/IR/20SEP80/M//SHAMSAIE/MOHAMMADMAHDI-1
+.RN/SHAMSAIE/MOHAMMADMAHDIMR
+
+
+
+
+
+
+ADL
+W51008/09JAN THR PART1
+RBD Y/BEGHKL
+-KHD000B
+-KHD000E
+-KHD000G
+-KHD000H
+-KHD000K
+-KHD083L
+DEL
+1MORADPOR/MEHRZADMR-R2 .L/36201883
+1NORMOHAMMADPOR/MOHAMMADMR-R2
+1SHAMSAIE/MOHAMMADMAHDIMR .L/36284919
+
+
+
+
+ !pastedImage.png! 
+
+
+
+
+
+
+
+ !pastedImage.png! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+","17/Jan/24 1:33 PM;635771987d4645af4f01bd17;Note added by w5helpdesk in Freshservice:
+ 
+
+
+
+Dear Pradeep,
+
+
+
+   Unfortunatly no body answer below ticket .May I ask to follow up.
+
+
+
+Regards
+DahMardeh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+","17/Jan/24 1:33 PM;635771987d4645af4f01bd17;Note added by Neha Sultana in Freshservice:
+ 
+Dear Requestor  ,
+
+Apologies for the inconvenience caused .
+
+We will check this issue and update you at the earliest .
+
+Regards,
+Neha
+
+
+
+
+Ticket: https://servicedesk.accelaero.com/public/tickets/0d143f2b0d890c6d229c7896db72f2657c58b6989779c88bd2f2d3c178068f3c
+
+
+
+
+
+
+","17/Jan/24 1:33 PM;635771987d4645af4f01bd17;Note added by Nesa Stephila in Freshservice:
+  !1705312867416.png! https://jiraisa.atlassian.net/browse/ASPPI-7320 - ADL issue after split and cancel
+","17/Jan/24 1:33 PM;635771987d4645af4f01bd17;Note added by Neha Sultana in Freshservice:
+ In w5uat environmentPNLW51078/15JAN KER PART1RBD Y/BEGHK-THR007B4ADULT/GFJFGFDFSMR/BBBWWWWMR/EEESDFFMR/DDDERETTMR-A7 .L/35934696.R/TKNE HK1 5379565786397/1-1ADULT/GFJFGFDFSMR.R/TKNE HK1 5379565786398/1-1ADULT/BBBWWWWMR.R/TKNE HK1 5379565786400/1-1ADULT/EEESDFFMR.R/TKNE HK1 5379565786401/1-1ADULT/DDDERETTMR3ADULT/AAAQQQQQMR/AAADFFDFMRS/DFDGFMS-A7.R/TKNE HK1 5379565786403/1-1ADULT/AAAQQQQQMR.R/TKNE HK1 5379565786399/1-1ADULT/AAADFFDFMRS.R/TKNE HK1 5379565786402/1-1ADULT/DFDGFMS-THR000E-THR000G-THR000H-THR000KENDPNLADLW51078/15JAN KER PART1RBD Y/BEGHK-THR005BDEL4ADULT/GFJFGFDFSMR/BBBWWWWMR/EEESDFFMR/DDDERETTMR-A7 .L/359346963ADULT/AAAQQQQQMR/AAADFFDFMRS/DFDGFMS-A7ADD5ADULT/GFJFGFDFSMR/BBBWWWWMR/EEESDFFMR/DDDERETTMR/DFDGFMS-A5.L/35934696 .R/TKNE HK1 5379565786397/1-1ADULT/GFJFGFDFSMR.R/TKNE HK1 5379565786398/1-1ADULT/BBBWWWWMR.R/TKNE HK1 5379565786400/1-1ADULT/EEESDFFMR.R/TKNE HK1 5379565786401/1-1ADULT/DDDERETTMR.R/TKNE HK1 5379565786402/1-1ADULT/DFDGFMS-THR000E-THR000G-THR000H-THR000KENDADL
+","17/Jan/24 1:33 PM;635771987d4645af4f01bd17;Note added by Neha Sultana in Freshservice:
+ parent ticket -- 36296731 PNLW59999/10JAN KHD PART1RBD Y/E-THR009E6TEST/BAGHERMR/HASSANMR/ALIMR/HOSSEINMR/SAJJADMR/KIANMS-A9.L/36296731 .R/TKNE HK1 5379566571058/1-1TEST/BAGHERMR.R/TKNE HK1 5379566571059/1-1TEST/HASSANMR.R/TKNE HK1 5379566571060/1-1TEST/ALIMR.R/TKNE HK1 5379566571064/1-1TEST/HOSSEINMR.R/TKNE HK1 5379566571065/1-1TEST/SAJJADMR.R/TKNE HK1 5379566571061/1-1TEST/KIANMS2TEST/KASRAMS/NARGESMS-A9.R/TKNE HK1 5379566571062/1-1TEST/KASRAMS.R/TKNE HK1 5379566571063/1-1TEST/NARGESMS1TESTER/NASTARANMR-A9.R/TKNE HK1 5379566571066/1-1TESTER/NASTARANMRENDPNLsplit ticket --36302289 ADLW59999/10JAN KHD PART1RBD Y/E-THR010EDEL1BTEST/FARNAZMS-B3 .L/363022336TEST/ALIMR/HOSSEINMR/SAJJADMR/KIANMS/KASRAMS/NARGESMS-A7.L/362967311TEST/MARYAMMS-B32TEST/BAGHERMR/HASSANMR-C2 .L/363022891TESTA/AMINMR-B31TESTER/NASTARANMR-A71TESTTEST/SARAMS .L/36302303ADD1BTEST/FARNAZMS-B3 .L/36302233.R/TKNE HK1 5379566578663/1-1BTEST/FARNAZMS6TEST/ALIMR/HOSSEINMR/SAJJADMR/KIANMS/KASRAMS/NARGESMS-A7.L/36296731 .R/TKNE HK1 5379566571060/1-1TEST/ALIMR.R/TKNE HK1 5379566571064/1-1TEST/HOSSEINMR.R/TKNE HK1 5379566571065/1-1TEST/SAJJADMR.R/TKNE HK1 5379566571061/1-1TEST/KIANMS.R/TKNE HK1 5379566571062/1-1TEST/KASRAMS.R/TKNE HK1 5379566571063/1-1TEST/NARGESMS1TEST/MARYAMMS-B3 .R/TKNE HK1 5379566578662/1-1TEST/MARYAMMS1TESTA/AMINMR-B3 .R/TKNE HK1 5379566578664/1-1TESTA/AMINMR1TESTER/NASTARANMR-A7.R/TKNE HK1 5379566571066/1-1TESTER/NASTARANMRENDADLsplit -- 36302485
+","17/Jan/24 1:33 PM;635771987d4645af4f01bd17;Note added by Neha Sultana in Freshservice:
+ 
+in w5shj 
+
+
+PNLW51078/17JAN KER PART1RBD Y/BEGHK-THR007B7ADULT/EEEMR/GGGMR/BBBMR/CCCMR/FFFMS/DDDMS/AAAMS-A7 .L/36114653.R/TKNE HK1 5379566051642/1-1ADULT/EEEMR.R/TKNE HK1 5379566051643/1-1ADULT/GGGMR.R/TKNE HK1 5379566051646/1-1ADULT/BBBMR.R/TKNE HK1 5379566051647/1-1ADULT/CCCMR.R/TKNE HK1 5379566051644/1-1ADULT/FFFMS.R/TKNE HK1 5379566051645/1-1ADULT/DDDMS.R/TKNE HK1 5379566051648/1-1ADULT/AAAMS-THR000E-THR000G-THR000H-THR000KENDPNL
+
+
+
+
+ADLW51078/17JAN KER PART1RBD Y/BEGHK-THR012BADD5ADULT/EEEMR/GGGMR/CCCMR/FFFMS/DDDMS-B5 .L/36114653.R/TKNE HK1 5379566051642/1-1ADULT/EEEMR.R/TKNE HK1 5379566051643/1-1ADULT/GGGMR.R/TKNE HK1 5379566051647/1-1ADULT/CCCMR.R/TKNE HK1 5379566051644/1-1ADULT/FFFMS.R/TKNE HK1 5379566051645/1-1ADULT/DDDMS-THR000E-THR000G-THR000H-THR000KENDADL
+
+","17/Jan/24 1:33 PM;635771987d4645af4f01bd17;Note added by Neha Sultana in Freshservice:
+ 
+Dear Requestor  ,
+
+When we have group boking of 9 pax , initially PNL will be sent with 9pax and a group code of ( say A9 )
+
+When we split 2 pax and cancel the PNR ( group cod eof the split pnr will be different here it is C2 )
+
+in ADL , first the deletion of 7pax from parent PNR (36296731   group code - A7) and the DEL of the split PNR (36302289  group code C2)  will be sent and then the ADD of parent PNR (36296731 group code A7 )  is sent .
+
+parent PNR -- 36296731
+
+
+PNL
+W59999/10JAN KHD PART1
+RBD Y/E
+-THR009E
+6TEST/BAGHERMR/HASSANMR/ALIMR/HOSSEINMR/SAJJADMR/KIANMS-A9
+.L/36296731 .R/TKNE HK1 5379566571058/1-1TEST/BAGHERMR
+.R/TKNE HK1 5379566571059/1-1TEST/HASSANMR
+.R/TKNE HK1 5379566571060/1-1TEST/ALIMR
+.R/TKNE HK1 5379566571064/1-1TEST/HOSSEINMR
+.R/TKNE HK1 5379566571065/1-1TEST/SAJJADMR
+.R/TKNE HK1 5379566571061/1-1TEST/KIANMS
+2TEST/KASRAMS/NARGESMS-A9
+.R/TKNE HK1 5379566571062/1-1TEST/KASRAMS
+.R/TKNE HK1 5379566571063/1-1TEST/NARGESMS
+1TESTER/NASTARANMR-A9
+.R/TKNE HK1 5379566571066/1-1TESTER/NASTARANMR
+ENDPNL
+
+
+split PNR --36302289
+
+
+ 
+ADL
+W59999/10JAN KHD PART1
+RBD Y/E
+-THR010E
+DEL
+1BTEST/FARNAZMS-B3 .L/36302233
+6TEST/ALIMR/HOSSEINMR/SAJJADMR/KIANMS/KASRAMS/NARGESMS-A7
+.L/36296731
+1TEST/MARYAMMS-B3
+2TEST/BAGHERMR/HASSANMR-C2 .L/36302289
+1TESTA/AMINMR-B3
+1TESTER/NASTARANMR-A7
+1TESTTEST/SARAMS .L/36302303
+ADD
+1BTEST/FARNAZMS-B3 .L/36302233
+.R/TKNE HK1 5379566578663/1-1BTEST/FARNAZMS
+6TEST/ALIMR/HOSSEINMR/SAJJADMR/KIANMS/KASRAMS/NARGESMS-A7
+.L/36296731 .R/TKNE HK1 5379566571060/1-1TEST/ALIMR
+.R/TKNE HK1 5379566571064/1-1TEST/HOSSEINMR
+.R/TKNE HK1 5379566571065/1-1TEST/SAJJADMR
+.R/TKNE HK1 5379566571061/1-1TEST/KIANMS
+.R/TKNE HK1 5379566571062/1-1TEST/KASRAMS
+.R/TKNE HK1 5379566571063/1-1TEST/NARGESMS
+1TEST/MARYAMMS-B3 .R/TKNE HK1 5379566578662/1-1TEST/MARYAMMS
+1TESTA/AMINMR-B3 .R/TKNE HK1 5379566578664/1-1TESTA/AMINMR
+1TESTER/NASTARANMR-A7
+.R/TKNE HK1 5379566571066/1-1TESTER/NASTARANMR
+ENDADL
+
+
+Regards,
+Neha
+
+
+
+
+Ticket: https://servicedesk.accelaero.com/public/tickets/0d143f2b0d890c6d229c7896db72f2657c58b6989779c88bd2f2d3c178068f3c
+
+
+
+
+
+
+","17/Jan/24 1:33 PM;635771987d4645af4f01bd17;Note added by Neha Sultana in Freshservice:
+ 
+Dear Requestor  ,
+
+In this case the issue is , when the group booking is split and cancelled at the same time , we first send the DEL for split PNR which has no existence in the DCS side so the ADL will fail to process, 
+
+Ideally  the Group PNR is sent in PNL (PNR - 36296731  group code -A9), when there is split then in ADL the same group code ( A9 ) should first go as DEL instead of A7 and the ADD PNR (group code A7) should be sent .
+
+
+If the ADL is sent for the ADD of split PNR first and then the DEL for split PNR is sent  its fair scenario, but if the PNR is split and CNX at the same time and ADL is triggered ,
+
+DEL for split PNR is sent without the ADD of split PNR  this is incorrect .
+
+We will raise this issue with our development team and update you once it is fixed.
+
+Regards,
+Neha
+
+
+
+
+
+Ticket: https://servicedesk.accelaero.com/public/tickets/0d143f2b0d890c6d229c7896db72f2657c58b6989779c88bd2f2d3c178068f3c
+
+
+
+
+",17/Jan/24 1:34 PM;635771987d4645af4f01bd17;Freshservice Ticket issue status changed to : Known Issue - BUG,"17/Jan/24 7:11 PM;635771987d4645af4f01bd17;Note added by Omolbanin DahMardeh in Freshservice:
+ Dear Neha,
+
+    As this issue already raised and didn't solve,you are kindly requested to consider it with high priority because lack of correct information makes revenue problem for us.
+
+Regards
+DahMardeh
+
+
+
+
+
+
+","18/Jan/24 10:21 PM;635771987d4645af4f01bd17;Note added by Venkatappa Reddy Chirasani in Freshservice:
+ Ticket with id 698514 is merged into this ticket.
+","18/Jan/24 10:21 PM;635771987d4645af4f01bd17;Note added by Venkatappa Reddy Chirasani in Freshservice:
+ Merged from ticket 698514
+      Subject: Re: [#INC-695669] *****DEL/ADD details for Splitted PNRs...TOP URGENT******
+      Description:
+
+
+Dear Neha,
+Hello,
+
+
+
+I'd be pleased if you could consider the following issue happened again & advise us the reason of that  . 
+Please be informed there would be many problems regarding this cases for us.
+
+
+
+W51036/15JAN
+The Origin PNR : 36249891
+The Splitted PNR : 36320801  & then  is Cancelled but there is not  any related ADL to be processed.
+Cancelled passenger has been accepted accordingly.
+
+
+
+
+ !pastedImage.png! 
+
+Regards,
+Sara. Daneshvar
+
+
+
+From: Neha Sultana <servicedesk@accelaero.com>
+Sent: Monday, January 15, 2024 10:55:50 AM
+To: Narges Sharifi
+Cc: psubramanian@isa.ae; w5helpdesk; olahmed@isa.ae; vchirasani@accelaero.com
+Subject: Re: [#INC-695669] *****DEL/ADD details for Splitted PNRs...TOP URGENT******
+ 
+
+
+
+
+Dear Requestor  ,
+
+
+
+Apologies for the inconvenience caused .
+
+
+
+We will check this issue and update you at the earliest .
+
+
+
+Regards,
+Neha
+
+
+
+
+
+
+
+
+
+
+Ticket: https://servicedesk.accelaero.com/public/tickets/0d143f2b0d890c6d229c7896db72f2657c58b6989779c88bd2f2d3c178068f3c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+On Mon, 15 Jan 11:19 AM 
+, w5helpdesk <w5helpdesk@mahanair.co.ir> wrote:
+
+
+
+
+Dear Pradeep,
+
+
+
+   Unfortunatly no body answer below ticket .May I ask to follow up.
+
+
+
+Regards
+DahMardeh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From: ACCELAERO Service Desk <servicedesk@accelaero.com>
+Sent: Wednesday, January 10, 2024 2:22 PM
+To: Narges Sharifi; Omolbanin DahMardeh; w5helpdesk
+Subject: [#INC-695669] *****DEL/ADD details for Splitted PNRs...TOP URGENT******
+
+ 
+
+
+
+Dear Narges Sharifi,
+
+Thank you for contacting IT Service Desk. Your request has been registered with us with Reference ID: INC-695669 and considered as Urgent priority. In
+ order to change the priority of the ticket, we would like you to provide us further information by updating the request details.
+
+We are working on your request and will contact you soon with an update.
+To view the status of the ticket or add comments, please visit
+
+https://servicedesk.accelaero.com/helpdesk/tickets/695669
+
+Kindly note that our Service Desk Coverage is from 09:00 AM - 06:00 PM (UTC+4) , Monday to Friday. If there is any Emergency issue (as per below criteria). Please contact us at the below mentioned
+ numbers during Out of office Hours from various available locations.
+
+
+Emergency Criteria:  
+
+Major impact on the Operations/Business which needs immediate remediation.  
+
+
+
+Air Arabia Group Offices Cisco Extension - 200
+UAE 065088200
+Morocco 0522536497
+
+Egypt 0225876305
+
+India 02271004649
+
+International +97165088200
+
+Regards,
+
+
+
+
+
+
+IT SERVICE DESK 
+
+ 
+
+
+
+
+https://servicedesk.accelaero.com/public/tickets/0d143f2b0d890c6d229c7896db72f2657c58b6989779c88bd2f2d3c178068f3c
+
+[#INC-695669]:235685:fs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+","18/Jan/24 10:22 PM;635771987d4645af4f01bd17;Note added by System in Freshservice:
+ Venkatappa Reddy Chirasani : 
+Merged from ticket 698514
+      Subject: Re: [#INC-695669] *****DEL/ADD details for Splitted PNRs...TOP URGENT******
+      Description:
+
+
+Dear Neha,
+Hello,
+
+
+
+I'd be pleased if you could consider the following issue happened again & advise us the reason of that  . 
+Please be informed there would be many problems regarding this cases for us.
+
+
+
+W51036/15JAN
+The Origin PNR : 36249891
+The Splitted PNR : 36320801  & then  is Cancelled but there is not  any related ADL to be processed.
+Cancelled passenger has been accepted accordingly.
+
+
+
+
+ !pastedImage.png! 
+
+Regards,
+Sara. Daneshvar
+
+
+
+From: Neha Sultana <servicedesk@accelaero.com>
+Sent: Monday, January 15, 2024 10:55:50 AM
+To: Narges Sharifi
+Cc: psubramanian@isa.ae; w5helpdesk; olahmed@isa.ae; vchirasani@accelaero.com
+Subject: Re: [#INC-695669] *****DEL/ADD details for Splitted PNRs...TOP URGENT******
+ 
+
+
+
+
+Dear Requestor  ,
+
+
+
+Apologies for the inconvenience caused .
+
+
+
+We will check this issue and update you at the earliest .
+
+
+
+Regards,
+Neha
+
+
+
+
+
+
+
+
+
+
+Ticket: https://servicedesk.accelaero.com/public/tickets/0d143f2b0d890c6d229c7896db72f2657c58b6989779c88bd2f2d3c178068f3c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+On Mon, 15 Jan 11:19 AM 
+, w5helpdesk <w5helpdesk@mahanair.co.ir> wrote:
+
+
+
+
+Dear Pradeep,
+
+
+
+   Unfortunatly no body answer below ticket .May I ask to follow up.
+
+
+
+Regards
+DahMardeh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From: ACCELAERO Service Desk <servicedesk@accelaero.com>
+Sent: Wednesday, January 10, 2024 2:22 PM
+To: Narges Sharifi; Omolbanin DahMardeh; w5helpdesk
+Subject: [#INC-695669] *****DEL/ADD details for Splitted PNRs...TOP URGENT******
+
+ 
+
+
+
+Dear Narges Sharifi,
+
+Thank you for contacting IT Service Desk. Your request has been registered with us with Reference ID: INC-695669 and considered as Urgent priority. In
+ order to change the priority of the ticket, we would like you to provide us further information by updating the request details.
+
+We are working on your request and will contact you soon with an update.
+To view the status of the ticket or add comments, please visit
+
+https://servicedesk.accelaero.com/helpdesk/tickets/695669
+
+Kindly note that our Service Desk Coverage is from 09:00 AM - 06:00 PM (UTC+4) , Monday to Friday. If there is any Emergency issue (as per below criteria). Please contact us at the below mentioned
+ numbers during Out of office Hours from various available locations.
+
+
+Emergency Criteria:  
+
+Major impact on the Operations/Business which needs immediate remediation.  
+
+
+
+Air Arabia Group Offices Cisco Extension - 200
+UAE 065088200
+Morocco 0522536497
+
+Egypt 0225876305
+
+India 02271004649
+
+International +97165088200
+
+Regards,
+
+
+
+
+
+
+IT SERVICE DESK 
+
+ 
+
+
+
+
+https://servicedesk.accelaero.com/public/tickets/0d143f2b0d890c6d229c7896db72f2657c58b6989779c88bd2f2d3c178068f3c
+
+[#INC-695669]:235685:fs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+","24/Jan/24 11:16 AM;635771987d4645af4f01bd17;Note added by w5helpdesk in Freshservice:
+ 
+Dears,
+
+
+
+Is there any update?
+
+
+
+
+
+Regards,
+H.Torabian
+
+
+
+
+
+
+
+
+
+
+
+","26/Jan/24 1:18 PM;635771987d4645af4f01bd17;Note added by Narges Sharifi Sharifi in Freshservice:
+ Dear support,
+
+Kindly , may I have any update ?
+
+
+Thanks in advance ,
+Narges 
+","31/Jan/24 12:33 PM;635771987d4645af4f01bd17;Note added by Hida Torabian in Freshservice:
+ Dears,
+Is there any update?
+Regards,
+H. Torabian
+
+","05/Feb/24 3:10 PM;635771987d4645af4f01bd17;Note added by Omolbanin DahMardeh in Freshservice:
+ 
+Dear Pradeep,
+Hope you are doing fine.
+
+
+
+   Unfortunatly every day we are receiving PNRs with same scnario which made problems for us and we are loosing money.Would you please ask to check and update.
+
+
+
+Regards
+DahMardeh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+","05/Feb/24 6:09 PM;635771987d4645af4f01bd17;Note added by Pradeep Subramanian in Freshservice:
+ 
+Dear DahMardeh,
+
+
+
+ 
+
+Well and wish the same from you. We have assigned this ticket to our internal teams with high priority to resolve…
+
+
+Since its one of the prime areas in the system, it needs to be done carefully with thorough testing…
+
+
+
+
+ 
+
+Neha will keep you posted on an indicative resolution date for this…
+
+
+
+
+ 
+
+Regards
+
+
+Pradeep
+
+
+
+ 
+
+
+
+
+
+
+
+","07/Feb/24 11:29 AM;635771987d4645af4f01bd17;Note added by Hida Torabian in Freshservice:
+ Dear
+Is there any update?
+Regards,
+H. Torabian
+
+","12/Feb/24 10:28 AM;635771987d4645af4f01bd17;Note added by Omolbanin DahMardeh in Freshservice:
+ 
+Dear Neha,
+
+
+
+   Would you please update?
+
+
+
+Regards
+DahMardeh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+","14/Feb/24 2:38 PM;635771987d4645af4f01bd17;Note added by Hida Torabian in Freshservice:
+ Dears,
+Would you please keep us updated regarding this query?
+Regards,
+H. Torabian
+
+","15/Feb/24 7:13 AM;5c3dcb4dad984b521086207c;Place a RT reservation. split the reservation and cancel the newly generated PNR and send ADL. Only active PNR details goes in the ADL as ADD records. 35964653 ,
+
+Place a oneway reservation. split the reservation and cancel the newly generated PNR and send ADL. Only active PNR details goes in the ADL as ADD records.  35964688
+
+Place a RT reservation. split the reservation and cancel the old generated PNR and send ADL. Only active PNR details goes in the ADL as ADD records.35964658
+
+Place a RT reservation. send ADL  . Next  split the reservation and cancel the old  PNR. Next send ADL Verify DEL and ADD both records displayed in ADL.  35964655, 35964656
+
+Place a RT reservation. split the reservation and cancel the newly generated PNR relevant segment and send ADL. Only active PNR details goes in the ADL as ADD records.  35964664
+
+Place a connection oneway reservation. split the reservation and cancel the newly generated PNR and send ADL. Only active PNR details goes in the ADL as ADD records 35964669
+
+Place a connection oneway reservation. split the reservation and do date modification for the newly generated PNR and send ADL. Only active PNR details go in the ADL as ADD records 35964671
+
+Place a RT reservation. split the reservation and cancel the old PNR and newly generated PNR and send ADL. No new ADL generated.. 35964673 ,35964674","15/Feb/24 9:50 AM;5c3dcb4dad984b521086207c;Issue
+
+i). Create a reservation with 4 pax and send ADL.
+
+ii). Next split 2 pax from the reservation and remove 1 pax from newly created PNR.
+
+iii). Once send ADL, newly generated PNR also displayed under DEL record
+
+DEL
+1DDD/BBBMR-F4 .L/35964681
+1FFFF/DDDMR-F4
+1VVV/CCCMRS-G2 .L/35964683
+1WWW/AAAMRS-G2
+ADD
+1DDD/BBBMR-F2 .L/35964681 .R/TKNE HK1 5379565786275/1-1DDD/BBBMR
+1FFFF/DDDMR-F2 .R/TKNE HK1 5379565786273/1-1FFFF/DDDMR
+1VVV/CCCMRS .L/35964683 .R/TKNE HK1 5379565786274/1-1VVV/CCCMRS
+-DXB000Y
+ENDADL","16/Feb/24 7:37 AM;5c3dcb4dad984b521086207c;Place a RT reservation and split the reservation and remove 1 pax from the newly created. And send ADL. No delete record goes in ADL.35964719
+
+Place a RT reservation and send ADL. Next split the reservation and remove 1 pax from the newly created. And send ADL. No delete record goes in ADL. 35964722 , 35964723
+
+Place a RT reservation. split the reservation and split  newly generated  PNR again and cancel the newly generated PNR and cancel old split PNR. And send ADL. Only active PNR details goes in the ADL as ADD records. 35964725
+
+Place a RT reservation. split the reservation and split newly generated  PNR again and cancel old split PNR. And send ADL. Only active PNR details goes in the ADL as ADD records. 35964729, 35964731
+
+Place a RT reservation. split the reservation and split newly generated  PNR again and cancel newly split PNR. And send ADL. Only active PNR details goes in the ADL as ADD records.35964732 ,35964733
+
+Place a RT reservation. split the reservation and split newly generated  PNR again and remove pax from 3rd newly split PNR.  do date modification for 2nd PNR. And send ADL. Only active PNR details goes in the ADL as ADD records. 35964736,35964738
+
+Place a RT reservation. split the reservation and split newly generated  PNR again and Cancel segment of  3rd newly split PNR. And send ADL. Only active PNR details goes in the ADL as ADD records. 35964740, 35964741
+
+Place a RT reservation and send ADL. Next split the reservation and send ADL. 35964743
+
+DEL
+1III/IIIMRS-H4 .L/35964743
+1UUU/KKKMRS-H4
+1WWW/AAAMS-H4
+1YYY/BBBMRS-H4
+ADD
+1III/IIIMRS-H2 .L/35964743
+.R/TKNE HK1 5379565786371/2-1III/IIIMRS
+1UUU/KKKMRS-I2 .L/35964744
+.R/TKNE HK1 5379565786368/2-1UUU/KKKMRS
+1WWW/AAAMS-H2 .R/TKNE HK1 5379565786369/2-1WWW/AAAMS
+1YYY/BBBMRS-I2 .R/TKNE HK1 5379565786370/2-1YYY/BBBMRS
+
+Place a RT reservation and send ADL. Flown the OB segment and Next split the reservation and send ADL. 35964745
+
+DEL
+1BBB/NNNMR-J4 .L/35964745
+1HHH/HHHMS-J4
+1KKK/KKKMR-J4
+1RRRR/TTTMS-J4
+ADD
+1BBB/NNNMR-J2 .L/35964745 .R/TKNE HK1 5379565786372/2-1BBB/NNNMR
+1HHH/HHHMS-J2 .R/TKNE HK1 5379565786375/2-1HHH/HHHMS
+1KKK/KKKMR-K2 .L/35964746 .R/TKNE HK1 5379565786373/2-1KKK/KKKMR
+1RRRR/TTTMS-K2 .R/TKNE HK1 5379565786374/2-1RRRR/TTTMS
+
+
+
+Place a RT reservation and send ADL. Flown the OB segment and Next split the reservation, cancel IB segment  and send ADL.35964747
+
+DEL
+1GGG/BBBMS-L4 .L/35964747
+1HHH/FFFMS-L4
+1NNN/VVVMR-L4
+1TTT/TTTMRS-L4
+ADD
+1NNN/VVVMR-L2 .L/35964747 .R/TKNE HK1 5379565786378/2-1NNN/VVVMR
+.R/FQTV HK1 
+1TTT/TTTMRS-L2 .R/TKNE HK1 5379565786376/2-1TTT/TTTMRS
+.R/INFT HK1 22FEB23 MMM/JJJMISS
+.R/TKNE HK1 INF5379565786381/2-1TTT/TTTMRS .R/FQTV HK1
+
+Place a RT reservation with multiple pax. Flown the OB segment and split the  reservation and do a date modification for newly created PNR.
+
+ADD
+1DDD/DDDMR-M2 .L/35964750 .R/TKNE HK1 5379565786384/2-1DDD/DDDMR
+.R/INFT HK1 22FEB23 KKK/PPPPMSTR
+.R/TKNE HK1 INF5379565786389/2-1DDD/DDDMR .R/EXST HK1 
+1KKK/KKKMISS-M2 .R/TKNE HK1 5379565786386/2-1KKK/KKKMISS
+.R/CHLD HK1 25FEB16-1KKK/KKKMISS .R/EXST HK1 
+1WWW/WWWMR .L/35964749 .R/TKNE HK1 5379565786383/2-1WWW/WWWMR
+.R/INFT HK1 22FEB23 UUU/PPPMSTR
+.R/TKNE HK1 INF5379565786388/2-1WWW/WWWMR .R/EXST HK1
+
+Place 4 pax reservation with same surname and send ADL. Next split the reservation and cancel newly created PNR and send ADL. Newly created PNR details not included in ADL.
+
+DEL
+4ADULT/CCCMR/DDDMR/AAAMRS/BBBMRS-N4 .L/35964752
+ADD
+2ADULT/AAAMRS/BBBMRS-N2 .L/35964752
+.R/TKNE HK1 5379565786395/2-1ADULT/AAAMRS
+.R/TKNE HK1 5379565786396/2-1ADULT/BBBMRS","21/Feb/24 2:51 PM;635771987d4645af4f01bd17;Note added by Hida Torabian in Freshservice:
+ Dears,
+Is there any update?
+Regards,
+H. Torabian
+","24/Feb/24 10:53 AM;635771987d4645af4f01bd17;Note added by Pradeep Subramanian in Freshservice:
+ 
+Dear Requestor  ,
+
+We are working this with highest priority, will keep you posted on the live fix date at the earliest... 
+Apologies on the inconvenience caused... 
+
+
+Ticket: https://servicedesk.accelaero.com/public/tickets/0d143f2b0d890c6d229c7896db72f2657c58b6989779c88bd2f2d3c178068f3c
+
+
+Regards,
+
+IT Service Desk
+
+","12/Mar/24 10:46 AM;635771987d4645af4f01bd17;Note added by Rajan Dhawan in Freshservice:
+ 
+Dear Requestor  ,
+
+Please be informed the reported issue is fixed 
+
+Please let us know if it still persist with latest PNR 
+
+
+
+Ticket: https://servicedesk.accelaero.com/public/tickets/e1a1c6c3695738889be3c8e937d799b2a6e0e7b570297baea3b9a96cc2401629
+
+
+Thanks,
+Rajan Dhawan
+
+
+",12/Mar/24 10:47 AM;635771987d4645af4f01bd17;Freshservice Ticket issue status changed to : Resolved,12/Mar/24 10:51 AM;635771987d4645af4f01bd17;Freshservice Ticket issue status changed to : Open,12/Mar/24 10:51 AM;635771987d4645af4f01bd17;Freshservice Ticket issue status changed to : Known Issue - BUG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Done,2024-02-16 11:11:00
+Inventory Mismatch - AccelAero DB Alert - Air Arabia Egypt 25-Oct-2023_0152 - 25/10/23,ASPPI-7313,126457,Task,Done,ASPPI,ISA:AeroSUITE:PPI,software,Rimaz Fawzer,5c3dcdb9b4d5d75a3b52a4cf,,,Medium,Done,Saarrah Isthikar,5ccae37f08e6b211f65b8328,Sujit Samal,5f478dbd333edb00430384ea,Sujit Samal,5f478dbd333edb00430384ea,2023-10-25 06:18:00,2023-10-30 10:36:00,2024-03-23 06:46:00,2023-10-25 09:18:00,,,,,0,,,,,"Inventory Mismatch(CoNFirmed Adult) Flight_id : 411660 BC : Y6 Segment_code : CAI/BGY FCC: 3 RES: 5
+Inventory Mismatch(CoNFirmed Adult) Flight_id : 411212 BC : Y6 Segment_code : CAI/BGY FCC: 0 RES: 1
+Inventory Mismatch(CoNFirmed Adult) Flight_id : 396508 BC : Y5 Segment_code : BGY/CAI FCC: 4 RES",,Admin,Sujit Samal,,,,,,,,,,,,,,635771987d4645af4f01bd17,5f478dbd333edb00430384ea,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25/Oct/23 9:56 AM;635771987d4645af4f01bd17;1698213344576.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/143522,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1|hzy76f:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10000_*:*_1_*:*_10817819_*|*_10001_*:*_1_*:*_0,,,,,,,2023-10-25 02:18:47.064,10000_*:*_1_*:*_10817819_*|*_10001_*:*_1_*:*_0,"25/Oct/23 6:18 AM;635771987d4645af4f01bd17;Freshservice issue linked to Jira:
+ #INC-659152 (https://airarabia.freshservice.com/a/tickets/659152) - Fw: AccelAero DB Alert - Air Arabia Egypt 25-Oct-2023_0152  - 25/10/23
+","25/Oct/23 6:18 AM;635771987d4645af4f01bd17;Note added by Sujit Samal in Freshservice:
+ https://jiraisa.atlassian.net/browse/ASPPI-7313
+",25/Oct/23 6:22 AM;635771987d4645af4f01bd17;Freshservice Ticket issue status changed to : In-Progress,25/Oct/23 8:44 AM;635771987d4645af4f01bd17;Freshservice Ticket issue status changed to : Open,"25/Oct/23 8:45 AM;635771987d4645af4f01bd17;Note added by NOC Accelaero in Freshservice:
+ Dear Team,
+
+
+We have received the below alert. kindly look into it.
+
+
+
+Event
+ : 25-Oct-2023 04:20
+Client:
+ E5
+
+
+
+25-Oct-2023
+ 04:20(GMT) # No of Flights without PNL = 1
+
+
+Regards,
+ISA NOC
+
+
+
+
+
+",25/Oct/23 9:56 AM;635771987d4645af4f01bd17;Freshservice Ticket issue status changed to : Resolved,"25/Oct/23 9:56 AM;635771987d4645af4f01bd17;Note added by Sujit Samal in Freshservice:
+ 
+25-Oct-2023 04:20(GMT) # No of Flights without PNL = 1
+
+
+ !1698213344576.png! 
+
+
+",30/Oct/23 10:36 AM;635771987d4645af4f01bd17;Freshservice Ticket issue status changed to : Closed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Done,2023-10-25 09:18:00
+STAR AIRWAYS : Unable to View or generate PNL/ADL,ASPPI-7256,126011,Bug,Done,ASPPI,ISA:AeroSUITE:PPI,software,Rimaz Fawzer,5c3dcdb9b4d5d75a3b52a4cf,,,Medium,Done,Anupa,5d5956a70b82fa0c3ca3be7a,Anupa,5d5956a70b82fa0c3ca3be7a,Anupa,5d5956a70b82fa0c3ca3be7a,2023-10-19 09:29:00,2023-10-27 09:30:00,2024-03-23 06:46:00,2023-10-27 09:29:00,,,,,0,,,,,"Issue Description : 
+
+STAR AIRWAYS : Unable to View or generate PNL/ADL
+
+ENV :  [https://s9.isaaviations.com/xbe/|https://s9.isaaviations.com/xbe/]
+
+!image-20231019-052946.png|width=1920,height=1080!
+
+[https://jenkins.isaaviations.com/view/stars-01-aeromart-revamp/job/demo1-s9-revamp-deploy-thinair/|https://jenkins.isaaviations.com/view/stars-01-aeromart-revamp/job/demo1-s9-revamp-deploy-thinair/]",,Anupa,Shahawar Shahnawaz,,,,,,,,,,,,,,5d5956a70b82fa0c3ca3be7a,5ee7117d41f7000abb0542ab,,,,,,,,,,,,,,time-tracking;19/Oct/23 10:38 AM;addon_is.origo.jira.tempo-plugin;2700,time-tracking;19/Oct/23 3:02 PM;addon_is.origo.jira.tempo-plugin;3600,time-tracking;20/Oct/23 10:09 AM;addon_is.origo.jira.tempo-plugin;18000,time-tracking;20/Oct/23 10:09 AM;addon_is.origo.jira.tempo-plugin;7200,time-tracking;20/Oct/23 10:09 AM;addon_is.origo.jira.tempo-plugin;3600,time-tracking;20/Oct/23 10:16 AM;addon_is.origo.jira.tempo-plugin;7200,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,42300.0,,,,42300.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,XBE-3433,,,,,,,,,,,,,,,,,,,,,,,,,,,19/Oct/23 9:29 AM;anupavp;image-20231019-052946.png;https://jiraisa.atlassian.net/rest/api/3/attachment/content/142665,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,"{pullrequest={dataType=pullrequest, state=MERGED, stateCount=1}, json={""cachedValue"":{""errors"":[],""summary"":{""pullrequest"":{""overall"":{""count"":1,""lastUpdated"":""2023-10-20T12:00:19.582+0400"",""stateCount"":1,""state"":""MERGED"",""dataType"":""pullrequest"",""open"":false},""byInstanceType"":{""bitbucket"":{""count"":1,""name"":""Bitbucket Cloud""}}}}},""isStale"":true}}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1|hzy4sv:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_687133219_*|*_10000_*:*_1_*:*_4062975_*|*_10001_*:*_1_*:*_0,,,,,,,2023-10-19 12:36:28.919,3_*:*_1_*:*_687133219_*|*_10000_*:*_1_*:*_4062975_*|*_10001_*:*_1_*:*_0,19/Oct/23 4:36 PM;5ee7117d41f7000abb0542ab;Changed the JNDI port to 1099,"27/Oct/23 9:30 AM;5d5956a70b82fa0c3ca3be7a;Hi There, This issue is resolved",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Done,2023-10-27 09:29:00

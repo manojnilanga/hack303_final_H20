@@ -1,0 +1,19 @@
+"JIRA-ID","Commit Hash","Author Name","Date","Commit Message"
+ASPPI-7338,581271296848d3e006f9cc738904d7d262571658,Heshawa De Silva,2023-12-15T17:42:29,ASPPI-7322 ASPPI-7338 XBE-3475 ADL Groupcode issue after transfer segment from airadmin - When infant is present in reservation
+ASPPI-7338,dab45fd259a68e64a092c8f0af3e787dc50b3836,Heshawa De Silva,2023-11-16T11:04:07,ASPPI-7322 ASPPI-7338 XBE-3475 ADL Groupcode issue after transfer segment from airadmin
+ASPPI-7322,581271296848d3e006f9cc738904d7d262571658,Heshawa De Silva,2023-12-15T17:42:29,ASPPI-7322 ASPPI-7338 XBE-3475 ADL Groupcode issue after transfer segment from airadmin - When infant is present in reservation
+ASPPI-7322,b0f901b6096e356412b4782559b3b9c252debc5d,Amalika Lahiruni,2023-12-06T05:21:38,ASPPI-7322 XBE-3475 Remove Hyphen in card details relates to EPAY in PNL/ADL
+ASPPI-7322,dab45fd259a68e64a092c8f0af3e787dc50b3836,Heshawa De Silva,2023-11-16T11:04:07,ASPPI-7322 ASPPI-7338 XBE-3475 ADL Groupcode issue after transfer segment from airadmin
+ASPPI-7024,544de9b6ef821d3a4edb69a30ae113b88507f832,Krishan Rajapaksha,2023-10-19T16:51:56,ASPPI-7024 - External ETicket update Issue & EY info segment issue handled
+ASPPI-6218,6623254706aadb795f1f3579b67551d23aecf760,Shahawar,2023-06-20T15:31:32,ASPPI-6218-XBE-3144-PNL / ADL changes to provide number of pieces in XBAG
+ASPPI-6218,97db06ba59d1c3e25f6606870fbeba6a44ce30e5,Shahawar,2023-06-14T18:01:55,ASPPI-6218-XBE-3144-PNL / ADL changes to provide number of pieces in XBAG
+ASPPI-6218,9e0f177c2ca04fac63dae416979135a901469236,Shahawar,2023-06-14T18:01:55,ASPPI-6218-XBE-3144-PNL / ADL changes to provide number of pieces in XBAG
+ASPPI-6218,74b994df99292f751d666c7f36329c9069965601,Shahawar,2023-06-12T12:26:51,ASPPI-6218-XBE-3144-PNL / ADL changes to provide number of pieces in XBAG
+ASPPI-6218,7a0fe53e3666020052a84362a13c885300d1e158,Shahawar,2023-06-09T16:41:06,ASPPI-6218-XBE-3144-PNL / ADL changes to provide number of pieces in XBAG
+ASPPI-6209,a42dd24532e9f455f56c195218410cba87718d76,Chamithra Thenuwara,2023-06-09T09:31:27,ASPPI-6209 CODESHARE-1390 Configuration enable/disable to Pull Control before PNL/ADL
+ASPPI-6085,9dec38d004a1c25f838700b6189b63ee15d379d4,Krishan Rajapaksha,2023-06-08T11:59:58,ASPPI-6085 CODESHARE-710 Issue with EY Info segment | PNL/ADL related fixes
+ASPPI-6085,741ca6cb8ea33ae276e4c883c99683d4efbeff5f,Chamithra Thenuwara,2023-05-24T14:35:00,ASPPI-6085 CODESHARE-710 Issue with EY Info segment
+ASPPI-5992,67880b624ed2c2952582e2c7bfe3c0b3ccadb93b,Pasindu Weerasinghe,2023-05-10T17:03:11,ASPPI-5992 CODESHARE-1053 receive batch size config updated
+ASPPI-5992,968afdab7d1ef96dacfce931f6b1447e2f66d893,Pasindu Weerasinghe,2023-05-10T11:12:12,ASPPI-5992 CODESHARE-1053 handdle null category config
+ASPPI-5992,24dad9a7ce7f139c523c70a3dbca0578683c4aab,Pasindu Weerasinghe,2023-05-09T12:29:02,ASPPI-5992 CODESHARE-1053 set mode of communication
+ASPPI-5992,83a57fb93b50dee4cc6229e9da938707cf429d81,Pasindu Weerasinghe,2023-05-08T18:04:09,ASPPI-5992 CODESHARE-1053 mq message processing enhancement

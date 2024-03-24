@@ -1,0 +1,2 @@
+OPENAI_KEY = "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"
+JIRA_REGEX = r"[A-Za-z]+-[0-9]+"

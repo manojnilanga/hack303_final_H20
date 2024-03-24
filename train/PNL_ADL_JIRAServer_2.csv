@@ -1,0 +1,3057 @@
+Project,Key,Summary,Issue Type,Status,Priority,Resolution,Assignee,Reporter,Created,Last Viewed,Updated,Resolved,Affects Version/s,Fix Version/s,Component/s,Due Date,Votes,Watchers,Images,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Sub-Tasks,Linked Issues,Environment,Description,Security Level,Progress,Σ Progress,Σ Time Spent,Σ Remaining Estimate,Σ Original Estimate,Labels,AccelAero User Id,Zendesk Application Link ticket Reference,Airline,Zendesk Application Link ticket Reference.1,Browser,Browser Version,Support Category,Chargeability,Costing status,Approver,Configurations,Estimated Delivery Date,Requesting Client
+AccelAero Reservations,AARESAA-518,AARESAA-431 PNL/ADL Manual sending,SubTask - Task,Closed,Critical,Fixed,QACOMPLETED,XEMP -Nuwan Bandara,2008-07-11 04:25:00,,2008-10-10 08:56:00,2008-10-10 08:56:00,,AA-M8-001.0,,,0.0,0.0,,,,,,,,,"PNL/ADL Manual sending: - 
+Mail id Selection should include any email addresses defined against the airport.",Default,,,,,,,,,,,,,Product Enhancement,,,,,,IA - Jupiter Airlines
+AccelAero Reservations,AARESAA-2472,AARESAA-2450 PNL,SubTask - Change Request,Closed,Major,Fixed,QACOMPLETED,Thushara Fernando,2009-07-12 07:11:00,,2012-01-06 20:23:00,2009-08-19 10:28:00,,AA-G9-011.0,,,0.0,0.0,_thumb_10571.png _thumb_10590.png _thumb_10565.png ,,,,,,,,Add the selected meal code as a SSR code to the PNL/ADLS,Default,,,,,,,,,,,,,Customer Specific Customization,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1692,AARESAA-1538 PNL/ADL test findings - 25/Mar/2009,SubTask - Bug,Closed,Blocker,Fixed,QACOMPLETED,XEMP-Mohamed Nasly,2009-03-25 18:45:00,,2012-01-06 20:22:00,2009-04-05 06:47:00,,AA-G9-008.0,,,0.0,0.0,,,,,,,,,"PNL
+G9146/11JUL JED PART1
+-SHJ12Y
+1DHONI/MAHENDRASINGHMR-A2 .L/17174146
+1JAYASURIYA/SANATHMR .L/17174143 .R/RQST HK1 1A
+1JAYAWARDENA/MAHELAMR-A2
+1KUMARA/SAMANMS .L/17174149 .R/1INF ROHAN
+2MENDIS/ANILMR/HARSHAMR .L/17174145 .R/RQST HK2 10B10A
+1MIANDAD/JAVEDMR .L/17174150 .O/G9115Y12MCT
+1PERERA/SAMANMR .L/17174142
+2PERERA/NIMALIMS/SUNILMR .L/17174144
+1PONTING/RICKYMR-B2 .L/17174147 .R/RQST HK1 10F
+1VITORY/DANIELMR-B2 .R/RQST HK1 10E
+ENDPNL
+
+Name change - NOT OK (Wrong group code, non name changed passengers also included)
+
+ADL
+G9146/11JUL JED PART1
+-SHJ12Y
+ADD
+1DHONI/MAHENDRASINGHMR .L/17174146
+1JAYASURIYA/SANATHMR .L/17174146
+DEL
+1DHONI/MAHENDRASINGHMR-2 .L/17174146
+1JAYAWARDENA/MAHELAMR-2 .L/17174146
+ENDADL
+
+Add segment, after name change - NOT OK (new group code generated)
+
+ADL
+G9146/11JUL JED PART1
+-SHJ12Y
+CHG
+1DHONI/MAHENDRASINGHMR-C2 .L/17174146 .O/G9103Y12BAH
+1JAYASURIYA/SANATHMR-C2 .O/G9103Y12BAH
+ENDADL
+
+Cancelling onward semgent not reflected in ADL - NOT OK
+
+Remove pax - group code not reflected - NOT OK
+
+ADL
+G9146/11JUL JED PART1
+-SHJ11Y
+DEL
+1DHONI/MAHENDRASINGHMR .L/17174160 .O/G9103Y12BAH
+ENDADL
+
+After deleting Pax VITORY/DENIEL - NOT OK (Group code reflected)
+
+ADL
+G9146/11JUL JED PART1
+-SHJ10Y
+DEL
+1VITORY/DANIELMR .L/17174161
+ENDADL
+
+Name change of booking having single surname - OK
+
+ADL
+G9146/11JUL JED PART1
+-SHJ10Y
+ADD
+2PERERA/NIHALMR/NIMALIMS .L/17174144
+DEL
+2PERERA/SUNILMR/NIMALIMS .L/17174144
+ENDADL
+
+Remove pax of a booking having single surname - OK
+
+ADL
+G9146/11JUL JED PART1
+-SHJ09Y
+DEL
+1PERERA/NIMALIMS .L/17174162
+ENDADL
+
+Add Infant - OK?
+
+ADL
+G9146/11JUL JED PART1
+-SHJ09Y
+CHG
+1PERERA/NIHALMR .L/17174144 .R/1INF BABY
+ENDADL
+
+Create new reservation - OK
+
+ADL
+G9146/11JUL JED PART1
+-SHJ12Y
+ADD
+1CHANDRAPAUL/JUNIORCHD-J3 .L/17174168
+1GAYLE/CRISMR-J3
+1SARWAN/RAMESHMR-J3
+ENDADL
+
+Add segment (when there are no other modifications on PNR) - OK
+
+ADL
+G9146/11JUL JED PART1
+-SHJ12Y
+CHG
+1CHANDRAPAUL/JUNIORCHD-J3 .L/17174168 .O/G9115Y12MCT
+1GAYLE/CRISMR-J3 .O/G9115Y12MCT
+1SARWAN/RAMESHMR-J3 .O/G9115Y12MCT
+ENDADL
+
+Name Change - NOT OK (Wrong group code, non name changed pax also appear)
+
+ADL
+G9146/11JUL JED PART1
+-SHJ12Y
+ADD
+1CHANDRAPAUL/JUNIORCHD .L/17174168 .O/G9115Y12MCT
+1GAYLE/CRISMR .L/17174168 .O/G9115Y12MCT
+1SARWAN/RAMANARAYANMR .L/17174168 .O/G9115Y12MCT
+DEL
+1CHANDRAPAUL/JUNIORCHD-3 .L/17174168
+1GAYLE/CRISMR-3 .L/17174168
+1SARWAN/RAMESHMR-3 .L/17174168
+ENDADL
+
+Add segment, after a name change - NOT OK (new group code generated)
+
+ADL
+G9146/11JUL JED PART1
+-SHJ12Y
+CHG
+1CHANDRAPAUL/JUNIORCHD-L3 .L/17174168 .O/G9115Y12MCT
+.O2/G9116Y13SHJ
+1GAYLE/CRISMR-L3 .O/G9115Y12MCT .O2/G9116Y13SHJ
+1SARWAN/RAMANARAYANMR-L3 .O/G9115Y12MCT .O2/G9116Y13SHJ
+ENDADL
+
+
+",Default,,,,,,,,,,,,,Support,,,,,,ISA
+AccelAero Reservations,AARESAA-1686,AARESAA-1538 PENDING WORK IN PNL/ADL,SubTask - Support Task,Open,Major,Unresolved,TBA,XEMP -Byorn De Silva,2009-03-25 05:08:00,,2011-03-09 13:09:00,,,,,,0.0,0.0,,,,,,,,,"(1)
+Add infant works according to IATA.
+remove infant - after pnl sent, - doesnt appear accordingly.
+
+(2)
+When doing a name change scenario for a group reservation, 
+the deletion should have the original tour code.
+this is saved int the t_pnl_passenger table.
+
+(3) modify segment after the pnl has been sent.
+this doesnt cause a deletion in the pnl.
+
+note: since modifications are not allowed within buffer time, these issues are not extremely critical.",Default,,,,,,,,,,,,,Improvement,,,,,,ISA
+AccelAero Reservations,AARESAA-3500,ISA-#4681 PNL/ADL transmission failure notification,Support Task,Closed,Major,Fixed,Indika Athauda,XEMP - Nadeem Badri,2009-12-17 07:46:00,,2009-12-28 03:26:00,2009-12-27 10:27:00,,,,,0.0,0.0,,,,,,,,,PNL/ADL Transmission Failure for G9 102 dept BAH for 17Dec 09,Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-3519,Enable PNL/ADL sending for 5H flights,Support Task,Closed,Major,Fixed,QACOMPLETED,XEMP - Charith Paranaliyanage,2009-12-21 07:53:00,,2012-01-06 20:24:00,2009-12-27 10:16:00,,"AA-G9-014.0 , AA-3O-005.0",,,0.0,0.0,,,,,,,,,"Enabled PNL/ADL delivery for 5H flights on 08th December 2009.
+
+Introduced new app parameter AIRLINE_51 to set Carriers to send PNL/ADL",Default,,,,,,,,,,,,,Support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-817,AARESAA-781 Admin - PNL/ADL Testing in RAK Set up,SubTask - Task,Closed,Major,Fixed,XTEAM - Duminda Anuradha,XEMP-Janaki Kalatuwawa,2008-10-28 12:45:00,,2009-02-02 12:18:00,2008-11-18 10:24:00,,AA-RT-001.1,,,0.0,0.0,,,,,,,,,"Test the PNL/ADL from Scheduler and Manual screen.
+
+During training, manual PNL creation failed.",Default,,,,,,,,,,,,,Support,,,,,2008-10-31 22:18:00,RT - RAK Airways
+AccelAero Reservations,AARESAA-2800,AARESAA-2373 Multiple SSR per PAX - PNL/ADL Changes,SubTask - Change Request,Closed,Blocker,Fixed,QACOMPLETED,XTEAM - Duminda Anuradha,2009-08-27 04:33:00,,2012-01-06 20:23:00,2009-10-21 02:16:00,,"AA-G9-012.0 , AA-G9M-003.0","Agents, Callcentre, IBE",,0.0,0.0,_thumb_10704.png ,,,,,,,,"HALA services SSR's would not be included in the PNL/ADL.
+
+But after multiple SSR per pax implemented, ensure that SSR, PSPT and Eitket details correctly integrated in PNL/ADL.
+
+
+",Default,,,,,,,,,,,,,Customer Specific Customization,,,,,2009-10-04 23:30:00,G9 - Air Arabia
+AccelAero Reservations,AARESAA-444,AARESAA-431 PNL/ADL Scheduler Jobs - Configurations to email,SubTask - Task,Closed,Critical,Fixed,QACOMPLETED,XEMP -Nuwan Bandara,2008-06-24 10:57:00,,2008-09-25 10:32:00,2008-08-01 09:21:00,,,,,0.0,0.0,,,,,,,,,"PNL Scheduler Job: -
+If any email addresses defined against the airport, PNL should be sent to these mail id's in addition to the SITA addresses.
+
+ADL Scheduler Job: -
+If any email addresses defined against the airport, ADL should be sent to these mail id's in addition to the SITA addresses.
+",Default,,,,,,,,,,,,,Product Enhancement,,,,,,IA - Jupiter Airlines
+AccelAero Reservations,AARESAA-120,Scheduled Jobs - PNL/ADL - Investigate flyyeti failure,Bug,Closed,Major,Fixed,XEMP -Byorn De Silva,XEMP-Mohamed Nasly,2008-04-01 05:00:00,,2008-05-27 12:46:00,2008-04-03 07:36:00,,,,,0.0,0.0,,,,,,,,,"PNL/ADL sending process for flyyeti have been generating numerous error alert emails since yesterday for PNL/ADL sending for SHJ airport.
+
+Please investigate what causing this. Recent manual updating of flight timings might have a say here.",Default,,,,,,,,,,,,,Support,,,XEMP-Mohamed Nasly,,2008-04-01 18:00:00,OY - Yeti International
+AccelAero Reservations,AARESAA-3316,AARESAA-1156 View/Send PNL/ADL Page is not loaded,SubTask - Bug,Closed,Major,Fixed,XEMP -Mohanad Wisam,XEMP -Mohanad Wisam,2009-11-12 11:20:00,,2012-01-06 20:24:00,2009-11-17 10:09:00,,AA-G9-013.4,,,0.0,0.0,,,,,,,,,"Issue 3: when select View/Send PNL/ADL and make search it shows error page ""System error has occurred"".",Default,,,,,,,,,,,,,Error,,,,,,IA - Jupiter Airlines
+AccelAero Reservations,AARESAA-1882,PNL/ADL - Emails - Sender Address needs to be corrected,Bug,Closed,Major,Fixed,QACOMPLETED,XEMP-Janaki Kalatuwawa,2009-04-26 12:44:00,,2012-01-06 20:22:00,2009-05-09 09:34:00,,"AA-6Q-001.0 , AA-IA-003.0, AA-6J-002.0 , AA-G9M-002.0 , AA-G9-008.0",,,0.0,0.0,,,,,,,,,"Issue 1 = When PNL/ADL sent from system as emails, sender address is included as ""shjrog9.reservations@airarabia.aero""
+
+For emails, sender should be the airline email address used to send itinerary mails etc ie: reservations@airarabia.com",Default,,,,,,,,,,,,,Error,,,,,,ISA
+AccelAero Reservations,AARESAA-3239,AARESAA-2526 ISA-#187 - PNL/ADL transmission failure notification,SubTask - Support Task,Closed,Major,Fixed,QACOMPLETED,XEMP - Charith Paranaliyanage,2009-11-02 05:54:00,,2012-01-06 20:23:00,2009-11-09 19:06:00,,AA-G9-013.4,,,0.0,0.0,,,,,,,,,"PNL for G9604 airport :ALY is not generated from the system due to below error
+
+2009-11-02 04:45:03,789 ERROR [ADLBL] ############### ADL SS Error flghtId :189097 Flt Num :G9604 airport :ALY
+com.isa.thinair.commons.api.exception.ModuleException: java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+at com.isa.thinair.airreservation.core.bl.adl.ADLBL.generateADL(ADLBL.java:1171)
+at com.isa.thinair.airreservation.core.bl.adl.ADLBL.sendADL(ADLBL.java:178)
+at com.isa.thinair.airreservation.core.remoting.ejb.ReservationAuxilliaryServiceBean.sendADL(ReservationAuxilliaryServiceBean.java:512)
+at sun.reflect.GeneratedMethodAccessor377.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+at java.lang.reflect.Method.invoke(Method.java:597)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:112)
+at org.jboss.ejb3.interceptor.InvocationContextImpl.proceed(InvocationContextImpl.java:166)
+at org.jboss.ejb3.interceptor.EJB3InterceptorsInterceptor.invoke(EJB3InterceptorsInterceptor.java:63)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.entity.TransactionScopedEntityManagerInterceptor.invoke(TransactionScopedEntityManagerInterceptor.java:54)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.AllowedOperationsInterceptor.invoke(AllowedOperationsInterceptor.java:47)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.tx.TxPolicy.invokeInOurTx(TxPolicy.java:79)
+at org.jboss.aspects.tx.TxInterceptor$Required.invoke(TxInterceptor.java:191)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.tx.TxPropagationInterceptor.invoke(TxPropagationInterceptor.java:95)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.stateless.StatelessInstanceInterceptor.invoke(StatelessInstanceInterceptor.java:62)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.remoting.ReplicantsManagerInterceptor.invoke(ReplicantsManagerInterceptor.java:51)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.security.RoleBasedAuthorizationInterceptor.invoke(RoleBasedAuthorizationInterceptor.java:166)
+at org.jboss.ejb3.security.RoleBasedAuthorizationInterceptor.invoke(RoleBasedAuthorizationInterceptor.java:115)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.security.AuthenticationInterceptor.invoke(AuthenticationInterceptor.java:77)
+at org.jboss.ejb3.security.Ejb3AuthenticationInterceptor.invoke(Ejb3AuthenticationInterceptor.java:110)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+",Default,,,,,,,,,,,,,Error,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-3215,AARESAA-2526 ISA-#996 - PNL/ADL transmission failure notification,SubTask - Support Task,Closed,Major,Fixed,QACOMPLETED,XEMP - Charith Paranaliyanage,2009-10-29 04:59:00,,2012-01-06 20:23:00,2009-11-09 19:06:00,,AA-G9-013.4,,,0.0,0.0,,,,,,,,,"Error recorded in log files as below,
+
+
+2009-10-28 21:00:02,990 ERROR [ADLBL] Error Generate ADL
+java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+at java.lang.String.charAt(String.java:686)
+at com.isa.thinair.airreservation.core.bl.adl.ADLFormatter.<init>(ADLFormatter.java:113)
+at com.isa.thinair.airreservation.core.bl.adl.ADLBL.generateADL(ADLBL.java:1157)
+at com.isa.thinair.airreservation.core.bl.adl.ADLBL.sendADL(ADLBL.java:178)
+at com.isa.thinair.airreservation.core.remoting.ejb.ReservationAuxilliaryServiceBean.sendADL(ReservationAuxilliaryServiceBean.java:512)
+at sun.reflect.GeneratedMethodAccessor377.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+at java.lang.reflect.Method.invoke(Method.java:597)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:112)
+at org.jboss.ejb3.interceptor.InvocationContextImpl.proceed(InvocationContextImpl.java:166)
+at org.jboss.ejb3.interceptor.EJB3InterceptorsInterceptor.invoke(EJB3InterceptorsInterceptor.java:63)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.entity.TransactionScopedEntityManagerInterceptor.invoke(TransactionScopedEntityManagerInterceptor.java:54)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.AllowedOperationsInterceptor.invoke(AllowedOperationsInterceptor.java:47)
+2009-10-28 21:00:01,055 INFO [EmailFlightMealsList] ----- Sending meal notification for catering ended -----------
+2009-10-28 21:00:01,084 INFO [ReservationAuxilliaryDAOImpl] ADDIng pnrs 18974840
+2009-10-28 21:00:01,084 INFO [ReservationAuxilliaryDAOImpl] After adding
+2009-10-28 21:00:01,122 INFO [ADLBL] ADL Operation Success For flghtId :197468 Flt Num :G9553 airport :SHJ
+2009-10-28 21:00:01,122 INFO [ADLBL] ########## PNL OPERATION SUCCESS FOR : Flight_ID:- 197468|| Dept Airport:- SHJ Flight Num : G9553
+2009-10-28 21:00:02,402 INFO [SendMailUsingAuthentication] Start sending email in thread-safe way [toAddresses=HDQCRRB@sita.gmsmail.com,subject=PNL,ATTEMPT=1]
+2009-10-28 21:00:02,407 INFO [STDOUT] DEBUG: setDebug: JavaMail version 1.4ea
+2009-10-28 21:00:02,408 INFO [STDOUT] DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+2009-10-28 21:00:02,408 INFO [STDOUT] DEBUG SMTP: useEhlo true, useAuth true
+2009-10-28 21:00:02,408 INFO [STDOUT] DEBUG SMTP: trying to connect to host ""smtp2.mconnect.aero"", port 25, isSSL false
+2009-10-28 21:00:02,972 INFO [ReleaseBlockedSeatsFromSeatMap] #### Relese Success ######
+2009-10-28 21:00:02,972 INFO [ReleaseBlockedSeatsFromSeatMap] #### End Resolving Releasing Blocked Seats from SeatMap ###########
+2009-10-28 21:00:02,973 INFO [ReleaseBlockedSeatsFromSeatMap] ############################################################
+2009-10-28 21:00:02,990 ERROR [ADLBL] Error Generate ADL
+java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+at java.lang.String.charAt(String.java:686)
+at com.isa.thinair.airreservation.core.bl.adl.ADLFormatter.<init>(ADLFormatter.java:113)
+at com.isa.thinair.airreservation.core.bl.adl.ADLBL.generateADL(ADLBL.java:1157)
+at com.isa.thinair.airreservation.core.bl.adl.ADLBL.sendADL(ADLBL.java:178)
+at com.isa.thinair.airreservation.core.remoting.ejb.ReservationAuxilliaryServiceBean.sendADL(ReservationAuxilliaryServiceBean.java:512)
+at sun.reflect.GeneratedMethodAccessor377.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+at java.lang.reflect.Method.invoke(Method.java:597)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:112)
+at org.jboss.ejb3.interceptor.InvocationContextImpl.proceed(InvocationContextImpl.java:166)
+at org.jboss.ejb3.interceptor.EJB3InterceptorsInterceptor.invoke(EJB3InterceptorsInterceptor.java:63)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.entity.TransactionScopedEntityManagerInterceptor.invoke(TransactionScopedEntityManagerInterceptor.java:54)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.AllowedOperationsInterceptor.invoke(AllowedOperationsInterceptor.java:47)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.tx.TxPolicy.invokeInOurTx(TxPolicy.java:79)
+at org.jboss.aspects.tx.TxInterceptor$Required.invoke(TxInterceptor.java:191)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.tx.TxPropagationInterceptor.invoke(TxPropagationInterceptor.java:95)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.stateless.StatelessInstanceInterceptor.invoke(StatelessInstanceInterceptor.java:62)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.remoting.ReplicantsManagerInterceptor.invoke(ReplicantsManagerInterceptor.java:51)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.security.RoleBasedAuthorizationInterceptor.invoke(RoleBasedAuthorizationInterceptor.java:166)
+at org.jboss.ejb3.security.RoleBasedAuthorizationInterceptor.invoke(RoleBasedAuthorizationInterceptor.java:115)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.security.AuthenticationInterceptor.invoke(AuthenticationInterceptor.java:77)
+at org.jboss.ejb3.security.Ejb3AuthenticationInterceptor.invoke(Ejb3AuthenticationInterceptor.java:110)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.ENCPropagationInterceptor.invoke(ENCPropagationInterceptor.java:46)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.asynchronous.AsynchronousInterceptor.invoke(AsynchronousInterceptor.java:106)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.stateless.StatelessContainer.dynamicInvoke(StatelessContainer.java:304)
+at org.jboss.ejb3.remoting.IsLocalInterceptor.invokeLocal(IsLocalInterceptor.java:81)
+at org.jboss.ejb3.remoting.ClusteredIsLocalInterceptor.invoke(ClusteredIsLocalInterceptor.java:53)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.stateless.StatelessClusteredProxy.invoke(StatelessClusteredProxy.java:112)
+at $Proxy165.sendADL(Unknown Source)
+at com.isa.thinair.scheduledservices.core.client.ADLSender.sendADL(ADLSender.java:77)
+at com.isa.thinair.scheduledservices.core.client.ADLSender.execute(ADLSender.java:59)
+at org.quartz.core.JobRunShell.run(JobRunShell.java:203)
+at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:520)
+2009-10-28 21:00:03,050 INFO [STDOUT] 220 ESMTP Message Connect
+2009-10-28 21:00:03,050 INFO [STDOUT] DEBUG SMTP: connected to host ""smtp2.mconnect.aero"", port: 25
+2009-10-28 21:00:03,050 INFO [STDOUT] EHLO app71
+2009-10-28 21:00:03,092 ERROR [ADLBL] ############### ADL SS Error flghtId :187462 Flt Num :G9442 airport :TRV
+com.isa.thinair.commons.api.exception.ModuleException: java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+at com.isa.thinair.airreservation.core.bl.adl.ADLBL.generateADL(ADLBL.java:1171)
+at com.isa.thinair.airreservation.core.bl.adl.ADLBL.sendADL(ADLBL.java:178)
+at com.isa.thinair.airreservation.core.remoting.ejb.ReservationAuxilliaryServiceBean.sendADL(ReservationAuxilliaryServiceBean.java:512)
+at sun.reflect.GeneratedMethodAccessor377.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+at java.lang.reflect.Method.invoke(Method.java:597)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:112)
+at org.jboss.ejb3.interceptor.InvocationContextImpl.proceed(InvocationContextImpl.java:166)
+at org.jboss.ejb3.interceptor.EJB3InterceptorsInterceptor.invoke(EJB3InterceptorsInterceptor.java:63)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.entity.TransactionScopedEntityManagerInterceptor.invoke(TransactionScopedEntityManagerInterceptor.java:54)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.AllowedOperationsInterceptor.invoke(AllowedOperationsInterceptor.java:47)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.tx.TxPolicy.invokeInOurTx(TxPolicy.java:79)
+at org.jboss.aspects.tx.TxInterceptor$Required.invoke(TxInterceptor.java:191)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.tx.TxPropagationInterceptor.invoke(TxPropagationInterceptor.java:95)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.stateless.StatelessInstanceInterceptor.invoke(StatelessInstanceInterceptor.java:62)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.remoting.ReplicantsManagerInterceptor.invoke(ReplicantsManagerInterceptor.java:51)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.security.RoleBasedAuthorizationInterceptor.invoke(RoleBasedAuthorizationInterceptor.java:166)
+at org.jboss.ejb3.security.RoleBasedAuthorizationInterceptor.invoke(RoleBasedAuthorizationInterceptor.java:115)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.security.AuthenticationInterceptor.invoke(AuthenticationInterceptor.java:77)
+at org.jboss.ejb3.security.Ejb3AuthenticationInterceptor.invoke(Ejb3AuthenticationInterceptor.java:110)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.ENCPropagationInterceptor.invoke(ENCPropagationInterceptor.java:46)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.asynchronous.AsynchronousInterceptor.invoke(AsynchronousInterceptor.java:106)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.stateless.StatelessContainer.dynamicInvoke(StatelessContainer.java:304)
+at org.jboss.ejb3.remoting.IsLocalInterceptor.invokeLocal(IsLocalInterceptor.java:81)
+at org.jboss.ejb3.remoting.ClusteredIsLocalInterceptor.invoke(ClusteredIsLocalInterceptor.java:53)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.stateless.StatelessClusteredProxy.invoke(StatelessClusteredProxy.java:112)
+at $Proxy165.sendADL(Unknown Source)
+at com.isa.thinair.scheduledservices.core.client.ADLSender.sendADL(ADLSender.java:77)
+at com.isa.thinair.scheduledservices.core.client.ADLSender.execute(ADLSender.java:59)
+at org.quartz.core.JobRunShell.run(JobRunShell.java:203)
+at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:520)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+at java.lang.String.charAt(String.java:686)
+at com.isa.thinair.airreservation.core.bl.adl.ADLFormatter.<init>(ADLFormatter.java:113)
+at com.isa.thinair.airreservation.core.bl.adl.ADLBL.generateADL(ADLBL.java:1157)
+... 42 more
+2009-10-28 21:00:03,093 ERROR [ReservationAuxilliaryServiceBean] ########## ERROR sendADL FltID:187462 Dep Station :TRV
+com.isa.thinair.commons.api.exception.ModuleException: java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+at com.isa.thinair.airreservation.core.bl.adl.ADLBL.generateADL(ADLBL.java:1171)
+at com.isa.thinair.airreservation.core.bl.adl.ADLBL.sendADL(ADLBL.java:178)
+at com.isa.thinair.airreservation.core.remoting.ejb.ReservationAuxilliaryServiceBean.sendADL(ReservationAuxilliaryServiceBean.java:512)
+at sun.reflect.GeneratedMethodAccessor377.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+at java.lang.reflect.Method.invoke(Method.java:597)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:112)
+at org.jboss.ejb3.interceptor.InvocationContextImpl.proceed(InvocationContextImpl.java:166)
+at org.jboss.ejb3.interceptor.EJB3InterceptorsInterceptor.invoke(EJB3InterceptorsInterceptor.java:63)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.entity.TransactionScopedEntityManagerInterceptor.invoke(TransactionScopedEntityManagerInterceptor.java:54)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.AllowedOperationsInterceptor.invoke(AllowedOperationsInterceptor.java:47)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.tx.TxPolicy.invokeInOurTx(TxPolicy.java:79)
+at org.jboss.aspects.tx.TxInterceptor$Required.invoke(TxInterceptor.java:191)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.tx.TxPropagationInterceptor.invoke(TxPropagationInterceptor.java:95)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.stateless.StatelessInstanceInterceptor.invoke(StatelessInstanceInterceptor.java:62)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.remoting.ReplicantsManagerInterceptor.invoke(ReplicantsManagerInterceptor.java:51)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.security.RoleBasedAuthorizationInterceptor.invoke(RoleBasedAuthorizationInterceptor.java:166)
+at org.jboss.ejb3.security.RoleBasedAuthorizationInterceptor.invoke(RoleBasedAuthorizationInterceptor.java:115)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.security.AuthenticationInterceptor.invoke(AuthenticationInterceptor.java:77)
+at org.jboss.ejb3.security.Ejb3AuthenticationInterceptor.invoke(Ejb3AuthenticationInterceptor.java:110)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.ENCPropagationInterceptor.invoke(ENCPropagationInterceptor.java:46)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.asynchronous.AsynchronousInterceptor.invoke(AsynchronousInterceptor.java:106)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.stateless.StatelessContainer.dynamicInvoke(StatelessContainer.java:304)
+at org.jboss.ejb3.remoting.IsLocalInterceptor.invokeLocal(IsLocalInterceptor.java:81)
+at org.jboss.ejb3.remoting.ClusteredIsLocalInterceptor.invoke(ClusteredIsLocalInterceptor.java:53)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.stateless.StatelessClusteredProxy.invoke(StatelessClusteredProxy.java:112)
+at $Proxy165.sendADL(Unknown Source)
+at com.isa.thinair.scheduledservices.core.client.ADLSender.sendADL(ADLSender.java:77)
+at com.isa.thinair.scheduledservices.core.client.ADLSender.execute(ADLSender.java:59)
+at org.quartz.core.JobRunShell.run(JobRunShell.java:203)
+at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:520)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+at java.lang.String.charAt(String.java:686)
+at com.isa.thinair.airreservation.core.bl.adl.ADLFormatter.<init>(ADLFormatter.java:113)
+at com.isa.thinair.airreservation.core.bl.adl.ADLBL.generateADL(ADLBL.java:1157)
+... 42 more
+2009-10-28 21:00:03,096 INFO [JobRunShell] Job ADL/1.G9442/TRV/2009-10-29 08:00:00.0 threw a JobExecutionException:
+org.quartz.JobExecutionException: com.isa.thinair.commons.api.exception.ModuleException: java.lang.StringIndexOutOfBoundsException: String index out of range: 0 [See nested exception: com.isa.thinair.commons.api.exception.ModuleException: java.lang.StringIndexOutOfBoundsException: String index out of range: 0]
+at com.isa.thinair.scheduledservices.core.client.ADLSender.execute(ADLSender.java:63)
+at org.quartz.core.JobRunShell.run(JobRunShell.java:203)
+at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:520)
+* Nested Exception (Underlying Cause) ---------------
+com.isa.thinair.commons.api.exception.ModuleException: java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+at com.isa.thinair.airreservation.core.bl.adl.ADLBL.generateADL(ADLBL.java:1171)
+at com.isa.thinair.airreservation.core.bl.adl.ADLBL.sendADL(ADLBL.java:178)
+at com.isa.thinair.airreservation.core.remoting.ejb.ReservationAuxilliaryServiceBean.sendADL(ReservationAuxilliaryServiceBean.java:512)
+at sun.reflect.GeneratedMethodAccessor377.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+at java.lang.reflect.Method.invoke(Method.java:597)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:112)
+at org.jboss.ejb3.interceptor.InvocationContextImpl.proceed(InvocationContextImpl.java:166)
+at org.jboss.ejb3.interceptor.EJB3InterceptorsInterceptor.invoke(EJB3InterceptorsInterceptor.java:63)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.entity.TransactionScopedEntityManagerInterceptor.invoke(TransactionScopedEntityManagerInterceptor.java:54)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.AllowedOperationsInterceptor.invoke(AllowedOperationsInterceptor.java:47)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.tx.TxPolicy.invokeInOurTx(TxPolicy.java:79)
+at org.jboss.aspects.tx.TxInterceptor$Required.invoke(TxInterceptor.java:191)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.tx.TxPropagationInterceptor.invoke(TxPropagationInterceptor.java:95)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.stateless.StatelessInstanceInterceptor.invoke(StatelessInstanceInterceptor.java:62)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.remoting.ReplicantsManagerInterceptor.invoke(ReplicantsManagerInterceptor.java:51)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.security.RoleBasedAuthorizationInterceptor.invoke(RoleBasedAuthorizationInterceptor.java:166)
+at org.jboss.ejb3.security.RoleBasedAuthorizationInterceptor.invoke(RoleBasedAuthorizationInterceptor.java:115)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.aspects.security.AuthenticationInterceptor.invoke(AuthenticationInterceptor.java:77)
+at org.jboss.ejb3.security.Ejb3AuthenticationInterceptor.invoke(Ejb3AuthenticationInterceptor.java:110)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.ENCPropagationInterceptor.invoke(ENCPropagationInterceptor.java:46)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.asynchronous.AsynchronousInterceptor.invoke(AsynchronousInterceptor.java:106)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.stateless.StatelessContainer.dynamicInvoke(StatelessContainer.java:304)
+at org.jboss.ejb3.remoting.IsLocalInterceptor.invokeLocal(IsLocalInterceptor.java:81)
+at org.jboss.ejb3.remoting.ClusteredIsLocalInterceptor.invoke(ClusteredIsLocalInterceptor.java:53)
+at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+at org.jboss.ejb3.stateless.StatelessClusteredProxy.invoke(StatelessClusteredProxy.java:112)
+at $Proxy165.sendADL(Unknown Source)
+at com.isa.thinair.scheduledservices.core.client.ADLSender.sendADL(ADLSender.java:77)
+at com.isa.thinair.scheduledservices.core.client.ADLSender.execute(ADLSender.java:59)
+at org.quartz.core.JobRunShell.run(JobRunShell.java:203)
+at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:520)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+at java.lang.String.charAt(String.java:686)
+at com.isa.thinair.airreservation.core.bl.adl.ADLFormatter.<init>(ADLFormatter.java:113)
+at com.isa.thinair.airreservation.core.bl.adl.ADLBL.generateADL(ADLBL.java:1157)
+... 42 more
+2009-10-28 21:00:03,097 ERROR [STDERR] org.quartz.JobExecutionException: com.isa.thinair.commons.api.exception.ModuleException: java.lang.StringIndexOutOfBoundsException: String index out of range: 0 [See nested exception: com.isa.thinair.commons.api.exception.ModuleException: java.lang.StringIndexOutOfBoundsException: String index out of range: 0]
+2009-10-28 21:00:03,097 ERROR [STDERR] at com.isa.thinair.scheduledservices.core.client.ADLSender.execute(ADLSender.java:63)
+2009-10-28 21:00:03,097 ERROR [STDERR] at org.quartz.core.JobRunShell.run(JobRunShell.java:203)
+2009-10-28 21:00:03,097 ERROR [STDERR] at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:520)
+2009-10-28 21:00:03,097 ERROR [STDERR] * Nested Exception (Underlying Cause) ---------------2009-10-28 21:00:03,097 ERROR [STDERR] com.isa.thinair.commons.api.exception.ModuleException: java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+2009-10-28 21:00:03,097 ERROR [STDERR] at com.isa.thinair.airreservation.core.bl.adl.ADLBL.generateADL(ADLBL.java:1171)
+2009-10-28 21:00:03,097 ERROR [STDERR] at com.isa.thinair.airreservation.core.bl.adl.ADLBL.sendADL(ADLBL.java:178)2009-10-28 21:00:03,097 ERROR [STDERR] at com.isa.thinair.airreservation.core.remoting.ejb.ReservationAuxilliaryServiceBean.sendADL(ReservationAuxilliaryServiceBean.java:512)
+2009-10-28 21:00:03,097 ERROR [STDERR] at sun.reflect.GeneratedMethodAccessor377.invoke(Unknown Source)
+2009-10-28 21:00:03,097 ERROR [STDERR] at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+2009-10-28 21:00:03,097 ERROR [STDERR] at java.lang.reflect.Method.invoke(Method.java:597)
+2009-10-28 21:00:03,097 ERROR [STDERR] at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:112)
+2009-10-28 21:00:03,097 ERROR [STDERR] at org.jboss.ejb3.interceptor.InvocationContextImpl.proceed(InvocationContextImpl.java:166)
+2009-10-28 21:00:03,097 ERROR [STDERR] at org.jboss.ejb3.interceptor.EJB3InterceptorsInterceptor.invoke(EJB3InterceptorsInterceptor.java:63)
+2009-10-28 21:00:03,097 ERROR [STDERR] at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)2009-10-28 21:00:03,097 ERROR [STDERR] at org.jboss.ejb3.entity.TransactionScopedEntityManagerInterceptor.invoke(TransactionScopedEntityManagerInterceptor.java:54)
+2009-10-28 21:00:03,097 ERROR [STDERR] at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+2009-10-28 21:00:03,097 ERROR [STDERR] at org.jboss.ejb3.AllowedOperationsInterceptor.invoke(AllowedOperationsInterceptor.java:47)
+2009-10-28 21:00:03,097 ERROR [STDERR] at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+2009-10-28 21:00:03,097 ERROR [STDERR] at org.jboss.aspects.tx.TxPolicy.invokeInOurTx(TxPolicy.java:79)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aspects.tx.TxInterceptor$Required.invoke(TxInterceptor.java:191)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aspects.tx.TxPropagationInterceptor.invoke(TxPropagationInterceptor.java:95)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.ejb3.stateless.StatelessInstanceInterceptor.invoke(StatelessInstanceInterceptor.java:62)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aspects.remoting.ReplicantsManagerInterceptor.invoke(ReplicantsManagerInterceptor.java:51)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aspects.security.RoleBasedAuthorizationInterceptor.invoke(RoleBasedAuthorizationInterceptor.java:166)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.ejb3.security.RoleBasedAuthorizationInterceptor.invoke(RoleBasedAuthorizationInterceptor.java:115)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aspects.security.AuthenticationInterceptor.invoke(AuthenticationInterceptor.java:77)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.ejb3.security.Ejb3AuthenticationInterceptor.invoke(Ejb3AuthenticationInterceptor.java:110)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.ejb3.ENCPropagationInterceptor.invoke(ENCPropagationInterceptor.java:46)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.ejb3.asynchronous.AsynchronousInterceptor.invoke(AsynchronousInterceptor.java:106)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.ejb3.stateless.StatelessContainer.dynamicInvoke(StatelessContainer.java:304)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.ejb3.remoting.IsLocalInterceptor.invokeLocal(IsLocalInterceptor.java:81)2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.ejb3.remoting.ClusteredIsLocalInterceptor.invoke(ClusteredIsLocalInterceptor.java:53)2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+2009-10-28 21:00:03,099 ERROR [STDERR] at org.jboss.ejb3.stateless.StatelessClusteredProxy.invoke(StatelessClusteredProxy.java:112)
+2009-10-28 21:00:03,099 ERROR [STDERR] at $Proxy165.sendADL(Unknown Source)
+2009-10-28 21:00:03,099 ERROR [STDERR] at com.isa.thinair.scheduledservices.core.client.ADLSender.sendADL(ADLSender.java:77)
+2009-10-28 21:00:03,099 ERROR [STDERR] at com.isa.thinair.scheduledservices.core.client.ADLSender.execute(ADLSender.java:59)
+2009-10-28 21:00:03,099 ERROR [STDERR] at org.quartz.core.JobRunShell.run(JobRunShell.java:203)2009-10-28 21:00:03,099 ERROR [STDERR] at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:520)
+2009-10-28 21:00:03,099 ERROR [STDERR] Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+2009-10-28 21:00:03,099 ERROR [STDERR] at java.lang.String.charAt(String.java:686)
+2009-10-28 21:00:03,099 ERROR [STDERR] at com.isa.thinair.airreservation.core.bl.adl.ADLFormatter.<init>(ADLFormatter.java:113)2009-10-28 21:00:03,099 ERROR [STDERR] at com.isa.thinair.airreservation.core.bl.adl.ADLBL.generateADL(ADLBL.java:1157)
+2009-10-28 21:00:03,099 ERROR [STDERR] ... 42 more
+2009-10-28 21:00:03,369 INFO [STDOUT] 250-imail2jao.mconnect.aero domain name should be qualified app71^M
+250-DSN^M
+250-SIZE^M
+250-STARTTLS^M
+250-AUTH LOGIN PLAIN CRAM-MD5 DIGEST-MD5^M
+250-ETRN^M
+250-TURN^M250-ATRN^M
+250-NO-SOLICITING^M
+250-8BITMIME^M
+250-HELP^M
+250-PIPELINING^M
+250 EHLO
+2009-10-28 21:00:03,370 INFO [STDOUT] DEBUG SMTP: Found extension ""DSN"", arg """"
+2009-10-28 21:00:03,370 INFO [STDOUT] DEBUG SMTP: Found extension ""SIZE"", arg """"
+2009-10-28 21:00:03,370 INFO [STDOUT] DEBUG SMTP: Found extension ""STARTTLS"", arg """"
+2009-10-28 21:00:03,370 INFO [STDOUT] DEBUG SMTP: Found extension ""AUTH"", arg ""LOGIN PLAIN CRAM-MD5 DIGEST-MD5""
+2009-10-28 21:00:03,370 INFO [STDOUT] DEBUG SMTP: Found extension ""ETRN"", arg """"
+2009-10-28 21:00:03,370 INFO [STDOUT] DEBUG SMTP: Found extension ""TURN"", arg """"
+2009-10-28 21:00:03,370 INFO [STDOUT] DEBUG SMTP: Found extension ""ATRN"", arg """"
+2009-10-28 21:00:03,370 INFO [STDOUT] DEBUG SMTP: Found extension ""NO-SOLICITING"", arg """"
+2009-10-28 21:00:03,370 INFO [STDOUT] DEBUG SMTP: Found extension ""8BITMIME"", arg """"
+2009-10-28 21:00:03,370 INFO [STDOUT] DEBUG SMTP: Found extension ""HELP"", arg """"
+2009-10-28 21:00:03,370 INFO [STDOUT] DEBUG SMTP: Found extension ""PIPELINING"", arg """"
+2009-10-28 21:00:03,370 INFO [STDOUT] DEBUG SMTP: Found extension ""EHLO"", arg """"
+2009-10-28 21:00:03,370 INFO [STDOUT] DEBUG SMTP: Attempt to authenticate
+2009-10-28 21:00:03,370 INFO [STDOUT] AUTH LOGIN
+2009-10-28 21:00:03,396 INFO [PaymentResponseCodesUtil] [PaymentResponseCodesUtil::getMatchingTxnErrorCode]Txn Error Code found :
+2009-10-28 21:00:03,396 INFO [PaymentResponseCodesUtil] [PaymentResponseCodesUtil::getFilteredErrorCodeMOTO]Return Code :
+2009-10-28 21:00:03,404 INFO [PaymentBrokerMIGS3PImpl] Status moing to II:2934047
+2009-10-28 21:00:03,688 INFO [STDOUT] 334 VXNlcm5hbWU6
+2009-10-28 21:00:03,688 INFO [STDOUT] c2hqcm9nOQ==
+2009-10-28 21:00:04,009 INFO [STDOUT] 334 UGFzc3dvcmQ6
+2009-10-28 21:00:04,009 INFO [STDOUT] dGhlcmVzZXJ2YXRpb25zMQ==
+2009-10-28 21:00:04,342 INFO [PaymentResponseCodesUtil] [PaymentResponseCodesUtil::getMatchingTxnErrorCode]Txn Error Code found :
+2009-10-28 21:00:04,342 INFO [PaymentResponseCodesUtil] [PaymentResponseCodesUtil::getFilteredErrorCodeMOTO]Return Code :
+2009-10-28 21:00:04,350 INFO [PaymentBrokerMIGS3PImpl] Status moing to II:2934050
+2009-10-28 21:00:04,379 INFO [STDOUT] 235 shjrog9.reservations@airarabia.aero relaying authenticated
+2009-10-28 21:00:04,380 INFO [STDOUT] DEBUG SMTP: use8bit false
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.ejb3.stateless.StatelessInstanceInterceptor.invoke(StatelessInstanceInterceptor.java:62)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aspects.remoting.ReplicantsManagerInterceptor.invoke(ReplicantsManagerInterceptor.java:51)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aspects.security.RoleBasedAuthorizationInterceptor.invoke(RoleBasedAuthorizationInterceptor.java:166)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.ejb3.security.RoleBasedAuthorizationInterceptor.invoke(RoleBasedAuthorizationInterceptor.java:115)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aspects.security.AuthenticationInterceptor.invoke(AuthenticationInterceptor.java:77)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.ejb3.security.Ejb3AuthenticationInterceptor.invoke(Ejb3AuthenticationInterceptor.java:110)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.ejb3.ENCPropagationInterceptor.invoke(ENCPropagationInterceptor.java:46)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.ejb3.asynchronous.AsynchronousInterceptor.invoke(AsynchronousInterceptor.java:106)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.ejb3.stateless.StatelessContainer.dynamicInvoke(StatelessContainer.java:304)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.ejb3.remoting.IsLocalInterceptor.invokeLocal(IsLocalInterceptor.java:81)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.ejb3.remoting.ClusteredIsLocalInterceptor.invoke(ClusteredIsLocalInterceptor.java:53)
+2009-10-28 21:00:03,098 ERROR [STDERR] at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+2009-10-28 21:00:03,099 ERROR [STDERR] at org.jboss.ejb3.stateless.StatelessClusteredProxy.invoke(StatelessClusteredProxy.java:112)
+2009-10-28 21:00:03,099 ERROR [STDERR] at $Proxy165.sendADL(Unknown Source)
+2009-10-28 21:00:03,099 ERROR [STDERR] at com.isa.thinair.scheduledservices.core.client.ADLSender.sendADL(ADLSender.java:7",Default,,,,,,,,,,,,,Error,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1744,AARESAA-1435 PNL/ADL not capturing the reservation made,SubTask - Support Task,Closed,Major,Duplicate,XEMP - Dushani Vigneshwaran (QA),XEMP - Dushani Vigneshwaran (QA),2009-04-01 05:31:00,,2009-04-05 05:05:00,2009-04-05 05:05:00,,,,,0.0,0.0,,,,,,,,,PNL is not capturing the reservation made within that date and for flight==>> NOT OK,Default,,,,,,,,,,,,,,,,,,,
+AccelAero Reservations,AARESAA-2947,ISA-#101241 - PNL/ADL timing,Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-09-14 05:00:00,,2009-09-26 06:57:00,2009-09-15 17:23:00,,,,,0.0,0.0,,,,,,,,,"Request as below,
+
+Hi Support Team,
+Could you please check the G9 db and advise what would be earliest ADL stop time for any Air port or Flight?
+ie: On Average most airports, last ADL sent 30 minutes before departure. Need to find if any airports scheduled to receive last ADL much earlier to flight departure.
+
+Thanks & Regards
+Janaki
+",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-806,AARESAA-781 PNL/ADL booking import process,SubTask - Change Request,Closed,Critical,Fixed,QACOMPLETED,XEMP - Nilindra Fernando,2008-10-23 10:17:00,,2009-03-10 05:48:00,2008-12-03 12:21:00,,"AA-6Q-000.0, AA-IA-002.0, AA-6J-000.0, AA-RT-001.1, AA-G9-006.0, AA-G9M-000.0, AA-M8-002.0",,,0.0,0.0,,,,,,,,,"We need to introduce a new module where we could import data from various data templates. 
+
+For the first step, we need to write a utility to read a standard external PNL/ADL and import the relevant data to AccelAero system.
+
+We already have EK PNL integration which is 2 years obsolete. Your task is to move these classes to a new module called dataimporter and get it working with the latest changes.
+
+
+",Default,,,,,,,,,,,,,Product Enhancement,,,,,2008-10-31 21:19:00,RT - RAK Airways
+AccelAero Reservations,AARESAA-1797,AARESAA-1538 PNL/ADL test findings - 11/Apr/2009,SubTask - Support Task,Open,Major,Unresolved,TBA,XEMP-Mohamed Nasly,2009-04-11 13:55:00,,2010-01-31 08:17:00,,,,,,0.0,0.0,,,,,,,,,"PNL
+G9116/10AUG MCT PART1
+-SHJ58Y
+3AA/AAMR/ABMR/ACMS .L/17174493
+1AA/AAMR-A4 .L/17174494
+2AB/ABMR/ACMR-A4
+1AD/ADMR-A4
+2BA/BAMRS/BBMR .L/17174506 .R/RQST HK2 1B1A
+3CC/CAMR/CBMRS/CCCHD .L/17174517
+1DA/DAMR-B2 .L/17174532 .R/RQST HK1 1F .O/G9401Y11BOM
+1DB/DBCHD-B2 .R/RQST HK1 1E .O/G9401Y11BOM
+1EA/EAMR .L/17174536 .R/1INF EB .R/RQST HK1 3A
+1FA/FAMR-C2 .L/17174543 .R/1INF FC
+1FB/FBMR-C2
+2GA/GAMR/GBCHD .L/17174544 .R/1INF GC
+2HA/HAMR/HBMR-D3 .L/17174545 .R/2INF HE HD .R/RQST HK2 17F17A
+.O/G9145Y11JED
+1HC/HCCHD-D3 .R/RQST HK1 17B .O/G9145Y11JED
+2IA/IAMR/IBMRS .L/17174546
+1IA/IAAMR .L/17174548
+1JA/JAMR-E3 .L/17174547 .O/G9105Y10BAH
+1JA/JAAMS-F3 .L/17174549
+1JB/JBMR-E3 .O/G9105Y10BAH
+1JB/JBBMR-F3
+1JC/JCCHD-E3 .O/G9105Y10BAH
+1JC/JCCMR-F3
+1KA/KAAMRS-G2 .L/17174550 .R/RQST HK1 10F
+1KB/KBBMR-G2 .R/RQST HK1 10E
+1LA/LAAMR .L/17174551 .O/G9385Y11BEY
+2MA/MAAMR/MBBMR .L/17174552 .O/G9505Y10CMB
+1NA/NAAMR-H2 .L/17174553 .O/G9425Y10COK
+1NB/NBBCHD-H2 .O/G9425Y10COK
+3OA/OAAMR/OBBMR/OCCMR .L/17174554
+1PA/PAAMR-I3 .L/17174555 .R/1INF PDD .O/G9497Y10BLR
+1PB/PBBMR-I3 .O/G9497Y10BLR
+1PC/PCCCHD-I3 .O/G9497Y10BLR
+4QA/QAAMR/QBBMR/QCCMR/QDDMR .L/17174556 .O/G9505Y10CMB
+1RA/RAAMR-J2 .L/17174557 .R/1INF RCC
+1RB/RBBMR-J2
+1SA/SAAMR .L/17174558 .R/1INF SBB .O/G9105Y10BAH
+1TA/TAAMR-K2 .L/17174559
+1TB/TBBMRS-K2 .R/1INF TCC
+2UA/UAAMR/UBBMS .L/17174560 .R/RQST HK2 14E14F
+1VA/VAAMR-L2 .L/17174561
+1VB/VBBMR-L2 .R/1INF VCC
+1WA/WAAMR .L/17174562 .R/RQST HK1 8F
+ENDPNL",Default,,,,,,,,,,,,,Support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-573,Investigate on PNL/ADL Issue casued due to seat map,Bug,Closed,Major,Fixed,XEMP-Janaki Kalatuwawa,XEMP -Byorn De Silva,2008-08-05 05:22:00,,2009-02-03 03:41:00,2008-08-25 07:40:00,,,,,0.0,0.0,,,,,,,,,Investigate on PNL/ADL Issue casued due to seat map,Default,,,,,,,,,,,,,Support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-445,AARESAA-431 e-Ticket number to be printed in Flight Manifest and PNL/ADL,SubTask - Task,Closed,Minor,Fixed,QACOMPLETED,XEMP -Nuwan Bandara,2008-06-24 11:11:00,,2009-02-03 03:56:00,2008-08-22 09:17:00,,,,,0.0,0.0,,,,,,,,,"Option 01
+Add the e-Ticket number as a SSR under TKNA (Ticket number for automatically generated ticket numbers) (not ETKT) code when the reservation is created. In this case Flight Manifest and PNL/ADL will pick up the e-Ticket. No changes need to be done for Flight Manifest and PNL/ADL. Need to analyze the impact on reservation modification.
+
+Option 02
+Modify Flight Manifest and PNL/ADL to pick the e-Ticket number when those are generated.
+",Default,,,,,,,,,,,,,Customer Specific Customization,,,,,,IA - Jupiter Airlines
+AccelAero Reservations,AARESAA-1014,AARESAA-1009 PNL/ADL Configurations - Hard coded email configurations to be checked,SubTask - Task,Closed,Major,Fixed,XEMP-Janaki Kalatuwawa,XEMP-Janaki Kalatuwawa,2008-12-19 04:07:00,,2009-02-03 03:25:00,2009-01-22 12:31:00,,,,,0.0,0.0,,,,,,,,,"PNL/ADL sending configuration for TMA needs to be checked. In TMA case, MLE PNL/ADL sent to an hard coded email id. 
+
+With this release we provide the facility to define the email address against the Airport, please check for hard coded email addesses. 
+Also check if there are any notification mails sent to ex-ISA staff and if so remove.",Default,,,,,,,,,,,,,Customer specific support,,,,,,M8 - TMA
+AccelAero Reservations,AARESAA-668,AARESAA-667 XBE - View/Send PNL/ADL - Empty PNL not working,SubTask - Bug,Closed,Critical,Cannot Reproduce,QACOMPLETED,XEMP-Janaki Kalatuwawa,2008-09-03 03:17:00,,2012-01-06 20:21:00,2009-03-03 06:24:00,,AA-IA-002.0,,,0.0,0.0,,,,,,,,,"When trying to send a pnl for a flight without bookings, PNL does not get generated. 
+Manual screen get hanged.",Default,,,,,,,,,,,,,Support,,,,,,ISA
+AccelAero Reservations,AARESAA-1538,AccelAero PNL/ADL Issues,Bug,Closed,Major,Fixed,XEMP-Janaki Kalatuwawa,XEMP-Janaki Kalatuwawa,2009-03-10 15:41:00,,2011-02-09 07:05:00,2011-02-09 07:05:00,,,,,0.0,0.0,,,,,,"AARESAA-1353, AARESAA-1378, AARESAA-1434, AARESAA-1485, AARESAA-1492, AARESAA-1494, AARESAA-1514, AARESAA-1515, AARESAA-1519, AARESAA-1527, AARESAA-1539, AARESAA-1540, AARESAA-1541, AARESAA-1586, AARESAA-1587, AARESAA-1588, AARESAA-1642, AARESAA-1646, AARESAA-1686, AARESAA-1692, AARESAA-1726, AARESAA-1759, AARESAA-1797, AARESAA-2502, AARESAA-2704",,,"Number of issues are being reported by various G9 Airport offices. Following the summary of reported issues:
+1. Duplicate PNL/ADL's are sent from AccelAero
+
+2. Sometimes for large PNL's parts are missing and DCS upload cannot be completed
+
+3. Sometimes, PNL/ADL cannot be parsed
+During investigations, it was noted that 'OK TO BOARD' message is sent with a syntax error. ie: HK included as HK1
+
+4. Same seats assigned to multiple pax in the same flight
+
+5. DCS having incorrect PAX details with incorrect .I infrmation leading to off load of PAX etc
+This issue reported as a sub task under this jira. 
+
+
+",Default,,,,,,,,,,,,,Support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2704,AARESAA-1538 PNL/ADL Duplicating for Connection & MultiLeg flights,SubTask - Bug,Closed,Major,Fixed,QACOMPLETED,XEMP - Remya Vinod (QA),2009-08-11 05:08:00,,2012-01-06 20:23:00,2010-09-08 12:50:00,,AA-G9-019.0,,,0.0,0.0,,,,,,,,,"For Connection and Multi Leg flights, duplicate rows of pnl/adl are generated.
+
+Eg: For a multi leg flight, 6Q951 (DAM/LTK), and on searching for DAM airport, (12-08-2009), when we generate PNL, 2 duplicate rows are generated. -- NOT OK",Default,,,,,,,,,,,,,Error,,,,,,ISA
+AccelAero Reservations,AARESAA-3437,PNL/ADL delivery,Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-12-09 05:43:00,,2009-12-11 06:46:00,2009-12-11 06:46:00,,,,,0.0,0.0,,,,,,,,,Fares complaint that he is getting PNLs from the system even though his email is not set up in the AccelAero.,Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1494,AARESAA-1538 PNL Issues -,SubTask - Bug,Closed,Major,Incomplete,TBA,XEMP-Janaki Kalatuwawa,2009-03-02 06:21:00,,2010-10-21 13:50:00,2010-10-21 13:50:00,,,,,0.0,0.0,,,,,,,,,"We need to keep PNL/ADL sending process under observation as many airports had complained that AccelAero PNLs are not received properly.
+
+some of the issues to be looked into:
+1. PNL/ADL copies sent in duplicate
+2. PNL with multiple parts not fully received by DCS
+3. Some seat details are not accurate
+Seems due to seat modifications, some seats are not getting released and system sending same seat for multiple pax. 
+
+To test some of these scenario's a test email account is created as isapnl01@gmail.com and G9 production PNL/ADL messages would be directed to this mail address. 
+",Default,,,,,,,,,,,,,Support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1492,AARESAA-1538 PNL ISSUE,SubTask - Support Task,Closed,Major,Won't Fix,XEMP-Janaki Kalatuwawa,XEMP -Byorn De Silva,2009-03-02 05:03:00,,2009-07-22 17:30:00,2009-07-18 08:07:00,,,,,0.0,0.0,,,,,,,,,"Byon,
+
+For some reason, only part of the pnl for G9127/2MAR was downloaded in the SAS DCS system, the book load for the flight is 152, but only part 1 & 3 which is approx 70 has been downloaded in the system and not part 2. 
+
+& no PNL received at CMB for G9506/2MAR CMB/SHJ
+
+
+
+Csdm/Pax control
+
+As suggested we'd continue check-in with the downloaded pnl, & dedicated counters and will forward 3copies of the pnl, 2 for the counters and one for transferdesk.
+
+
+
+Best regards
+
+Elvis
+
+Duty Officer",Default,,,,,,,,,,,,,Support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2664,PNL/ADL generation/transmission failures,Bug,Closed,Critical,Fixed,XEMP-Janaki Kalatuwawa,XEMP-Mohamed Nasly,2009-08-07 11:53:00,,2010-05-27 05:29:00,2010-05-24 11:34:00,,,,,0.0,0.0,,,,,,"AARESAA-2528, AARESAA-2665",,,"All the PNL/ADL generation/transmission failures related issues and bugs are reported under this task.
+
+There are numerous PNL/ADL generation/transmission failure alerts being generated in production and need to solve related issues with highest priority. There may be some alerts which are actually not necessary which we could eliminate.",Default,,,,,,,,,,,,,Support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-3110,Delete email from pnl/adl,Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-10-12 05:06:00,,2009-10-14 05:23:00,2009-10-14 05:23:00,,,,,0.0,0.0,,,,,,,,,"User email as below,
+
+Support,
+
+Kindly delete email fkilpady@airarabia.com<mailto:fkilpady@airarabia.com> from the pnl/adl list.adv wen done.
+
+Brgds
+F",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2262,Maroc - Send test PNL/ADL to test new SITA mailbox,Support Task,Closed,Major,Fixed,XEMP-Janaki Kalatuwawa,XTEAM - Duminda Anuradha,2009-06-23 12:41:00,,2009-07-22 17:01:00,2009-07-16 07:00:00,,,,,0.0,0.0,,,,,,,,,"Create flight in test environment and send PNL/ADL from new Maroc SITA mailbox.
+
+SITA mailbox details are as follows
+
+Username : cmnro3o.reservations@airarabia.aero
+Email Address : cmnro3o.reservations@airarabia.aero",Default,,,,,,,,,,,,,Support,,,,,,G9 - Air Arabia Morroc
+AccelAero Reservations,AARESAA-2125,ADL - ADL before last one is not scheduled,Bug,Closed,Critical,Fixed,XEMP - Dilantha Ariyapala (QA),XEMP-Mohamed Nasly,2009-05-29 07:27:00,,2012-01-06 20:22:00,2009-05-30 02:20:00,,"AA-G9-009.0, AA-G9M-003.0",,,0.0,0.0,,,,,,,,,"When PNL gap is set 12 Hrs, ADL gap is set 4 Hrs and last ADL gap is 30 mins from departure, system schedules only following ADL
+
+1. 8 Hrs before departure
+2. 30 mins before departure
+
+The ADL that should have been scheduled 4 Hrs before this departure is not scheduled in this scenario.
+
+In general, if last ADL gap is not same as last repeating interval, then the ADL before last one is not scheduled.",,,,,,,,,,,,,,Error,,,,,,G9 - Air Arabia Morroc
+AccelAero Reservations,AARESAA-2483,PNL/ADL - Multi Leg Flight PAX Group Error,Bug,Closed,Major,Fixed,XEMP-Mohamed Nasly,XEMP-Janaki Kalatuwawa,2009-07-13 06:08:00,,2012-01-06 20:23:00,2009-08-07 18:45:00,,"AA-G9M-002.6, AA-G9-011.0",,,0.0,0.0,,,,,,,,,"From: Murray Galvin [Murray.Galvin@swissportuk.com]
+Sent: Sunday, July 12, 2009 18:32
+To: Philippa Brown; Taoufiq Tounsi (MAC)
+Cc: Rick Boden
+Subject: RE: MAC492/24JUN STNCMN
+
+Hi Taoufiq,
+
+We have been in touch with our system suppliers who have analysed this flight in detail. Essentially the problem is caused by an incorrect use of a group code within the PNL. There are multiple groups all sharing the code C2 which is not correct.
+
+I believe we are continuing to have issues with this and it all centres around the PNL composition prior to transmission. I wonder if you can investigate with your IT suppliers?
+
+I have attached the full response for your reference however if you require any further information please do not hesitate to contact me.
+
+===================================
+From: Damarel Helpdesk [mailto:helpdesk@damarel.com] 
+Sent: Friday, June 26, 2009 7:04 PM
+To: Murray Galvin; Damarel Helpdesk
+Cc: Rick Boden
+Subject: L-DCS STN - MAC492/24Jun PNL
+
+Hi Murray,
+
+Re: Incident report # 12350 - L-DCS STN - MAC492/24Jun PNL
+
+We have investigated the reported issue and found the cause to be a formatting issue with the PNL.
+
+Extract from PNL PART 01:
+
+1DAVIES/FATIMAMRS-C2 .L/10082026
+.R/PSPT HK1 ////-1DAVIES/FATIMAMRS
+1DAVIESBRAZIL/NOORALICECHD-C2
+.R/PSPT HK1 ////-1DAVIESBRAZIL/NOORALICECHD
+
+Extract from PNL PART 02:
+
+-TNG53Y
+1AARAB/HANANEMRS-C2 .L/10068616
+
+
+Extract from PNL PART 03:
+
+1ELALAMI/MAYAMISS-C2
+
+So there are four passenger with the same group code. Also the group code C2 indicates there are only two passengers in the group!
+
+The extra two passengers (AARAB/HANANEMRS & ELALAMI/MAYAMISS) are both travelling to TNG. Because the two passengers DAVIES are in the same group as the two passengers travelling to TNG, their destination is also set to TNG.
+",Default,,,,,,,,,,,,,Error,,,,,,G9 - Air Arabia Morroc
+AccelAero Reservations,AARESAA-3000,AARESAA-2526 ISA-#101558 PNL/ADL transmission failure notification,SubTask - Support Task,Closed,Major,Cannot Reproduce,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-09-23 10:06:00,,2009-11-27 08:15:00,2009-10-12 10:51:00,,,,,0.0,0.0,,,,,,,,,"
+Sending PNL to DMM, G9162 was failed.",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1995,PNL/ADL - Emails Mail server selection issue,Product Development,Closed,Major,Won't Fix,XTEAM - Duminda Anuradha,XTEAM - Duminda Anuradha,2009-05-09 09:32:00,,2009-10-11 07:32:00,2009-07-05 16:45:00,,,,,0.0,0.0,,,,,,,,,"When resending PNL\ ADL always it selects the default mail servers set (two different mail servers get selected depending on sending to SITA or a email)
+But the option of user selecting a prefferd mail server is not used. Its just used for display.
+
+Needs give back this facility in resending PNL \ ADL",Default,,,,,,,,,,,,,Implementation,Not chargeable,,,,,ISA
+AccelAero Reservations,AARESAA-386,Seat Map Project -PNL/ADL Changes,Change Request,Closed,Critical,Fixed,XEMP - Lasantha Pambagoda,XEMP-Janaki Kalatuwawa,2008-06-11 14:52:00,,2009-04-06 07:43:00,2009-04-06 07:43:00,,,,,0.0,0.0,,,,,,"AARESAA-423, AARESAA-424, AARESAA-512",,,"1. Distribute remaining seats among seat not selected pax
+2. PNL/ADL generation
+
+
+Total effort for 
+- Design & Development - 13 days
+- Testing - 5 days (Developer Testing or System Testing?)
+
+
+G9 Production Release date - 30Jun08
+Planned QA Testing Release date - 24Jun08",Default,,,,,,,,,,,,,Customer Specific Customization,Chargeable,,,,2008-07-01 01:57:00,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2878,AARESAA-2526 ISA-#101104 - PNL/ADL transmission failure notification,SubTask - Support Task,Closed,Major,Cannot Reproduce,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-09-06 06:26:00,,2009-09-06 10:39:00,2009-09-06 10:39:00,,,,,0.0,0.0,,,,,,,,,"PNL sending was failed. Error as follows
+
+Airport : CMB
+Flight number : G9506
+Departure Local Date : 2009-09-06
+
+TAIR-00069: Row was updated or deleted by another transaction[user]
+",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-107,Scheduled Jobs - PNL/ADL - Investigate occasional failures,Bug,Closed,Major,Fixed,XEMP -Byorn De Silva,XEMP -Byorn De Silva,2008-03-30 05:33:00,,2008-05-27 12:51:00,2008-04-03 07:43:00,,,Backend,,0.0,0.0,,,,,,,,,"Investigate occasional PNL/ADL scheduled job failures.
+
+One such error mail received is copied below;
+
+INSERTING TO HISTORY FAILED FOR PNL
+
+Airport : SHJ
+Flight number : $pnlADLEmailDTO.getFlightNumber()
+Departure Local Date : WAS NULL
+
+[Flight ID: :142565 Dep Airport: SHJ FILE CONTENT null TAIR-00069: Row was updated or deleted by another transaction[user] TAIR-36570: Operation Failed due to unexpected situation. Please Report this. 
+
+
+Root Cause
+
+Can't find resource for bundle java.util.PropertyResourceBundle, key 8004 
+
+
+Stack Trace Elements
+
+com.isa.thinair.airreservation.core.remoting.ejb.ReservationAuxilliaryServiceBean.insertToHistory(ReservationAuxilliaryServiceBean.java:478) sun.reflect.GeneratedMethodAccessor684.invoke(Unknown Source) sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) java.lang.reflect.Method.invoke(Method.java:597) org.jboss.invocation.Invocation.performCall(Invocation.java:345) org.jboss.ejb.StatelessSessionContainer$ContainerInterceptor.invoke(StatelessSessionContainer.java:214) org.jboss.resource.connectionmanager.CachedConnectionInterceptor.invoke(CachedConnectionInterceptor.java:185) org.jboss.ejb.plugins.StatelessSessionInstanceInterceptor.invoke(StatelessSessionInstanceInterceptor.java:113) org.jboss.ejb.plugins.CallValidationInterceptor.invoke(CallValidationInterceptor.java:48) org.jboss.ejb.plugins.AbstractTxInterceptor.invokeNext(AbstractTxInterceptor.java:105) org.jboss.ejb.plugins.TxInterceptorCMT.runWithTransactions(TxInterceptorCMT.java:362) org.jboss.ejb.plugins.TxInterceptorCMT.invoke(TxInterceptorCMT.java:146) org.jboss.ejb.plugins.SecurityInterceptor.invoke(SecurityInterceptor.java:122) org.jboss.ejb.plugins.LogInterceptor.invoke(LogInterceptor.java:192) org.jboss.ejb.plugins.CleanShutdownInterceptor.invoke(CleanShutdownInterceptor.java:264) org.jboss.ejb.plugins.ProxyFactoryFinderInterceptor.invoke(ProxyFactoryFinderInterceptor.java:122) org.jboss.ejb.SessionContainer.internalInvoke(SessionContainer.java:624) org.jboss.ejb.Container.invoke(Container.java:870) org.jboss.ejb.plugins.local.BaseLocalProxyFactory.invoke(BaseLocalProxyFactory.java:413) org.jboss.ejb.plugins.local.StatelessSessionProxy.invoke(StatelessSessionProxy.java:82) $Proxy178.insertToHistory(Unknown Source) com.isa.thinair.airreservation.core.service.bd.ReservationAuxilliaryLocalBDImpl.insertToHistory(ReservationAuxilliaryLocalBDImpl.java:279) com.isa.thinair.airreservation.core.bl.pnl.PNLBL.sendPNL(PNLBL.java:218) com.isa.thinair.airreservation.core.bl.adl.ADLBL.sendADL(ADLBL.java:227) com.isa.thinair.airreservation.core.remoting.ejb.ReservationAuxilliaryServiceBean.sendADL(ReservationAuxilliaryServiceBean.java:518) sun.reflect.GeneratedMethodAccessor700.invoke(Unknown Source) sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) java.lang.reflect.Method.invoke(Method.java:597) org.jboss.invocation.Invocation.performCall(Invocation.java:345) org.jboss.ejb.StatelessSessionContainer$ContainerInterceptor.invoke(StatelessSessionContainer.java:214) org.jboss.resource.connectionmanager.CachedConnectionInterceptor.invoke(CachedConnectionInterceptor.java:185) org.jboss.ejb.plugins.StatelessSessionInstanceInterceptor.invoke(StatelessSessionInstanceInterceptor.java:113) org.jboss.ejb.plugins.CallValidationInterceptor.invoke(CallValidationInterceptor.java:48) org.jboss.ejb.plugins.AbstractTxInterceptor.invokeNext(AbstractTxInterceptor.java:105) org.jboss.ejb.plugins.TxInterceptorCMT.runWithTransactions(TxInterceptorCMT.java:313) org.jboss.ejb.plugins.TxInterceptorCMT.invoke(TxInterceptorCMT.java:146) org.jboss.ejb.plugins.SecurityInterceptor.invoke(SecurityInterceptor.java:122) org.jboss.ejb.plugins.LogInterceptor.invoke(LogInterceptor.java:192) org.jboss.ejb.plugins.CleanShutdownInterceptor.invoke(CleanShutdownInterceptor.java:264) org.jboss.ejb.plugins.ProxyFactoryFinderInterceptor.invoke(ProxyFactoryFinderInterceptor.java:122) org.jboss.ejb.SessionContainer.internalInvoke(SessionContainer.java:624) org.jboss.ejb.Container.invoke(Container.java:870) sun.reflect.GeneratedMethodAccessor165.invoke(Unknown Source) sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) java.lang.reflect.Method.invoke(Method.java:597) org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:144) org.jboss.mx.server.Invocation.dispatch(Invocation.java:80) org.jboss.mx.server.Invocation.invoke(Invocation.java:72) org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:249) org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:642) org.jboss.invocation.local.LocalInvoker$MBeanServerAction.invoke(LocalInvoker.java:155) org.jboss.invocation.local.LocalInvoker.invoke(LocalInvoker.java:104) org.jboss.invocation.InvokerInterceptor.invokeLocal(InvokerInterceptor.java:115) org.jboss.invocation.InvokerInterceptor.invoke(InvokerInterceptor.java:101) org.jboss.proxy.TransactionInterceptor.invoke(TransactionInterceptor.java:46) org.jboss.proxy.SecurityInterceptor.invoke(SecurityInterceptor.java:55) org.jboss.proxy.ejb.StatelessSessionInterceptor.invoke(StatelessSessionInterceptor.java:97) org.jboss.proxy.ClientContainer.invoke(ClientContainer.java:91) $Proxy180.sendADL(Unknown Source) com.isa.thinair.airreservation.core.service.bd.ReservationAuxilliaryBDImpl.sendADL(ReservationAuxilliaryBDImpl.java:118) com.isa.thinair.scheduledservices.core.client.ADLSender.sendADL(ADLSender.java:92) com.isa.thinair.scheduledservices.core.client.ADLSender.execute(ADLSender.java:69) org.quartz.core.JobRunShell.run(JobRunShell.java:191) org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:516) 
+
+
+
+Sincerely, 
+Air Arabia",Default,,,,,,,,,,,,,Support,,,XEMP-Mohamed Nasly,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2213,AARESAA-2212 PNL/ADL Failures,SubTask - Support Task,Closed,Major,Fixed,Thushara Fernando,XEMP-Janaki Kalatuwawa,2009-06-16 11:09:00,,2009-06-24 19:26:00,2009-06-16 13:53:00,,,,,0.0,0.0,,,,,,,,,PNL sending is failing,Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1874,PNL Automatic Generation,Support Task,Closed,Minor,Fixed,Indika Athauda,Chamwing Admin User (Anas),2009-04-25 16:50:00,,2009-05-01 06:56:00,2009-05-01 06:56:00,,,,,0.0,0.0,,,,,,,,,Please verify PNL automatic generation between 14 and 24 April.,Default,,,,,,,,,,,,,Customer specific support,,,,,2009-04-28 01:27:00,6Q - Cham Wings
+AccelAero Reservations,AARESAA-863,AARESAA-781 Send passenger eticket with pnl,SubTask - Bug,Closed,Major,Fixed,QACOMPLETED,XTEAM - Duminda Anuradha,2008-11-04 06:14:00,,2009-03-10 05:48:00,2008-11-07 15:11:00,,"AA-6Q-000.0, AA-IA-002.0, AA-6J-000.0, AA-RT-001.1, AA-G9-006.0, AA-G9M-000.0, AA-M8-002.0",,,0.0,0.0,,,,,,,,,"Send passenger eticket with PNL.
+Send as ETKT or TKNA
+
+
+please approve if this is required",Default,,,,,,,,,,,,,New Product Feature,,,,,,ISA
+AccelAero Reservations,AARESAA-1152,Support - A PNL not received by DCS,Support Task,Closed,Major,Incomplete,XTEAM - Duminda Anuradha,XEMP -Byorn De Silva,2009-01-13 09:24:00,,2009-09-03 04:42:00,2009-09-03 04:42:00,,,,,0.0,0.0,,,,,,,,,"Part 1 PNL's ending like
+
+1TEST/RMR
+END PART1
+ENDPNL
+
+
+Pnl's were manually editted and resent.
+
+Need to find the bug in the code.
+
+
+",Default,,,,,,,,,,,,,Support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2526,"PNL \ ADL Faliures, Log",Support Task,Closed,Major,Fixed,XEMP-Janaki Kalatuwawa,XTEAM - Duminda Anuradha,2009-07-18 08:01:00,,2009-12-14 05:22:00,2009-12-14 05:22:00,,,,,0.0,0.0,,,,,,"AARESAA-2527, AARESAA-2529, AARESAA-2530, AARESAA-2534, AARESAA-2565, AARESAA-2878, AARESAA-2910, AARESAA-3000, AARESAA-3215, AARESAA-3239, AARESAA-3286",,,This will list the PNL Faliures. and action taken.,Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-512,AARESAA-386 Scheduler jobs -ADL generation - Include selected seat in ADL,SubTask - Change Request,Closed,Major,Fixed,XEMP -Byorn De Silva,XEMP-Janaki Kalatuwawa,2008-07-08 10:27:00,,2009-02-03 03:45:00,2008-09-17 16:53:00,,,,,0.0,0.0,,,,,,,,,Include selected seat in ADL,Default,,,,,,,,,,,,,Customer Specific Customization,,,,,2008-06-24 13:36:00,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2353,Cham Wings - Enable PNL/ADL sending through SITA,Support Task,Closed,Major,Fixed,XTEAM - Duminda Anuradha,XEMP-Janaki Kalatuwawa,2009-07-02 05:58:00,,2009-07-15 12:06:00,2009-07-05 10:27:00,,AA-6Q-001.0,,,0.0,0.0,,,,,,,,,"Enable SITA message sending for PNL/ADL as per the configurations provided by Cham Wings. 
+
+Please update the configuration details to jira for future reference.",Default,,,,,,,,,,,,,Customer specific support,,,,,2009-07-02 15:44:00,6Q - Cham Wings
+AccelAero Reservations,AARESAA-1434,AARESAA-1538 PNL Part Issue - Need to check,SubTask - Support Task,Closed,Major,Won't Fix,QACOMPLETED,XEMP -Byorn De Silva,2009-02-23 06:44:00,,2012-01-06 20:22:00,2009-12-06 06:33:00,,"AA-G9-014.0 , AA-3O-005.0",,,0.0,0.0,,,,,,,,,"Dear Mr. Byond,
+
+Passenger booked on the above mentioned flight under PNR 16925982 purchased seat number 1A along with his ticket. However, we' were not able to give the same seat to the pax since he didn't have a name on SDCS system although he is a confirmed pax therefore the seat was not protected in the system but was appearing as available hence was utilized by another pax. Same has created a seating conflict onboard and resulted in delaying the flight for 10m.
+
+The PNL of the above mentioned flight was not downloaded completely onto the SDCS system i.e. out of 160 pax booked we had around 84 names reflecting in the system only meaning we had to accept the rest of the pax (around 74) as no-rec!!
+
+Appreciate if you can investigate the matter and find out what went wrong.
+
+Best regards
+Said
+
+Duty Officer
+Airarabia Airport Operations.
+Airarabia.com
+Be Smart. Pay Less. Fly More",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1646,AARESAA-1538 ADD Segment / Modify Segment to appear in the ADL as CHG,SubTask - Task,Closed,Major,Fixed,QACOMPLETED,XEMP -Byorn De Silva,2009-03-22 10:27:00,,2012-01-06 20:22:00,2009-11-07 15:38:00,,"AA-IA-002.0, AA-G9-007.3, AA-G9-013.4",,,0.0,0.0,,,,,,,,,ADD Segment / Modify Segment to appear in the ADL as CHG,Default,,,,,,,,,,,,,Support,,,,,,ISA
+AccelAero Reservations,AARESAA-1586,"AARESAA-1538 ADL Issues - Split, Remove and Modifications Issues",SubTask - Bug,Closed,Blocker,Fixed,QACOMPLETED,XEMP-Janaki Kalatuwawa,2009-03-15 05:41:00,,2012-01-06 20:22:00,2009-03-23 13:50:00,,AA-G9-007.0,,,0.0,0.0,,,,,,,,,"After PNL is sent, following modifications done to PNR's are incorrectly sent in the ADL. 
+1. Split pax from a booking and modify a segment of the split pax
+1.1 All other PAX in the group booking are included in the ADL as ADD with old PNR and new Group codes
+These PAX are included in the DEL also. 
+==> Is this the correct IATA way to handle a split? 
+1.2 Split PAX also added as ADD 
+==> Need to verify with DCS/IATA standard if this is ok.
+
+2. DEL section of the ADL is not showing some parameters correctly. 
+==> NOT OK
+ie: 
+DEL
+2A/MARIOMR/KAVIDUCHD-K12 .L/16954202
+1DES/BYORNMR-K12 .L/16954202 .R/EXST$name
+.getSsrText() HK1 DESBYORNMR
+1F/THUSHARAMR-K12 .L/16954202 .R/MAAS$name
+.getSsrText() HK1 FTHUSHARAMR
+1G/MILINDAMR-K12 .L/16954202
+2H/ALIMR/AHMEDMR-K12 .L/16954202
+1M/SYEDMR-K12 .L/16954202
+1NASLY/MMR-K12 .L/16954202 .R/OKOB$name
+.getSsrText() HK1 NASLYMMR
+1P/PRASANNACHD-K12 .L/16954202 .R/UMNR$name
+.getSsrText() HK1 PPRASANNAMSTR
+2S/AHMEDMR/ROSHANCHD-K12 .L/16954202 .R/LANG$name
+.getSsrText() HK1 SROSHANMSTR
+",Default,,,,,,,,,,,,,Support,,,,,,ISA
+AccelAero Reservations,AARESAA-1588,AARESAA-1538 PNL - At deletion the original group code should appear!,SubTask - Support Task,Closed,Major,Fixed,QACOMPLETED,XEMP -Byorn De Silva,2009-03-15 05:52:00,,2012-01-06 20:22:00,2009-03-22 06:09:00,,"AA-IA-002.0, AA-G9-007.3",,,0.0,0.0,,,,,,,,,PNL - At deletion the original group code should appear!,Default,,,,,,,,,,,,,Support,,,,,,ISA
+AccelAero Reservations,AARESAA-1587,AARESAA-1538 PNL - ENDPNL not properly happening for some Flights,SubTask - Bug,Closed,Major,Fixed,QACOMPLETED,XEMP-Janaki Kalatuwawa,2009-03-15 05:44:00,,2012-01-06 20:22:00,2009-03-23 13:48:00,,"AA-IA-002.0, AA-G9-007.3",,,0.0,0.0,,,,,,,,,"Sometimes, when the PNL number of rows exactly match with maximum number allowed, after ENDPNL additional text included for next part.
+ie:
+ENDPNL 
+ENDPART1 
+
+
+PNL 
+G9115/05AUG SHJ PART2 
+-MCT85Y 
+
+",Default,,,,,,,,,,,,,Support,,,,,,ISA
+AccelAero Reservations,AARESAA-1539,AARESAA-1538 SHJ Airport - PNL showing incorrect .I PAX,SubTask - Bug,Closed,Major,Fixed,QACOMPLETED,XEMP-Janaki Kalatuwawa,2009-03-10 15:59:00,,2012-01-06 20:22:00,2009-03-15 04:11:00,,"AA-IA-002.0, AA-G9-007.3",,,0.0,0.0,,,,,,,,,"Issue reported from Sharjah Operations on 10 March 2009 09:08
+
+On 09Mar09, BAH flight (G9105) was delayed 10m due to offloading 10 joining pax from SHJ as they were showing as inbound from TRV in the SDCS system which was coming late after the departure time of BAH flight, Details and PNR's are listed below.
+
+The above mentioned flight incurred a 04 min delay due reservation
+
+error. There were a group of 05 psgrs;
+1. Abdulla ahmed/Rashed seq 105 pnr 16723408
+2. Ahmedali/Saeed seq 106 pnr 16723408
+3. Jumamohammed seq 107 pnr 16723408
+4. Alhayaki seq 095 pnr 16723408
+5. Tarroza seq 96 pnr 16723408
+
+All of the above psgrs are under the same pnr and local joining but had
+inbound showing from G9442/09mar09 ex-TRV. Today due to fog disruptions
+we had several psgrs misconnected due late inbound of aircrafts. The TRV
+flight was only due in at 1810 Lt and the departure of the G9105/09mar09
+SHJ-BAH is 1715 lt. As advised the transfer desk had offloaded all the
+transfer psgrs from TRV due misconnection. Unfortunately, these 05 psgrs
+were also offloaded due since showing on the inbound from TRV list. 
+
+Later at the gate the psgrs had to be re-instated In the system to be
+accepted which caused a delay o 04 min. Appreciate if you could get in
+touch with your IT departments to resolve this reservation error.
+
+=========================================================================
+ISA Observations (Indika/Janaki)
+- When the PNL/ADL checked, there were 1 PNL and 12 ADL's sent for G9105 flight. 
+As per the PNL, Above mentioned PNR had 4 PAX connecting from TRV. So the PNL is correctly showing the connection details for the PNR. 
+And PAX in this PNR were grouped as B4
+
+Later in 2 ADL's 2 sets of other PAX were sent with same character group id.
+ie; 3 PAX from 1 PNR sent as Group B3
+2 PX from 1 PNR as Group B2
+Both of above PNRs are SHJ/BAH
+
+As PAX group code should be unique, we seems to have made a mistake by assigning B2, B3 & B4 within the same flight. 
+DCS has replaced the B4 group PNR PAX details with B2 & B3 group pax details. 
+
+
+
+
+
+
+
+",Default,,,,,,,,,,,,,Support,,,,,,ISA
+AccelAero Reservations,AARESAA-2910,AARESAA-2526 ISA-#101152 - PNL/ADL transmission failure notification,SubTask - Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-09-09 09:22:00,,2009-09-10 02:00:00,2009-09-10 02:00:00,,,,,0.0,0.0,,,,,,,,,"PNL sending failed after the new production release. 
+
+Send the PNL manually to the recipient.",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-3102,ISA-#40 - Double PNL Sent to AMM Station,Support Task,Closed,Major,Cannot Reproduce,TBA,XEMP - Charith Paranaliyanage,2009-10-11 08:17:00,,2011-01-30 14:07:00,2011-01-30 14:07:00,,,,,0.0,0.0,,,,,,,,,"User email as below,
+
+From: Amm [mailto:Amm@abyoutstations.ae]
+Sent: Friday, October 09, 2009 9:11 PM
+To: 'Hub Coordinator'; Ground Ops (ABY)
+Cc: Sharjah Operations (ABY); Saad Jaber (ABY); Moosa Abdulla (ABY); M.ELSADEK@TRUST-TOURS.COM
+Subject: Double PNL Sent to AMM Station
+
+Dear on Duty,
+
+Kindly note we received the PNL for the flight G9338 dated 09th OCT 09, on our system today twice, which
+Caused in convenience for the check-in staff and resulted in approximately all the names reflected as No-Show.
+
+Thank you.
+Sincere Regards
+Mohammad AbuNeel",Default,,,,,,,,,,,,,Error,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-3286,AARESAA-2526 ISA-#656 - PNL/ADL transmission failure notification,SubTask - Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-11-09 19:03:00,,2009-12-08 15:31:00,2009-11-29 09:50:00,,,,,0.0,0.0,,,,,,,,,"PNL generation for the below flight is failed due to error in content separation.
+
+Airport : CRL
+Flight number : 3O114
+Departure Local Date : 2009-11-09
+",Default,,,,,,,,,,,,,Error,,,,,,G9 - Air Arabia Morroc
+AccelAero Reservations,AARESAA-2665,AARESAA-2664 PNL manual transmission failure notification mail,SubTask - Bug,Closed,Major,Fixed,QACOMPLETED,XEMP-Mohamed Nasly,2009-08-07 11:57:00,,2012-01-06 20:23:00,2010-01-11 10:57:00,,"AA-G9-014.0 , AA-3O-005.0",,,0.0,0.0,,,,,,,,,"If following mail sent when manual PNL is tried with wrong date/airport/flight number then it is not necessary to send an alert mail. Rather showing appropriate message in the screen is sufficient.
+
+
+PNL ####Manually SENDING FAILURE ###
+
+Airport : KWI
+Flight number : G9125
+Departure Local Date : Fri Aug 07 00:00:00 GMT+00:00 2009
+
+TAIR-36546: Selected Flight Information is Incorrect.
+
+Root Cause
+
+com.isa.thinair.airreservation.core.bl.pnl.PNLBL.sendPNLAuxiliary(PNLBL.java:369) com.isa.thinair.airreservation.core.remoting.ejb.ReservationAuxilliaryServiceBean.sendPNLAuxiliary(ReservationAuxilliaryServiceBean.java:319) sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) java.lang.reflect.Method.invoke(Method.java:597) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:112) org.jboss.ejb3.interceptor.InvocationContextImpl.proceed(InvocationContextImpl.java:166) org.jboss.ejb3.interceptor.EJB3InterceptorsInterceptor.invoke(EJB3InterceptorsInterceptor.java:63) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.ejb3.entity.TransactionScopedEntityManagerInterceptor.invoke(TransactionScopedEntityManagerInterceptor.java:54) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.ejb3.AllowedOperationsInterceptor.invoke(AllowedOperationsInterceptor.java:47) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.aspects.tx.TxPolicy.invokeInOurTx(TxPolicy.java:79) org.jboss.aspects.tx.TxInterceptor$Required.invoke(TxInterceptor.java:191) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.aspects.tx.TxPropagationInterceptor.invoke(TxPropagationInterceptor.java:95) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.ejb3.stateless.StatelessInstanceInterceptor.invoke(StatelessInstanceInterceptor.java:62) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.aspects.remoting.ReplicantsManagerInterceptor.invoke(ReplicantsManagerInterceptor.java:51) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.aspects.security.RoleBasedAuthorizationInterceptor.invoke(RoleBasedAuthorizationInterceptor.java:166) org.jboss.ejb3.security.RoleBasedAuthorizationInterceptor.invoke(RoleBasedAuthorizationInterceptor.java:115) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.aspects.security.AuthenticationInterceptor.invoke(AuthenticationInterceptor.java:77) org.jboss.ejb3.security.Ejb3AuthenticationInterceptor.invoke(Ejb3AuthenticationInterceptor.java:110) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.ejb3.ENCPropagationInterceptor.invoke(ENCPropagationInterceptor.java:46) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.ejb3.asynchronous.AsynchronousInterceptor.invoke(AsynchronousInterceptor.java:106) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.ejb3.stateless.StatelessContainer.dynamicInvoke(StatelessContainer.java:304) org.jboss.aop.Dispatcher.invoke(Dispatcher.java:106) org.jboss.aspects.remoting.AOPRemotingInvocationHandler.invoke(AOPRemotingInvocationHandler.java:82) org.jboss.remoting.ServerInvoker.invoke(ServerInvoker.java:809) org.jboss.remoting.transport.socket.ServerThread.processInvocation(ServerThread.java:608) org.jboss.remoting.transport.socket.ServerThread.dorun(ServerThread.java:406) org.jboss.remoting.transport.socket.ServerThread.run(ServerThread.java:173)
+
+Stack Trace Elements
+
+com.isa.thinair.airreservation.core.bl.pnl.PNLBL.sendPNLAuxiliary(PNLBL.java:369) com.isa.thinair.airreservation.core.remoting.ejb.ReservationAuxilliaryServiceBean.sendPNLAuxiliary(ReservationAuxilliaryServiceBean.java:319) sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) java.lang.reflect.Method.invoke(Method.java:597) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:112) org.jboss.ejb3.interceptor.InvocationContextImpl.proceed(InvocationContextImpl.java:166) org.jboss.ejb3.interceptor.EJB3InterceptorsInterceptor.invoke(EJB3InterceptorsInterceptor.java:63) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.ejb3.entity.TransactionScopedEntityManagerInterceptor.invoke(TransactionScopedEntityManagerInterceptor.java:54) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.ejb3.AllowedOperationsInterceptor.invoke(AllowedOperationsInterceptor.java:47) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.aspects.tx.TxPolicy.invokeInOurTx(TxPolicy.java:79) org.jboss.aspects.tx.TxInterceptor$Required.invoke(TxInterceptor.java:191) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.aspects.tx.TxPropagationInterceptor.invoke(TxPropagationInterceptor.java:95) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.ejb3.stateless.StatelessInstanceInterceptor.invoke(StatelessInstanceInterceptor.java:62) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.aspects.remoting.ReplicantsManagerInterceptor.invoke(ReplicantsManagerInterceptor.java:51) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.aspects.security.RoleBasedAuthorizationInterceptor.invoke(RoleBasedAuthorizationInterceptor.java:166) org.jboss.ejb3.security.RoleBasedAuthorizationInterceptor.invoke(RoleBasedAuthorizationInterceptor.java:115) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.aspects.security.AuthenticationInterceptor.invoke(AuthenticationInterceptor.java:77) org.jboss.ejb3.security.Ejb3AuthenticationInterceptor.invoke(Ejb3AuthenticationInterceptor.java:110) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.ejb3.ENCPropagationInterceptor.invoke(ENCPropagationInterceptor.java:46) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.ejb3.asynchronous.AsynchronousInterceptor.invoke(AsynchronousInterceptor.java:106) org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101) org.jboss.ejb3.stateless.StatelessContainer.dynamicInvoke(StatelessContainer.java:304) org.jboss.aop.Dispatcher.invoke(Dispatcher.java:106) org.jboss.aspects.remoting.AOPRemotingInvocationHandler.invoke(AOPRemotingInvocationHandler.java:82) org.jboss.remoting.ServerInvoker.invoke(ServerInvoker.java:809) org.jboss.remoting.transport.socket.ServerThread.processInvocation(ServerThread.java:608) org.jboss.remoting.transport.socket.ServerThread.dorun(ServerThread.java:406) org.jboss.remoting.transport.socket.ServerThread.run(ServerThread.java:173)
+
+
+
+Sincerely,
+Air Arabia",Default,,,,,,,,,,,,,Error,,,,,,ISA
+AccelAero Reservations,AARESAA-1726,AARESAA-1538 BAH - PNL duplicating issue,SubTask - Support Task,Closed,Major,Cannot Reproduce,TBA,Indika Athauda,2009-03-30 14:38:00,,2010-10-11 16:50:00,2010-10-11 16:50:00,,,,,0.0,0.0,,,,,,,,,BAH station complaining about duplicated ADL recieving,Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2951,ISA-#101249 - MED PNL,Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-09-14 09:26:00,,2009-09-15 16:35:00,2009-09-15 10:14:00,,,,,0.0,0.0,,,,,,,,,"User request,
+
+Dear Support,
+
+Request to set the PNL for MED airport to be send 8 hours before flight departure and ADL ever 2 hours. Thanks
+
+Best regards,
+
+Salman Faris Abdulla
+Manager - Saudi Arabia
+",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-754,Support - PNL Resend,Support Task,Closed,Major,Fixed,XEMP -Byorn De Silva,XEMP -Byorn De Silva,2008-10-09 21:04:00,,2009-02-02 12:14:00,2009-01-18 11:00:00,,,,,0.0,0.0,,,,,,,,,"9/10/2008
+Production Servers Pnl/ADL Mail server is 10.4.122.4 and not the sita smtp server.
+
+I changed configuration and tred to restart several times, but the changes have not got affected.
+
+Has there been any changes to this logic???
+
+Need to make sure the resend button works, as I got few calls in the past week that pnl fails.
+
+",Default,,,,,,,,,,,,,Support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2054,Seat selection - Seat selected in PNR 10029482 not included in the PNL,Bug,Closed,Major,Won't Fix,QACOMPLETED,XEMP-Mohamed Nasly,2009-05-20 08:45:00,,2012-01-06 20:22:00,2009-05-31 12:58:00,,"AA-G9-008.0, AA-G9M-003.0",,,0.0,0.0,,,,,,,,,"Mail from the user is given below
+
+Dear Nasly
+
+Passenger Mr Adoumi Brahim traveling to CDG in flt nbr 3o653/19may09, he booked his seat 2A
+but in PNL is shows that the seat not reserved. 
+ref PNR 10029482.
+
+pls from your side check the source of this problem.
+
+Best regards
+SALOUA/ customer service supervisor apt cmn",Default,,,,,,,,,,,,,Support,,,,,,G9 - Air Arabia Morroc
+AccelAero Reservations,AARESAA-2205,Error in ADL,Bug,Closed,Major,Cannot Reproduce,XEMP - Maniesha Suwanderatne (QA),XTEAM - Duminda Anuradha,2009-06-14 05:44:00,,2009-08-26 12:37:00,2009-08-26 12:37:00,,,,,0.0,0.0,,,,,,,,,"
+
+ADL
+
+6Q1914/12JUN DAM
+PART1
+
+-NJF111Y
+
+DEL
+
+1HASSAN/AHMADMR-$record.getTourID()2 .L/10004341
+
+1TAHER/ABBASMR-$record.getTourID()2
+
+1YASER/HUSSENMR .L/10004906
+
+ENDADL",Default,,,,,,,,,,,,,Error,,,,,,6Q - Cham Wings
+AccelAero Reservations,AARESAA-2528,AARESAA-2664 PNL faliure - error Seat Map Details Message code set is null or does not exists,SubTask - Bug,Closed,Blocker,Fixed,QACOMPLETED,XTEAM - Duminda Anuradha,2009-07-19 06:52:00,,2012-01-06 20:23:00,2009-07-28 06:05:00,,"AA-6J-003.0, AA-6Q-003.0 , AA-AU-001.0, AA-G9-011.0",Backend,,0.0,0.0,,,,,,,,,"PNL failure occure, error described bellow
+
+REtrieving Seat Map Details Message code set is null or does not exists 
+
+
+com.isa.thinair.airreservation.core.activators.PnlAdlUtil.getSesatMapDetails(PnlAdlUtil.java:1614) com.isa.thinair.airreservation.core.bl.pnl.PNLBL.generatePNL(PNLBL.java:444) com.isa.thinair.airreservation.core.bl.pnl.PNLBL.sendPNL(PNLBL.java:178) com.isa.thinair.airreservation.core.remoting.ejb.ReservationAuxilliaryServiceBean.sendPNL(ReservationAuxilliaryServiceBean.java:429)",Default,,,,,,,,,,,,,Error,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1822,"AARESAA-1916 PNL - Include last 4 digits of the credit card, if payment from credit card",SubTask - Product Development,Closed,Major,Fixed,QACOMPLETED,XEMP-Mohamed Nasly,2009-04-14 10:15:00,,2012-01-06 20:22:00,2009-08-30 11:18:00,,"AA-6Q-001.0 , AA-IA-003.0, AA-6J-002.0 , AA-G9M-002.0 , AA-G9-007.8, AA-G9-011.0",,,0.0,0.0,,,,,,,,,"PNL - Include last 4 digits of the credit card, if payment from credit card as a remark.
+
+In case of multiple card payments, last card payment credit card details should be included.",Default,,,,,,,,,,,,,Improvement,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1541,AARESAA-1538 Seat Booking within Buffer Time Still happening - Need to check the below mentioned issue - PNL Issue,SubTask - Support Task,Closed,Major,Incomplete,QACOMPLETED,XEMP -Byorn De Silva,2009-03-11 06:25:00,,2012-01-06 20:22:00,2010-01-20 08:38:00,,AA-G9-018.0,,,0.0,0.0,,,,,,,,,"
+Aditya, 
+The payment for the preferred seat was made at the sales shop today at 1636LT for an STD of 1745LT, below are the details. It was agreed no payments will be done -12hrs to STD however it has happened again resulting in a delay of 10mins. 
+
+22/02/2009 at 21:34 Viewed reservation Airport ops 2 
+2 22/02/2009 at 17:44 Viewed reservation SHJ Sales shop Shj arpt Najla 
+3 22/02/2009 at 17:44 Viewed reservation SHJ Sales shop Shj arpt Najla 
+4 22/02/2009 at 16:26 Payment made Details : 
+MR, Abdulla, Al Samahi - ADULT CASH 50.00 CREDIT_CARD() 0.00 ON_ACC() 0.00 CREDIT_BF() 0.00 
+. Areej Marwan Agha 
+5 22/02/2009 at 16:26 Viewed reservation Areej Marwan Agha 
+
+Byond/Fares, 
+The system is still accepting payments after the said dead line, appreciate if you can look into this. 
+
+
+
+Best regards, 
+Issam Shamlan
+
+
+-----Original Message-----
+From: Sharjah Operations
+Sent: Sun 2/22/2009 7:53 PM
+To: 'bdesilva@isaaviation.ae'
+Cc: Salah Zainal
+Subject: PNL - DMM flight 161/22 Feb 
+
+Dear Mr. Byond,
+
+
+
+Passenger booked on the above mentioned flight under PNR 16925982 purchased seat number 1A along with his ticket. However, we' were not able to give the same seat to the pax since he didn't have a name on SDCS system although he is a confirmed pax therefore the seat was not protected in the system but was appearing as available hence was utilized by another pax. Same has created a seating conflict onboard and resulted in delaying the flight for 10m.
+
+
+
+The PNL of the above mentioned flight was not downloaded completely onto the SDCS system i.e. out of 160 pax booked we had around 84 names reflecting in the system only meaning we had to accept the rest of the pax (around 74) as no-rec!!
+
+
+
+Appreciate if you can investigate the matter and find out what went wrong.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Best regards
+
+Said
+
+Duty Officer
+
+Airarabia Airport Operations.
+
+Airarabia.com
+
+Be Smart. Pay Less. Fly More",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-3517,Send PNL for RUH G9152 and add PNL Addresses,Support Task,Closed,Major,Fixed,XEMP - Nadeem Badri,XEMP - Nadeem Badri,2009-12-20 12:43:00,,2009-12-20 15:13:00,2009-12-20 15:12:00,,,,,0.0,0.0,,,,,,,,,"Send PNL for RUH G9152 for 20 Dec 09 and add PNL Addresses
+DCS mail (dcs-ruh@nhs.com.sa ) and RUHUCXH",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2078,"Seat map - seat charges, but not reserved and not sent in PNL",Bug,Closed,Major,Duplicate,QACOMPLETED,XEMP-Mohamed Nasly,2009-05-24 18:10:00,,2012-01-06 20:22:00,2009-05-31 12:55:00,,AA-G9-009.0,,,0.0,0.0,,,,,,,,,"Seat map - seat price charged, but seat is not reserved and not sent in PNL (In Air Arabia Maroc)
+
+Mail from the user is given below.
+
+-------- Forwarded Message --------
+From: Duty Officer Maroc (MAC) <dutyofficermaroc@airarabia.com>
+To: Salah Zainal <szainal@airarabia.com>, Rohit Ramachandran (ABY)
+<rramachandran@airarabia.com>, mnasly@isaaviation.ae
+Subject: reserved seat
+Date: Tue, 19 May 2009 17:28:47 +0400
+
+Passenger Mr Adoumi Brahim traveling to CDG in flt nbr 3o653/19may09, he booked his seat 2A
+but in PNL is shows that the seat not reserved.
+ref PNR 10029482.
+
+pls from your side check the source of this problem.
+
+Best regards
+SALOUA/ customer service supervisor apt cmn",Default,,,,,,,,,,,,,Support,,,,,,G9 - Air Arabia Morroc
+AccelAero Reservations,AARESAA-2931,AARESAA-2905 PNL - Seat/Meals related Issues in PNL,SubTask - Bug,Closed,Major,Fixed,XEMP-Mohamed Nasly,XEMP-Janaki Kalatuwawa,2009-09-11 10:51:00,,2012-01-06 20:23:00,2009-09-17 08:06:00,,"AA-G9-011.3, AA-G9-012.0 , AA-G9M-003.0",,,0.0,0.0,,,,,,,,,"1. PNL generated from AccelAero with Seats and Meal details using wrong count when using HK.
+
+1.1 when only 1 pax select a seat in a booking with same surname pax, seat should be indicated as HK1, not as HK2.
+2CHEHAB/SUHADMS/ZAINABMS .L/18496739 .R/RQST HK2 1A
+.R/SPML HK2 FFS GS
+==> NOT OK. DCS would consider both pax booked the seat 1A 
+
+1.2 Same issue when only 1 pax books a meal 
+2SHARMA/RAVIMR/VIRENDRANMSTR .L/18496742 .R/RQST HK2 18F
+.R/SPML HK2 CHM
+==> NOT OK. DCS would consider both pax booked same meal CHM
+
+1.3 When 2 pax with same surname select seats and meals, if the names cannot be fit into 1 row, names are split into 2 rows. However, meal and seat details of are duplicated. 
+1WEERASEKARALIYANAGE/KEPPETIPOLAMUDIYANSEGEMR-B2 .L/18496746
+.R/RQST HK2 3A3B .R/SPML HK2 GS
+1WEERASEKARALIYANAGE/SOMASUNDARAMMR-B2 .R/RQST HK1 3B
+.R/SPML HK1 GS
+
+First pax having all meals and 2nd pax having 1. 
+When there are about 5 pax, 1st pax row printed with all 5 meals/seats
+2nd pax row printed with 4 meals/seats ...... until last pax printed with 1 meal/seat
+
+==> NOT OK 
+
+
+
+2YOOSUF/NABEELMR/NASLYMR .L/18496738 .R/SPML HK2 BSACO
+ENDPNL",Default,,,,,,,,,,,,,Error,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1527,AARESAA-1538 CMB PNL Issue,SubTask - Support Task,Closed,Major,Fixed,QACOMPLETED,XEMP -Byorn De Silva,2009-03-10 05:17:00,,2012-01-06 20:22:00,2009-05-19 15:06:00,,AA-G9-008.0,,,0.0,0.0,,,,,,,,,"Byon,
+
+For some reason, only part of the pnl for G9127/2MAR was downloaded in the SAS DCS system, the book load for the flight is 152, but only part 1 & 3 which is approx 70 has been downloaded in the system and not part 2. 
+
+& no PNL received at CMB for G9506/2MAR CMB/SHJ
+
+
+
+Csdm/Pax control
+
+As suggested we'd continue check-in with the downloaded pnl, & dedicated counters and will forward 3copies of the pnl, 2 for the counters and one for transferdesk.
+
+
+
+Best regards
+
+Elvis
+
+Duty Officer
+
+Airarabia Airport Operations.
+
+Airarabia.com
+
+Be Smart. Pay Less. Fly More
+
+",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2356,PNL/ADL - Failing due to transmission failures at EDC,Support Task,Closed,Blocker,Cannot Reproduce,Thushara Fernando,XTEAM - Duminda Anuradha,2009-07-02 09:43:00,,2011-06-29 18:38:00,2011-06-29 18:37:00,,,,,0.0,0.0,,,,,,,,,"For the last few days PNLs have failed to reach sita mail box for SHJ, BAH, LTK, Iv checked from application site. PNLs were accepted for delivery but has failed to reach destination.
+Please check whether this is a network issue.",Default,,,,,,,,,,,,,Error,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-3211,ISA-#847 - PNL not received,Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-10-28 14:41:00,,2009-12-10 08:09:00,2009-11-29 07:07:00,,,,,0.0,0.0,,,,,,,,,"User email as below,
+
+Dear support team
+BLQ station still not reveiving the PNL cause need to add the adress ALLCKAZ on accel aero the flight number is 3O450
+Dear Nasly
+on flights 3O113 CMN/CRL and 3O125 CMN/AMS of 26oct the PNL not received in our DCS please make sur that it was sent from accel aero to know where is the problem, in this last ? or the DCS
+
+many thanks for your usual coop
+best regards
+
+Mohamed Amine ABDANE
+C.S Supervisor
+Air Arabia Maroc",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia Morroc
+AccelAero Reservations,AARESAA-1353,AARESAA-1538 CMB PNL ISSUE,SubTask - Support Task,Closed,Major,Fixed,Indika Athauda,XEMP -Byorn De Silva,2009-02-12 11:40:00,,2009-08-26 13:24:00,2009-08-26 13:24:00,,,,,0.0,0.0,,,,,,,,,"
+
+
+I checked all the generated PNL's on 68,69 and 71 for month of FEB. They are as follows, and if you don't mind please check if there is something wrong in these PNL's.
+
+
+
+10.4.122.68
+
+No PNL's generated for FEB
+
+
+
+10.4.122.69
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB002-PNL-01-02-2009-17-45-03-PART1.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB002-PNL-01-02-2009-17-45-03-PART2.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB002-PNL-01-02-2009-17-45-03-PART3.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB003-PNL-02-02-2009-17-45-03-PART1.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB003-PNL-02-02-2009-17-45-03-PART2.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB003-PNL-02-02-2009-17-45-03-PART3.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB11-PNL-10-02-2009-17-45-02-PART1.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB11-PNL-10-02-2009-17-45-02-PART2.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB12-PNL-11-02-2009-17-45-03-PART1.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB12-PNL-11-02-2009-17-45-03-PART2.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB12-PNL-11-02-2009-17-45-03-PART3.txt
+
+
+
+10.4.122.71
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB001-PNL-31-01-2009-17-45-03-PART1.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB001-PNL-31-01-2009-17-45-03-PART2.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB001-PNL-31-01-2009-17-45-03-PART3.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB001-PNL-31-01-2009-17-45-03-PART4.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB004-PNL-03-02-2009-17-45-03-PART1.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB004-PNL-03-02-2009-17-45-03-PART2.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB004-PNL-03-02-2009-17-45-03-PART3.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB005-PNL-04-02-2009-17-45-03-PART1.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB005-PNL-04-02-2009-17-45-03-PART2.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB005-PNL-04-02-2009-17-45-03-PART3.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB006-PNL-05-02-2009-17-48-07-PART1.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB006-PNL-05-02-2009-17-48-07-PART2.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB006-PNL-05-02-2009-17-48-07-PART3.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB007-PNL-06-02-2009-17-45-02-PART1.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB007-PNL-06-02-2009-17-45-02-PART2.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB007-PNL-06-02-2009-17-45-02-PART3.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB008-PNL-07-02-2009-17-45-02-PART1.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB008-PNL-07-02-2009-17-45-02-PART2.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB008-PNL-07-02-2009-17-45-02-PART3.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB009-PNL-08-02-2009-17-45-02-PART1.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB009-PNL-08-02-2009-17-45-02-PART2.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB10-PNL-09-02-2009-17-45-02-PART1.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB10-PNL-09-02-2009-17-45-02-PART2.txt
+
+/usr/isa/aares/scheduledservices-00/sentpnl/G9506-CMB-FEB10-PNL-09-02-2009-17-45-02-PART3.txt
+
+
+
+
+
+
+
+Regards,
+
+
+
+Indika Athauda
+
+Application Developer
+
+
+
+Tel. +971 6 5088812
+
+Mob. +971 50 9740545
+
+Fax. +971 6 5580008
+
+www.isaaviation.com
+
+
+
+Information Systems Associates
+
+Your Airline Online
+
+
+
+
+From: CMB APT TEAM [mailto:cmbaptteam@nawalokaav.com] 
+Sent: Thursday, February 12, 2009 6:27 AM
+To: CMB APT TEAM; Mirza Khan; Darel; Indika Athauda
+Cc: azwer; MOOSA ABDULLA; Ruwani; Ramly; mparambath@airarabia.com; groundops@airarabia.com; Salah Zainal; Shjapt_Team
+Subject: Re: PNL recieving issue
+
+
+
+
+Dear all,
+
+
+
+
+
+Please note PNL for G9506/12 feb (ex cmb) was not released to cmb dcs.Even we contact shj duty officer and shj flt ops couldn't
+
+
+release the PNL, We received only 93 names out of 152 names and we had to zero in all pax to the local dcs system.
+
+
+very much appreciate if IT department can solve this problem since this happening continuously.
+
+
+
+
+
+Brgds,
+
+
+Tharanga,
+
+
+CMB APT TEAM.
+
+
+
+
+
+
+
+
+----- Original Message ----- 
+
+
+From: CMB APT TEAM 
+
+
+To: Mirza Khan ; Darel ; Indika Athauda 
+
+
+Cc: Ruwani ; Ramly ; mparambath@airarabia.com ; groundops@airarabia.com 
+
+
+Sent: Tuesday, February 10, 2009 1:41 AM
+
+
+Subject: Re: PNL recieving issue
+
+
+
+
+
+Dear Indika,
+
+
+
+
+
+Please not on G9506/10 feb 09 complete PNL not received to Colombo station (PNL PART MISSING).We received only 115 names out of 152 names.
+
+
+and would like to inform you on G9506/09 feb 09 also PNL was not received to the CMB DCS.
+
+
+
+
+
+Highly appreciate your cooperation,]
+
+
+Brgds,
+
+
+
+
+
+Tharanga,
+
+
+CMB APT TEAM.
+
+
+
+
+
+
+
+
+
+
+
+---- Original Message ----- 
+
+
+From: Mirza Khan 
+
+
+To: Darel ; Indika Athauda 
+
+
+Cc: Ruwani ; Ramly ; mparambath@airarabia.com ; groundops@airarabia.com 
+
+
+Sent: Monday, February 09, 2009 11:39 AM
+
+
+Subject: Re: PNL recieving issue
+
+
+
+
+
+Indika Machaan,
+
+Can we solve this issue fast?
+
+Regards
+Mirza Sajid Khan
+Country Manager - Sri Lanka
+Mobile - +94 77 3178996
+Direct - +94 11 5577314
+Fax - +94 11 2393996
+
+airarabia.com
+Be Smart. Pay Less. Fly More
+
+
+
+
+
+
+
+On 2/9/09 7:03 AM, ""Darel"" <stationmanager@nawalokaav.com> wrote:
+
+Dear Indika,
+Please note on G9 506/09JAN CMB/SHJ flight also the manifest was released for only half the booked
+pax. The book load was 118 the PNL was released for only 59 pax.
+When trying to release the PNL system generates the comment ""PNL parts missing.""
+I feel this could not be due to a SITA address failure as in that case PNL's for all flights must have problems
+however its only a few flights that we are experiencing this problem with, it seems to me like one individual 
+is not using the correct method of releasing the PNL to the system, however in that case at least some other
+stations too should experience the same problem.
+This have been a pressing problem for us for some time now and even our GHA is complaining of the inconvenience
+of some times having to zero in half the flight and some times the complete flight due to the PNL not due'ly transferring
+in to the DCS system.
+Thanks for your cooperation in trying to solve this problem, 
+Brgds; Darel.
+
+
+----- Original Message ----- 
+
+From: Indika Athauda <mailto:iathauda@isaaviation.ae> 
+
+To: 'Darel' <mailto:stationmanager@nawalokaav.com> 
+
+Cc: 'Salah Zainal' <mailto:szainal@airarabia.com> ; mparambath@airarabia.com ; 'sajid Khan' <mailto:sakhan@airarabia.com> ; 'Ramly' <mailto:ramly@nawalokaav.com> ; 'CMB APT TEAM' <mailto:cmbaptteam@nawalokaav.com> ; 'Ahmed Hussain' <mailto:ahussain@airarabia.com> ; dutymanager@srilankan.aero ; 'Ground Ops' <mailto:groundops@airarabia.com> ; 'Ruwani' <mailto:ruwani@nawalokaav.com> 
+
+Sent: Monday, February 09, 2009 12:18 AM
+
+Subject: FW: FW: PNL recieving issue
+
+
+
+
+
+Hi Darel,
+
+
+
+FYI.
+
+As per below checked by Byorn from ISA, this is due to SITA address failure, and it was fixed now. If you further experiencing any PNL transmission loss, please get back to us.
+
+
+
+
+
+Regards,
+
+
+
+Indika Athauda
+
+Application Developer
+
+
+
+Tel. +971 6 5088812
+
+Mob. +971 50 9740545
+
+Fax. +971 6 5580008
+
+www.isaaviation.com <http://www.isaaviation.com> 
+
+
+
+Information Systems Associates
+
+Your Airline Online
+
+
+
+
+
+-----Original Message-----
+From: Byorn de silva [mailto:bdesilva@isaaviation.ae] 
+Sent: Sunday, February 08, 2009 11:20 AM
+To: Indika Athauda
+Cc: 'Nasly'
+Subject: Re: FW: PNL recieving issue
+
+
+
+Indika, this is because CMBKPUL and CMBKLUL needs to be added to CMB,
+
+as I got a mail for this as well. this is added now.
+
+Cheers.
+
+
+
+On Sun, 2009-02-08 at 08:23 +0400, Indika Athauda wrote:
+
+> Hi Nasly/Byorn,
+
+> 
+
+> 
+
+> 
+
+> I'm going to jubba today and will not be @ office. Can you just hv a
+
+> look on this. This is from CMB airport.
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> Regards,
+
+> 
+
+> 
+
+> 
+
+> Indika Athauda
+
+> 
+
+> Application Developer
+
+> 
+
+> 
+
+> 
+
+> Tel. +971 6 5088812
+
+> 
+
+> Mob. +971 50 9740545
+
+> 
+
+> Fax. +971 6 5580008
+
+> 
+
+> www.isaaviation.com
+
+> 
+
+> 
+
+> 
+
+> Information Systems Associates
+
+> 
+
+> Your Airline Online
+
+> 
+
+> 
+
+> 
+
+> 
+
+> From: Darel [mailto:stationmanager@nawalokaav.com] 
+
+> Sent: Saturday, February 07, 2009 4:51 AM
+
+> To: iathauda@isaaviation.ae
+
+> Cc: Salah Zainal; mparambath@airarabia.com; sajid Khan; Ramly; Station
+
+> Manager CMB; CMB APT TEAM; Ahmed Hussain; dutymanager@srilankan.aero;
+
+> Ground Ops; Ruwani
+
+> Subject: Fw: PNL recieving issue
+
+> 
+
+> 
+
+> 
+
+> 
+
+> Dear Indika,
+
+> 
+
+> 
+
+> Please note the PNL for G9 506/07 Feb (ex CMB) was not released to
+
+> the local DCS system to facilitate chk-in. Even though the staff
+
+> 
+
+> 
+
+> on duty called the SHJ duty officer Imad, even he couldn't release the
+
+> PNL, and we had to zero in all pax to the local DCS system by
+
+> 
+
+> 
+
+> getting a computer print out of the PNL sent to the ABY office. The
+
+> UL (our GHA) duty manager is of the opinion that the PNL sent from
+
+> 
+
+> 
+
+> ABY to the SITA system must be having an error, which effect's the
+
+> transmitting of the PNL to the UL (loacl GHA) DCS system.
+
+> 
+
+> 
+
+> They ( the local ground handler) request's the ABY, PNL now sent
+
+> to the SITA address CMBKPUL to be sent also to CMBKLUL. 
+
+> 
+
+> 
+
+> Appreciate your fullest cooperation in resolving this problem.
+
+> 
+
+> 
+
+> Brgds; Darel. 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> ----- Original Message ----- 
+
+> 
+
+> From: CMB APT TEAM 
+
+> 
+
+> 
+
+> To: Station Manager CMB 
+
+> 
+
+> 
+
+> Sent: Saturday, February 07, 2009 5:29 AM
+
+> 
+
+> 
+
+> Subject: Fw: PNL recieving issue
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> ----- Original Message ----- 
+
+> 
+
+> From: Indika Athauda 
+
+> 
+
+> 
+
+> To: cmbaptteam@nawalokaav.com ; tharanga@nawalokaav.com 
+
+> 
+
+> 
+
+> Cc: 'STATION MANAGER' 
+
+> 
+
+> 
+
+> Sent: Sunday, December 28, 2008 12:21 PM
+
+> 
+
+> 
+
+> Subject: RE: PNL recieving issue
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> Hi Tharanga,
+
+> 
+
+> 
+
+> 
+
+> Thanks for the feedback. I have checked with our
+
+> reservations system and server logs; this PNL was released from the
+
+> system @ 27/12/2008 17:45:02 Zulu time (27/12/2008 23:15:02 CMB time).
+
+> I have attached PNL which released by System to SITA mconnect mail
+
+> box. If you haven't received PNL by above time, this may be a delivery
+
+> failure from SITA mconnect mail box. Could you please confirm with
+
+> your DCS weather you have received PNL via SITA address of HDQKMUL @
+
+> 27/12/2008 17:45:02 Zulu time (27/12/2008 23:15:02 CMB time). If not I
+
+> will check with SITA people about message failure on Monday when I get
+
+> back to office.
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> Regards,
+
+> 
+
+> 
+
+> 
+
+> Indika Athauda
+
+> 
+
+> Application Developer
+
+> 
+
+> 
+
+> 
+
+> Tel. +971 6 5088812
+
+> 
+
+> Fax. +971 6 5580008
+
+> 
+
+> www.isaaviation.com
+
+> 
+
+> 
+
+> 
+
+> Information Systems Associates
+
+> 
+
+> Your Airline Online
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> ______________________________________________________________________
+
+> From:cmbaptteam@nawalokaav.com [mailto:cmbaptteam@nawalokaav.com] 
+
+> Sent: Saturday, December 27, 2008 11:42 PM
+
+> To: tharanga@nawalokaav.com; Indika Athauda
+
+> Cc: STATION MANAGER
+
+> Subject: Re: PNL recieving issue
+
+> 
+
+> 
+
+> 
+
+> 
+
+> Hi Indika,
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> Sorry for the delay reply.Hope you are doing well,Indika we didn't
+
+> have any PNL problem for the last two weeks,However today
+
+> (28/12/2008) we did not received the PNL and informed SHJ duty
+
+> officer.Finally duty officer managed to release the PNL for G9506/28
+
+> dec flt. Very much appreciate if you can do the needful to solve this
+
+> problem as it's a big problem for us.
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> Highly appreciate your co-operation,
+
+> 
+
+> 
+
+> Brgds,
+
+> 
+
+> 
+
+> Tharanga,
+
+> 
+
+> 
+
+> CMB APT TEAM.
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> ----- Original Message ----- 
+
+> 
+
+> 
+
+> From: Indika Athauda 
+
+> 
+
+> 
+
+> To: cmbaptteam@nawalokaav.com ; tharanga@nawalokaav.com 
+
+> 
+
+> 
+
+> Sent: Wednesday, December 24, 2008 11:37 AM
+
+> 
+
+> 
+
+> Subject: PNL recieving issue
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> Hi Tharanga,
+
+> 
+
+> 
+
+> 
+
+> As per the conversation we had last week, can you please send
+
+> me the missing PNRs for yesterday and today flights. So I can
+
+> check them with the system and get back to you. If you have
+
+> any clarifications you can call me on extension: 812 dialing
+
+> SHJ head office. 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> Regards,
+
+> 
+
+> 
+
+> 
+
+> Indika Athauda
+
+> 
+
+> Application Developer
+
+>",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1201,Pnl for Jupitor Airlines,Support Task,Closed,Major,Fixed,XEMP -Byorn De Silva,XEMP -Byorn De Silva,2009-01-20 10:54:00,,2009-02-02 12:14:00,2009-01-28 07:16:00,,,,,0.0,0.0,,,,,,,,,"Dear Byorn,
+> 
+> How are you? I hope you are fine.
+> 
+> 
+> 
+> Byourn, today we faced the problem with system. When I was trying to
+> mail PNL for tomorrow flight but system was showing ERROR ""WEB SERVER
+> MAY BE DOWN,TOO BUSY OR EXPERIECING OTHER PROBLEM"".All messages was
+> failed.
+> 
+> 
+> 
+> Please do necessary correction.
+> 
+> 
+> 
+> With kind regards
+> 
+> Vasilina.",Default,,,,,,,,,,,,,Customer specific support,,,,,,IA - Jupiter Airlines
+AccelAero Reservations,AARESAA-423,AARESAA-386 Scheduler jobs - PNL generation - Include selected seat in PNL,SubTask - Change Request,Closed,Major,Fixed,XEMP -Byorn De Silva,XEMP-Janaki Kalatuwawa,2008-06-24 02:31:00,,2008-09-16 02:36:00,2008-09-09 05:27:00,,,,,0.0,0.0,,,,,,,,,Include selected seat in PNL,Default,,,,,,,,,,,,,Customer Specific Customization,,,,,2008-06-24 13:36:00,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2292,BAH/SHJ G9106 PNL Not Received,Support Task,Closed,Blocker,Fixed,XEMP-Janaki Kalatuwawa,XTEAM - Duminda Anuradha,2009-06-28 05:57:00,,2009-07-15 12:16:00,2009-07-05 15:50:00,,,,,0.0,0.0,,,,,,,,,"BAH DCS has not received the PNL for 28th June G9106 Flight. There was no Transmission faliure from Accel Aero side.
+
+Action Taken
+
+Resent the PNL manualy and Confirmed with Duty Officer whether he received correctly.",Default,,,,,,,,,,,,,Support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1485,AARESAA-1538 Test PNL with DCS for various scenarios.,SubTask - Support Task,Closed,Major,Incomplete,QACOMPLETED,XEMP -Byorn De Silva,2009-03-01 05:58:00,,2012-01-06 20:22:00,2009-03-25 08:48:00,,AA-G9-008.0,,,0.0,0.0,,,,,,,,,"Dear Byorn,
+
+
+
+Reference our telecon today on the subject.
+
+
+
+Attachment is the requirement by SITA for testing. The test flight may be created with any number with the requirements.
+
+
+
+Once the PNL is transmitted, please advise us
+
+
+
+For any further clarification please do not hesitate to contact me.
+
+
+
+Thanks and Regards
+
+
+
+Hari",Default,,,,,,,,,,,,,Support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-3194,AARESAA-3193 PNL - PNL generated with empty details,SubTask - Bug,Closed,Blocker,Fixed,XEMP - Charith Paranaliyanage,XEMP-Janaki Kalatuwawa,2009-10-26 10:23:00,,2009-10-27 05:39:00,2009-10-27 05:39:00,,,,,0.0,0.0,,,,,,,,,New PNL's in G9 and 3O production generated with empty content.,Default,,,,,,,,,,,,,Error,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1759,AARESAA-1538 Add Segment / Cancel Segment should cause ADL to be sent to the connected segments.,SubTask - Bug,Closed,Major,Fixed,QACOMPLETED,XEMP -Byorn De Silva,2009-04-02 12:44:00,,2012-01-06 20:22:00,2009-04-05 07:03:00,,AA-G9-008.0,,,0.0,0.0,,,,,,,,,"If the canceled or added segment are within transit time to the other existing segments in the reservation then 
+ADL should be sent to those segments, with CHG element. 
+
+System parameter RES_9",Default,,,,,,,,,,,,,Improvement,,,,,,ISA
+AccelAero Reservations,AARESAA-2604,Support - Manually send PNL for BAH G9106 31/Jul flight,Support Task,Closed,Major,Fixed,XEMP-Mohamed Nasly,XEMP-Mohamed Nasly,2009-07-31 07:03:00,,2009-07-31 09:10:00,2009-07-31 09:10:00,,,,,0.0,0.0,,,,,,,,,BAH DCS had not received PNL for G9106 31JUL flight.,Default,,,,,,,,,,,,,Support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-3547,AARESAA-3546 PNL for 23 Dec 09,SubTask - Support Task,Closed,Major,Fixed,Faiza Iqbal (QA),XEMP - Nadeem Badri,2009-12-23 13:04:00,,2009-12-30 13:02:00,2009-12-24 02:03:00,,,,,0.0,0.0,,,,,,,,,PNL for Fly540 for 23 Dec 09,Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2605,Support - Sharjah airport has not received any PNL for 01/Aug flights yet,Support Task,Closed,Critical,Won't Fix,XEMP-Mohamed Nasly,XEMP-Mohamed Nasly,2009-07-31 08:44:00,,2009-08-11 09:09:00,2009-07-31 08:55:00,,,,,0.0,0.0,,,,,,,,,Duty officer at Sharjah airport informed that Sharjah airport has not received any PNL for 01/Aug flights yet,Default,,,,,,,,,,,,,Support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1604,Jubba PNL Sending issue,Support Task,Closed,Major,Fixed,Indika Athauda,Indika Athauda,2009-03-16 11:28:00,,2009-04-29 09:33:00,2009-03-24 14:40:00,,,,,0.0,0.0,,,,,,,,,Jubba PNL sending giving Transmission error,Default,,,,,,,,,,,,,Customer specific support,,,,,,6J - Jubba Airways
+AccelAero Reservations,AARESAA-3038,ISA-#101806 - PNL sample,Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-09-30 13:04:00,,2009-09-30 16:53:00,2009-09-30 16:53:00,,,,,0.0,0.0,,,,,,,,,"User email as below,
+
+ISA colleagues,
+
+Please give me a sample of G9 PNL. Urgent!!!!!
+
+Brgds
+F",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-3507,[ISA-#4691] PNL Resend,Support Task,Closed,Major,Fixed,Indika Athauda,XEMP - Nadeem Badri,2009-12-17 10:04:00,,2009-12-20 15:15:00,2009-12-20 15:15:00,,,,,0.0,0.0,,,,,,,,,"We have problem with receiving PNL in our DCS system, our DCS SITA person in charge is asking to resend all the PNL for today 3O113, 3O333 , 3O125 in his e-mail address , so he can be able to fix that problem for us.
+
+The e-mail address is: mustapha.belkouchi@sita.aero
+",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-3234,ISA-#736 - PNL 3O450,Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-11-01 06:26:00,,2009-11-01 09:18:00,2009-11-01 09:18:00,,,,,0.0,0.0,,,,,,,,,"User email as below,
+
+Dear support team,
+
+Please amend the accel aero sys to generat the PNL for the flight
+3o450 BLQ/CMN to adress below :
+
+ALLCKAZ
+
+Thanks for your usual coop
+Best regards
+Younes BRAHIMYA",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia Morroc
+AccelAero Reservations,AARESAA-3229,ISA-#75 - PNL not sent,Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-10-31 12:18:00,,2009-12-10 08:07:00,2009-11-29 10:09:00,,,,,0.0,0.0,,,,,,,,,"User email as below,
+
+Dear support team,
+
+Please amend the accelaero sys to generate the PNL for today CRL flight: 3O113 CMN/CRL
+
+thanks for your usual coop
+
+AG ALLAOU Rajaa
+
+",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia Morroc
+AccelAero Reservations,AARESAA-1642,AARESAA-1538 Part PnL issue,SubTask - Support Task,Closed,Major,Won't Fix,XEMP-Janaki Kalatuwawa,XEMP -Byorn De Silva,2009-03-22 05:44:00,,2009-08-21 09:12:00,2009-07-18 08:05:00,,,,,0.0,0.0,,,,,,,,,"
+
+Byorn
+
+Pls note we've had only part PNL downloaded today for G9121/20MAR..., I've tried sending the PNL's twice my end. It shows as sent successfully
+
+But the transmission status shows as Empty.
+
+Pls look into this and advise.
+
+
+
+
+
+Best Regards,
+
+Elvis
+
+Duty Officer
+
+SHJ Airport Operations
+
+airarabia.com
+
+Pay Less. Fly More
+
+",Default,,,,,,,,,,,,,Support,,,,,,ISA
+AccelAero Reservations,AARESAA-2749,PNL SITA ADDRES,Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-08-19 06:29:00,,2009-08-19 17:47:00,2009-08-19 17:47:00,,,,,0.0,0.0,,,,,,,,,"From: Jedddah ABY Station [mailto:JED@abyoutstations.ae]
+Sent: Sunday, August 09, 2009 11:08 AM
+To: Ground Ops (ABY)
+Cc: Salman Faris Abdulla (ABY); Moosa Abdulla (ABY)
+Subject: PNL SITA ADDRES
+
+
+Dear Carol,
+
+Please infrom to Delete the Below Sita Addres from the PNL
+
+JED
+
+Jeddah King A Aziz
+
+JEDANXH
+
+JED
+
+Jeddah King A Aziz
+
+JEDZZXH
+
+
+Thanks
+
+Ayman",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-3363,ISA-#3952 - PNL issues,Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-11-18 14:29:00,,2009-12-08 15:23:00,2009-11-29 06:40:00,,,,,0.0,0.0,,,,,,,,,"User email as below,
+
+Charith,
+
+Please follow this up with SITA support team. Sharjah airport is also going
+through similar problems due to some issue at SITA which Hariharan from SAS
+following up on.
+
+Regards,
+Nasly
+
+
+From: Salman Faris Abdulla (ABY) [mailto:sabdulla@airarabia.com]
+Sent: Wednesday, November 18, 2009 8:51 AM
+To: support@isaaviation.ae
+Cc: Abdul Rahim Patni (ABY); mnasly@isaaviation.ae; Asif Ebrahim (ABY);
+Suhad Salh (ABY); Dammam ABY Station; Moosa Abdulla (ABY)
+Subject: RE: PNL
+
+Dear Support,
+
+Please refer the below email from DMM airport - yesterday for a second
+consecutive day they did not receive the PNL and had to do manual checkin.
+We are in to the peak season now and it is extremely difficult to continue
+doing manual checkin. Please resolve the issue ASAP
+
+Best regards,
+Salman Faris Abdulla",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1515,AARESAA-1538 Duplicate Group Code in PNL,SubTask - Support Task,Closed,Major,Duplicate,XEMP -Byorn De Silva,XEMP -Byorn De Silva,2009-03-05 04:36:00,,2009-03-15 04:12:00,2009-03-15 04:12:00,,AA-G9-006.2,,,0.0,0.0,,,,,,,,,"Dear Byorn,
+
+
+
+The following mail received from our Customer Services Duty Manager. If you remember I had previously spoken to you about the same problem (Duplication of Group code)
+
+
+
+The ADDL list of PNL duplicates the Group code, thereby you will have more than one group with the same code. (Please refer to flight G9 283 of yesterday - 04 MAR 09 you will find 3 groups under code A - A34, A9 and A2. Surprisingly the PNR is also duplicated. If you look at the PNR for group A34 and A9 it is the same 17092289. However, close scrutiny shows that group A9 is part of A34, and has been added first and then deleted.
+
+
+
+Further as mentioned in the mail the inbound figure from Muscat for the same flight is shown as 34 passengers, whereas actual figure is only 6.
+
+
+
+As you go through the mail there seems to be some discrepancy in the PNR allotted to the passenger. On G9 323 of today - 05 MAR 09, you have a Group with code A as 2 but the actual number of passengers are 11 with same PNR under group A2, which you will agree, is quite abnormal.
+
+
+
+Most of the discrepancies seem to originate from the Additional Lists of the PNL .
+
+
+
+These discrepancies have resulted in total confusion as well as wrong check in / delays to the flights.
+
+
+
+Can you please look into the matter and advise? I feel this is a problem at Reservations level, but if your investigations reveal that the problem is from SITA please let me know so that I can advise them accordingly.
+
+
+
+Thanks and regards
+
+
+
+Hari",Default,,,,,,,,,,,,,Support,,,,,,ISA
+AccelAero Reservations,AARESAA-2565,AARESAA-2526 PNL - IKA - PNL not sent from Accel Aero G9202 25JUL2009,SubTask - Support Task,Closed,Major,Fixed,XTEAM - Duminda Anuradha,XTEAM - Duminda Anuradha,2009-07-25 05:15:00,,2009-08-18 01:41:00,2009-08-17 09:58:00,,,,,0.0,0.0,,,,,,,,,PNL not sent from system,Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-198,Support - PNL testing with BLR airport,Task,Closed,Major,Fixed,XEMP -Byorn De Silva,XEMP -Byorn De Silva,2008-04-22 10:43:00,,2008-05-15 10:27:00,2008-04-28 05:16:00,,,,,0.0,0.0,,,,,,,,,Preparation of test PNL for BLR airport.,Default,,,,,,,,,,,,,Support,Not chargeable,Not Applicable,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2534,AARESAA-2526 PNL - IKA - PNL not sent from Accel Aero G9202 20JUL2009,SubTask - Support Task,Closed,Major,Fixed,XTEAM - Duminda Anuradha,XTEAM - Duminda Anuradha,2009-07-20 05:04:00,,2009-08-16 14:41:00,2009-08-16 12:17:00,,,,,0.0,0.0,,,,,,,,,PNL not sent from Accel Aero G9202 20JUL2009,Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2502,AARESAA-1538 PNL issue - related to seat map,SubTask - Support Task,Closed,Major,Duplicate,XEMP-Janaki Kalatuwawa,XTEAM - Duminda Anuradha,2009-07-16 05:37:00,,2009-09-27 01:53:00,2009-08-27 05:04:00,,,,,0.0,0.0,,,,,,,,,"REtrieving Seat Map Details Message code set is null or does not exists 
+Root Cause
+
+com.isa.thinair.airreservation.core.activators.PnlAdlUtil.getSesatMapDetails(PnlAdlUtil.java:1614) com.isa.thinair.airreservation.core.bl.pnl.PNLBL.generatePNL(PNLBL.java:444) com.isa.thinair.airreservation.core.bl.pnl.PNLBL.sendPNL(PNLBL.java:178)",Default,,,,,,,,,,,,,Error,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-808,Test PNL for Hyderbad new airport,Task,Closed,Major,Fixed,XEMP -Byorn De Silva,XEMP -Byorn De Silva,2008-10-26 05:16:00,,2009-02-03 03:31:00,2008-10-29 07:32:00,,,,,0.0,0.0,,,,,,,,,"Dear Byorn,
+
+
+
+As you are already aware new station HYD will be commencing it operation from 27th oct08.Kindly send 10 Passenger dummy PNR to HYDGBXH by tomorrow morning to verify and check whether Local DCS system capable of receiving the PNL from SHJ.
+
+
+
+
+
+
+
+Thanks and Regards
+
+
+
+Rupesh kashyap
+
+Manager Airport Operations - India
+
+Mobile : 0091 9818400163
+
+airarabia.com
+
+",Default,,,,,,,,,,,,,Customer specific support,Not chargeable,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1378,AARESAA-1538 Doing test PNL session to identify issue,SubTask - Support Task,Closed,Major,Approval Rejected,XTEAM - Duminda Anuradha,Indika Athauda,2009-02-16 19:05:00,,2009-09-08 02:28:00,2009-09-08 02:28:00,,,,,0.0,0.0,,,,,,,,,Conducting interactive test PNL generation for CMB airport,Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2527,AARESAA-2526 PNL - IKA - Did not reach for G9202 18JUL2009,SubTask - Support Task,Closed,Major,Fixed,XTEAM - Duminda Anuradha,XTEAM - Duminda Anuradha,2009-07-18 08:03:00,,2009-08-13 04:36:00,2009-08-13 04:36:00,,,,,0.0,0.0,,,,,,,,,PNL was succesfuly sent from AA. But has not reached DCS. Manually sent.,Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2753,ISA-#100696 - PNL and the seating of BCN/CMN 11AUG,Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-08-19 06:41:00,,2009-08-27 06:49:00,2009-08-19 17:45:00,,,,,0.0,0.0,,,,,,,,,"From: Ghizlane Legsai (MAC) [mailto:glegsai@airarabia.com]
+Sent: Thursday, August 13, 2009 2:57 PM
+To: ISA Aviation
+Cc: Duty Officer Maroc (MAC); TaoufiqTounsi (MAC); Zouher Bourijal (MAC)
+Subject: FW: PNL BCN/CMN 11AUG
+Importance: High
+
+Dear Isa Support,
+
+Can you please HELP to get the PNL and the seating of BCN/CMN 11AUG, as
+enable to do it our end.
+
+Thanks/Rergards,
+
+Ghizlane LEGSAI HADRI
+
+SALES MANAGER
+
+AIR ARABIA MAROC",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia Morroc
+AccelAero Reservations,AARESAA-2750,[ISA-#100552] - Update PNL recipients for DMM,Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-08-19 06:34:00,,2009-08-27 06:50:00,2009-08-19 17:47:00,,,,,0.0,0.0,,,,,,,,,"Dear ISA support,
+
+DMM-SHJ flight PNL needs to be sent to the below addresses
+
+JEDLDXH
+jed@maestro.sita.aero<mailto:jed@maestro.sita.aero>
+
+
+Rahim/Ala,
+
+Please liaise with NHS to ensure G9 flight details are added to MLDCS
+system for DMM
+
+Best regards,
+
+Salman Faris Abdulla
+Country Manager - Saudi Arabia
+",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1529,New Sita address and PNL Test for SYZ,Support Task,Closed,Major,Fixed,XEMP -Byorn De Silva,XEMP -Byorn De Silva,2009-03-10 05:20:00,,2009-03-10 12:06:00,2009-03-10 12:05:00,,,,,0.0,0.0,,,,,,,,,"Call center/Beyond 
+
+Please note that from tomorrow we will change the GHA in SYZ to Iran Air please forward the PNL to the below dress . 
+
+Ivet 
+
+Please confirm all A/C date include the DOW/DOI forwarded to IR . also provide the new GHA sita address for MVT,LDM,PSM etc... to SAS operation and carol. 
+
+Flight OPS/Ismail 
+
+Please note from tomorrow GPU and ASU will be available in SYZ therefore there is no more APU restriction is SYZ . 
+
+Soon carol will update the station information and the new GHA number and address. 
+
+Regards to all 
+
+
+
+Salah Zainal 
+
+Head of Ground Operation 
+",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2530,AARESAA-2526 ADL - SHJ - Did not reach SITA mail box G9283 19JUL2009,SubTask - Support Task,Closed,Major,Fixed,XTEAM - Duminda Anuradha,XTEAM - Duminda Anuradha,2009-07-19 10:05:00,,2009-09-03 04:48:00,2009-09-03 04:48:00,,,,,0.0,0.0,,,,,,,,,Detected a Transmission Error to a Sita Address.,Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-484,Modify PNL operation to differentiate the Marketting carrier code against the Operating Carrier Code.,Bug,Closed,Major,Won't Fix,XEMP-Mohamed Nasly,XEMP -Byorn De Silva,2008-06-29 11:29:00,,2008-09-10 07:29:00,2008-09-10 07:29:00,,,,,0.0,0.0,,,,,,,,,"Pnl Should be sent based on the Operating Carrier and not the marketting carrier.
+Have a field in T_FLIGHT Table for this??? Discuss.!",Default,,,,,,,,,,,,,,,,,,,
+AccelAero Reservations,AARESAA-3382,ISA-#4125 - Flight departure time is not set correctly in PNL in multi leg flights,Bug,Closed,Major,Fixed,QACOMPLETED,XEMP - Charith Paranaliyanage,2009-11-22 15:00:00,,2012-01-06 20:24:00,2009-12-05 11:03:00,,"AA-6Q-003.1, AA-G9-014.0 , AA-3O-005.0",,,0.0,0.0,,,,,,,,,"User email as below,
+
+From: dcs@sas.dk [mailto:dcs@sas.dk]
+Sent: Sun 11/22/2009 10:10 AM
+To: Khalid EL CHATER; Support@isaaviation.ae
+Cc: Issam SHAMMOUT; Mhd Salim SODAH; Samer DEHNI; dcs@sas.dk; Mohammed GHANNOUM; maks_bakum@yahoo.com.au; oleg-raw@yandex.ru; Khaldoun QASIM; Hala ZAZA; SGS.MMX@sas.se
+Subject: RE: Re 6Q1453 W09
+
+
+
+Hello Khaled,
+
+I think you misunderstand my request.
+
+It is fine to send the PNL 24hours before STD or 12 as you state.
+
+But the date in the PNL should be the same as STD in local time.
+
+I will give you an example.
+
+6Q1453 is departing (local time) 22NOV 00:30 but the date in the PNL is 21NOV...
+
+We then have to rename all PNL to have it in the system for flight 22NOV!
+
+Brgds,
+Charlotte Kjaer",Default,,,,,,,,,,,,,Error,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-414,investigate PNL Transmission failure,Task,Closed,Major,Fixed,XEMP -Byorn De Silva,XEMP -Byorn De Silva,2008-06-22 05:17:00,,2008-09-16 02:36:00,2008-06-29 11:21:00,,,,,0.0,0.0,,,,,,,,,"""452 message sending quota exceeded, try later""",Default,,,,,,,,,,,,,Support,Not chargeable,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1518,JED new Sita Address to be added! And PNL Test!,Support Task,Closed,Major,Fixed,XEMP -Byorn De Silva,XEMP -Byorn De Silva,2009-03-05 08:09:00,,2009-03-09 13:36:00,2009-03-09 13:36:00,,,,,0.0,0.0,,,,,,,,,this is resolved,Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2529,AARESAA-2526 ADL - SHJ - Did not reach SITA mail box G9125 19JUL2009,SubTask - Support Task,Closed,Major,Fixed,XTEAM - Duminda Anuradha,XTEAM - Duminda Anuradha,2009-07-19 10:03:00,,2009-08-16 14:42:00,2009-08-16 12:21:00,,,,,0.0,0.0,,,,,,,,,Detected a Transmission Error to a Sita Address.,Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-3550,AARESAA-3546 Send PNL manually for 5H flights from NBO - 24 Dec '09,SubTask - Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,Faiza Iqbal (QA),2009-12-24 10:11:00,,2009-12-28 01:42:00,2009-12-28 01:42:00,,,,,0.0,0.0,,,,,,,,,"Done .
+
+Following are the Flight Nos: 
+
+5H0407 
+5H405 
+5H411 
+5H413 
+5H417 
+5H419 
+5H421 
+5H423 
+5H441 
+5H443 
+",Default,,,,,,,,,,,,,Customer specific support,,,,,2009-12-24 19:45:00,G9 - Air Arabia
+AccelAero Reservations,AARESAA-213,"Support - Air Arabia system shutdown/restart, PNL sending",Task,Closed,Major,Fixed,XEMP -Byorn De Silva,XEMP -Byorn De Silva,2008-04-29 08:32:00,,2008-05-27 13:47:00,2008-04-30 05:46:00,,,,,0.0,0.0,,,,,,,,,"For database maintenance work shutdown AA System 12.30am and Restart at 4.15am.
+
+Manually send the PNLs that are due during system is down.",Default,,,,,,,,,,,,,Customer Specific Customization,Not chargeable,Not Applicable,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1602,AirArabia Prodction Patch 2009-Mar-12,Support Task,Closed,Major,Fixed,Indika Athauda,Indika Athauda,2009-03-16 07:57:00,,2009-04-29 09:34:00,2009-04-07 07:36:00,,,,,0.0,0.0,,,,,,,,,"Prepare and do production patch includes following fixes
+
+- PNL/ADL group code issue
+- IBE French version",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1565,AARESAA-1564 Code Review - SITA Messaging,SubTask - Product Development,Closed,Major,Incomplete,XEMP-Mohamed Nasly,XEMP-Mohamed Nasly,2009-03-11 08:20:00,,2011-03-01 09:11:00,2011-03-01 09:11:00,,,,,0.0,0.0,,,,,,,,,"1. Review PNL/ADL operations for correctness of the functionality
+2. Review auto PFS for correctness of the functionality",Default,,,,,,,,,,,,,Product Enhancement,,,,,,ISA
+AccelAero Reservations,AARESAA-1633,AARESAA-1628 Configuration changes,SubTask - Task,Closed,Major,Fixed,XEMP -Manjula Kadangot,XEMP-Janaki Kalatuwawa,2009-03-21 11:22:00,,2009-07-22 18:41:00,2009-07-22 18:41:00,,AA-6Q-000.0,,,0.0,0.0,,,,,,,,,"1. Enable capture of Passport details - Mandatory for AD, CH & IN in IBE & XBE
+
+2. DOB Configurations - For infant & Child IBE/XBE age capture should be made mandatory. Infant age less than 2 years )1 month to 23 months), Child age between 2 - 12 years (less than 12 years)
+Since we dont have month wise configuration, infant should be less than 2 years and Child between 2 to 12 years.
+
+3. Phone number validation in Contact Details - phone number validations - Address Countr/Phone country code validation is disabled and possible to enter any number. Phone number validation should be enabled
+
+4. Activate following priveilegs in XBE
+Alter Reservations --> ""Extend on hold""
+Tools --> ""PNL/ADL""
+
+
+5. Inactivate following privileges
+Admin/Tools --> ""Transfer Invoice""
+--> ""Process XAPNL""
+
+6. Reports - We are showing ""Live"" & ""Off Line"" report menu's.Can we change this to show all reports under ""Live"" 
+
+7. ""Admin"" link in XBE module is directed to Air arabia. Please correct this. 
+""Call Centre"" link in Admin module is directed to Air arabia. Please correct this. 
+
+8. Email Invoice/View Invoice - List of years and Months 
+List of years should be 2009 as of now, 2008 should be removed. 
+List of Months - it would be better if we show March onwards. 
+
+
+",Default,,,,,,,,,,,,,Customer specific support,,,,,,6Q - Cham Wings
+AccelAero Reservations,AARESAA-2870,AARESAA-2450 UAT Feedback Changes/Issues,SubTask - Task,Closed,Major,Fixed,QACOMPLETED,XEMP-Janaki Kalatuwawa,2009-09-03 11:15:00,,2012-01-06 20:23:00,2009-09-06 10:46:00,,AA-G9-011.0,,,0.0,0.0,,,,,,,,,"1. Meal Data Upload
+Meal name is not updated fully. Combo meal names updated with partial desc - length should be increased. 
+Meal Descriptions - Meal desc contain comma separators and these have been removed when uploading. Desc should allow ','. 
+2. Meal & Templates
+2.1 Meal Description could contain comma and should support as desc without comma would be not clear. 
+
+3. XBE/IBE - Display of Menu 
+3.1 Display 3 meals in a row
+3.2 Meal Name - Display in red/bold letters
+3.3 Meal Description - Left and top align
+3.4 Meal display order - need to display in a agreed order. To be verified with Manoj if to be ordered by price or order in the template 
+3.5 On top of the menu, display message ""All Meals served on board Air Arabia is Halal""
+
+4. Meal Details Report 
+Font is too small
+Suggestion came to display details in a grid
+
+5. PNL/ADL 
+Catering and Cabin Crew would be taking meal details report from DCS. Need to verify that DCS system would be able to provide meal details by seat number accurately. 
+As a suggestion, agreed to leave a space between meal codes in the PNL/ADL
+Need to review a processed PNL from DCS and also a meal report from DCS 
+
+6. Seat Allocation Page - Meal link
+6.1 Change button name from ""Meal Charge"" to something more meaningful. ie: ""Meal Template"" or ""Link Meals""
+6.2 In the Meal attachment screen, button displayed as 'Cancel', better to rename this to 'Close'",Default,,,,,,,,,,,,,Improvement,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-3546,Carrier Code Differentiation for SITA / Email,Support Task,Closed,Major,Fixed,XEMP-Janaki Kalatuwawa,XEMP - Nadeem Badri,2009-12-23 13:03:00,,2010-02-12 07:08:00,2010-01-27 14:42:00,,,,,0.0,0.0,,,,,,"AARESAA-3547, AARESAA-3550, AARESAA-3745, AARESAA-3746, AARESAA-3747",,,Requirements for Introduction of Carrier code Differentiation to PNL sending,Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1865,XBE/IBE - Passenger details - Last Name validations,Bug,Closed,Major,Fixed,QACOMPLETED,XEMP-Janaki Kalatuwawa,2009-04-22 10:53:00,,2012-01-06 20:22:00,2009-05-06 13:42:00,,"AA-6Q-001.0 , AA-IA-003.0, AA-6J-002.0 , AA-G9M-002.0 , AA-G9-008.0",,,0.0,0.0,,,,,,,,,"System allows to enter passengers with one letter surnames. Some of the DCS's are not processing PNL/ADL with passengers with 1 letter last name. 
+
+Suggest that we include a validation in xbe/ibe to validate that last name ust be at least 2 characters.",Default,,,,,,,,,,,,,Improvement,,,,,,ISA
+AccelAero Reservations,AARESAA-516,QA Testing - Seat Map Enhancement Testing,Change Request,Closed,Critical,Fixed,XEMP-Janaki Kalatuwawa,XEMP-Janaki Kalatuwawa,2008-07-11 04:18:00,,2008-09-16 13:54:00,2008-09-04 10:11:00,,,,,0.0,0.0,,,,,,,,,"This is the QA task for the Seat map testing.
+Following Key jira's to be tested as part of this task. 
+AARESAA-380 ==> Admin Enhancements
+AARESAA-381 ==> Reservation Back End
+AARESAA-382 ==> Scheduler Job Enhancements
+AARESAA-383==> XBE UI Enhancements
+AARESA-384 ==> IBE UI Enhancements
+AARESAA-385 ==> Web Services
+AARESAA-386 ==> PNL/ADL enhancements
+AARESAA-387 ==> Itinerary Enhancements",Default,,,,,,,,,,,,,Customer Specific Customization,Chargeable,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1987,"AARESAA-1916 Flight Manifest - Include last 4 digits of the credit card, if payment from credit card",SubTask - Product Development,Closed,Major,Fixed,QACOMPLETED,XEMP-Janaki Kalatuwawa,2009-05-07 07:14:00,,2012-01-06 20:22:00,2009-05-14 14:01:00,,"AA-G9-009.0, AA-G9M-003.0",,,0.0,0.0,,,,,,,,,"If AIRLINE_42 ""Send CC Last 4 Digits on PNL"" is set to 'Y', then please include the last 4 digits of the last credit card payment made for the booking in the Flight manifest as a remark.
+(Follow the same logic used in PNL/ADL to derive the code)
+
+And note that there are 2 other parameters used in manifest to show ""Display SSR remarks in Flight Manifest"" (AIRLINE_16) & ""Show FOID in itinerary / Flight Manifest"" (RES_55). New remark should be added considering these and without overriding any details. 
+",Default,,,,,,,,,,,,,Improvement,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2217,AARESAA-2208 Proc - PNLs not sent,SubTask - Change Request,Closed,Major,Fixed,XEMP-Mohamed Nasly,XEMP-Mohamed Nasly,2009-06-16 14:37:00,,2009-06-16 14:37:00,2009-06-16 14:37:00,,,,,0.0,0.0,,,,,,,,,"declare
+pnl_gap number(5);
+cnt number(5);
+
+exp_pnl_time date;
+
+begin
+DBMS_OUTPUT.ENABLE(400000);
+
+for flt in 
+(
+select distinct fs.flight_id, f.origin, f.flight_number, to_char(fs.est_time_departure_local, 'dd/mm/yyyy hh24:mi') dep_local,
+to_char(fs.est_time_departure_zulu, 'dd/mm/yyyy hh24:mi') dep_zulu,fs.est_time_departure_zulu
+from t_flight f, t_flight_segment fs 
+where 
+f.flight_id = fs.flight_id
+and fs.flight_id in (select flight_id from t_flight f where f.status <> 'CNX')
+and fs.est_time_departure_zulu between sysdate and sysdate + 2
+order by fs.est_time_departure_zulu
+)
+loop
+
+select count(*) into cnt from t_pnl_adl_timings where airport_code = flt.origin and status = 'ACT';
+
+if (cnt <> 0) then
+select nvl(max(pnl_dep_gap),240) into pnl_gap from t_pnl_adl_timings where 
+airport_code = flt.origin and 
+sysdate between zulu_start_date and zulu_end_date and
+status = 'ACT';
+end if;
+
+select count(*) into cnt 
+from t_pnladl_tx_history h, t_flight_segment fs where 
+h.flight_id = fs.flight_id and
+h.flight_id = flt.flight_id and 
+h.message_type = 'PNL' and
+h.transmission_status = 'Y';
+
+if (cnt = 0) then
+select count(*) into cnt from t_flight f where f.departure_date <= sysdate + pnl_gap/(60*24) and f.flight_id = flt.flight_id;
+if (cnt = 1) then
+select count(*) into cnt from t_sita_address where airport_code = flt.origin and status = 'ACT';
+if (cnt <> 0 ) then
+DBMS_OUTPUT.PUT_LINE(flt.flight_id || ',' || flt.origin || ',' || flt.flight_number || ',' || flt.dep_local || ',' || flt.dep_zulu || ',' || pnl_gap);
+end if;
+end if;
+end if;
+
+end loop;
+
+end;",Default,,,,,,,,,,,,,Support,,,,,,ISA
+AccelAero Reservations,AARESAA-1540,AARESAA-1538 Group Code Issue,SubTask - Support Task,Closed,Major,Fixed,QACOMPLETED,XEMP -Byorn De Silva,2009-03-11 06:13:00,,2012-01-06 20:22:00,2009-03-15 04:06:00,,"AA-IA-002.0, AA-G9-007.3",,,0.0,0.0,,,,,,,,,"Dear Byorn,
+
+
+
+Further to our earlier emails on the subject. 
+
+
+
+Following reported by our Duty Manager, Customer Services. As it is apparent, there are two issues:
+
+1. Allocation of same group code for more than one group, which causes confusion at the check-in level as well as at the time of offloading, to identify the passenger / baggage.
+
+2. Same PNR for more than one group.
+
+
+
+On G9 111 / 11MAR09 (flight under reference), if you retrieve the passenger through PNR, the list is of 15 passengers with three different group with code B (B3, B8 and B2)
+
+
+
+We feel that the problem needs to be addressed on an urgent basis since this could lead to delays / discrepancies on the flights.
+
+
+
+As advised in the earlier email, it is felt that the problem is initiated with ADD list which starts allocating group code afresh without taking into account the codes in the main PNL.
+
+
+
+Thanks and Regards
+
+
+
+Hari
+",Default,,,,,,,,,,,,,Support,,,,,,ISA
+AccelAero Reservations,AARESAA-3362,Complete System Check - Check List at high Level,Task,Closed,Major,Fixed,XEMP-Janaki Kalatuwawa,Faiza Iqbal (QA),2009-11-18 13:53:00,,2011-02-09 07:12:00,2011-02-09 07:12:00,,,,,0.0,0.0,,,,,,,,,"Before every release a complete system check must be done to ensure the system is working fine.
+
+Scenarios to be tested:
+
+IBE:
+Make Reservation as Registered and Unregistered User
+Modify Booking
+Modify / Cancel Segment
+Cancel Reservation
+Itinerary
+
+XBE:(with System User and also with other User Roles)
+Make Reservation 
+Add segment/Modify / Cancel Segment
+Cancel Reservation
+Itinerary
+Invoicing
+Reports
+Flight Manifest
+PNL./ ADL
+
+If scenarios are missed out please include them in this.
+",Default,,,,,,,,,,,,,Support,,,,,,ISA
+AccelAero Reservations,AARESAA-2754,Seatmap issues,Bug,Open,Major,Unresolved,TBA,XEMP-Mohamed Nasly,2009-08-19 08:36:00,,2013-07-19 10:24:00,,,,,,0.0,0.0,,14400.0,14400.0,,0.0,,,,"Following critical seatmap issues are reported in Air Arabia Maroc production
+
+1. Seat RESERVED but still vacant in flight (This causes seat not to appear in PNL/ADL as well as this lead to duplicate pax booking same seat)
+2. Mutli-leg flight seat reservations issues (For all add, cancel and modify seats scenarios)
+a. There are RESERVED seats with not all the intercepting seats are market ACQUIRED
+3. Some canceled segments still has seats RESERVED
+4. Some seats RESERVED in flight does not have corresponding seat RESERVED in reservation",Default,0.0,0.0,,14400.0,14400.0,,,,,,,,Error,,,,,,ISA
+AccelAero Reservations,AARESAA-442,AARESAA-431 Itinerary Changes,SubTask - Task,Closed,Critical,Fixed,QACOMPLETED,XEMP -Nuwan Bandara,2008-06-24 10:54:00,,2008-09-26 06:21:00,2008-08-01 05:51:00,,,,,0.0,0.0,,,,,,,,,"- Itinerary Terms & Condition should be printed as per Jupiter Terms. Both English and Arabic should be changed.
+- New label ""E-ticket number"" and 15 character ticket number should be printed. 
+- Suggest that 'Booking Reference' and AccelAero 8 digit PNR reference also printed in the Itinerary as PNL, ADL, Manifest, Reports etc refer this number. Changing all these to include e-ticket number would be too many changes. 
+- Passport number should be printed against each PAX
+- Bar code should be generated with additional information and should be printed in the Itinerary.
+Current bar code supports only the Carrier code and the PNR number. 
+- New bar code format - PNR number + Segment details 
+- PNR Number - AccelAero PNR number should be included as of now
+- When a ticket is booked using a return Fare rule with stay over restrictions (1 Month, 3 Months etc) and if the Fare rule is defined with 'Print Validity Date', message 'Please note that ticket is not valid after dd/mm/yyyy' should be printed in the Rules section based on the departure date and the maximum stay over days.
+- If a return booking done using a maximum stay over 30 days and departure date is 01Jan09, message should be printed as 'Please note that ticket is not valid after 30/01/2008'
+",Default,,,,,,,,,,,,,Customer Specific Customization,,,,,,IA - Jupiter Airlines
+AccelAero Reservations,AARESAA-3515,ISA-#4774 MLDCS at DMM,Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Nadeem Badri,2009-12-20 07:51:00,,2009-12-20 15:14:00,2009-12-20 15:14:00,,,,,0.0,0.0,,,,,,,,,"TypeB address:DMMLDXH and 
+Email address : dmm@maestro.mconnect.aero. 
+Please add the new address with the existing one and send PNL to both the address for Dammam. Once SITA confirm that the parallel server in working properly I will inform to amend or deactivate the old address.",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2053,Support - review Air Arabia Maroc production data,Support Task,Closed,Major,Incomplete,Thushara Fernando,XEMP-Mohamed Nasly,2009-05-20 08:02:00,,2011-04-28 08:00:00,2011-03-01 08:52:00,,,,,0.0,0.0,,,,,,,,,"Review Air Arabia production for followings and verify the data integrity.
+
+1. MIGS card payment transactions
+a. Verify the integrity of IBE transactions (Payment currency is correctly recorded in all transaction tables, Payment currency and payment gateway are matching, success/failure cases are properly updated in database)
+b. Prepare a report on IBE payment success, but no booking exists; identify whether or not such transactions are refunded or not for the transaction from the start (You will need to have MIGS transaction details from MIGS portal to do this, which Shahna will provide to you)
+c. Verify the integrity of XBE transactions (Payment currency is correctly recorded in all transaction tables, Payment currency and payment gateway are matching, success/failure cases are properly updated in database)
+
+2. MTC card payment transactions
+a. Verify the integrity of IBE transactions (Payment currency is correctly recorded in all transaction tables, Payment currency and payment gateway are matching, success/failure cases are properly updated in database)
+b. Prepare a report on IBE payment success, but no booking exists (You will need to extract transaction details from MTC reports from MTC commerce centre application)
+c. Verify payment recorded at AccelAero and payment daily confirmed at MTC is matching for IBE transactions for last 7 days (You will need access MTC commerce centre to find out amount confirmed at daily cutover)
+d. Verify the integrity of XBE transactions (Payment currency is correctly recorded in all transaction tables, Payment currency and payment gateway are matching, success/failure cases are properly updated in database)
+e. Verify payment recorded at AccelAero and payment daily confirmed at MTC is matching for XBE transactions for last 5 days
+f. Prepare a report on XBE payment failures
+
+3. Check PNL/ADL failures and prepare report on the same
+
+4. Check if invoices are generated for May 2009 FN1 properly and whether invoice reflect the amounts in agent currency along with the breakdown properly.
+
+5. Check company payment report and mode of payment reflects amounts correctly.
+
+6. XBE - Agent Maintenance
+a. Check if credit limit specified in intended currency; check local and base credit limit and bank guarantee amounts are properly recorded
+b. Check if each agents has a territory linked
+
+7. XBE - User maintenance
+a. For admin users, verify relevant user maintenance role is assigned. 
+",Default,,,,,,,,,,,,,Support,,,,,,G9 - Air Arabia Morroc
+AccelAero Reservations,AARESAA-3439,AirArabia Production patch and restart - 2009/12/08,Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-12-09 05:56:00,,2009-12-09 08:21:00,2009-12-09 08:17:00,,AA-G9-013.7,,,0.0,0.0,,,,,,,,,"
+AirArabia production patched and restart for 5H pnl delivery and the issue addressed in AARESAA-3431
+",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1433,Seat Booking within Buffer Time Still happening - Need to check the below mentioned issue,Support Task,Closed,Major,Duplicate,QACOMPLETED,XEMP -Byorn De Silva,2009-02-23 06:42:00,,2010-10-03 06:58:00,2009-09-10 02:15:00,,,,,0.0,0.0,,,,,,,,,"
+Aditya, 
+The payment for the preferred seat was made at the sales shop today at 1636LT for an STD of 1745LT, below are the details. It was agreed no payments will be done -12hrs to STD however it has happened again resulting in a delay of 10mins. 
+
+22/02/2009 at 21:34 Viewed reservation Airport ops 2 
+2 22/02/2009 at 17:44 Viewed reservation SHJ Sales shop Shj arpt Najla 
+3 22/02/2009 at 17:44 Viewed reservation SHJ Sales shop Shj arpt Najla 
+4 22/02/2009 at 16:26 Payment made Details : 
+MR, Abdulla, Al Samahi - ADULT CASH 50.00 CREDIT_CARD() 0.00 ON_ACC() 0.00 CREDIT_BF() 0.00 
+. Areej Marwan Agha 
+5 22/02/2009 at 16:26 Viewed reservation Areej Marwan Agha 
+
+Byond/Fares, 
+The system is still accepting payments after the said dead line, appreciate if you can look into this. 
+
+
+
+Best regards, 
+Issam Shamlan
+
+
+-----Original Message-----
+From: Sharjah Operations
+Sent: Sun 2/22/2009 7:53 PM
+To: 'bdesilva@isaaviation.ae'
+Cc: Salah Zainal
+Subject: PNL - DMM flight 161/22 Feb 
+
+Dear Mr. Byond,
+
+
+
+Passenger booked on the above mentioned flight under PNR 16925982 purchased seat number 1A along with his ticket. However, we' were not able to give the same seat to the pax since he didn't have a name on SDCS system although he is a confirmed pax therefore the seat was not protected in the system but was appearing as available hence was utilized by another pax. Same has created a seating conflict onboard and resulted in delaying the flight for 10m.
+
+
+
+The PNL of the above mentioned flight was not downloaded completely onto the SDCS system i.e. out of 160 pax booked we had around 84 names reflecting in the system only meaning we had to accept the rest of the pax (around 74) as no-rec!!
+
+
+
+Appreciate if you can investigate the matter and find out what went wrong.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Best regards
+
+Said
+
+Duty Officer
+
+Airarabia Airport Operations.
+
+Airarabia.com
+
+Be Smart. Pay Less. Fly More",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2070,Air Arabia Patch Release 13-May-2009,Support Task,Closed,Major,Fixed,Indika Athauda,Indika Athauda,2009-05-24 11:04:00,,2009-07-07 09:53:00,2009-07-07 09:52:00,,,,,0.0,0.0,,,,,,,,,"Air Arabia Patch release consist,\
+- Itinerary Changes
+- Terms & Conditions
+- PNL sending last 4 digits of credit card
+",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2126,Support - Patch Air Arabia Maroc Production - 30/May/2009,Support Task,Closed,Major,Fixed,XEMP-Mohamed Nasly,XEMP-Mohamed Nasly,2009-05-30 02:20:00,,2009-06-03 02:20:00,2009-05-30 02:22:00,,,,,0.0,0.0,,,,,,,,,"Patch Maroc production for following
+
+1. Fix for ADL scheduling issue
+2. Disable breakdown of FARE, TAX, SUR and MODIFICATION in company payment report and in inovices",Default,,,,,,,,,,,,,Support,,,,,,G9 - Air Arabia Morroc
+AccelAero Reservations,AARESAA-665,FOR RUH STATIONS ADD HK1,Product Development,Closed,Major,Fixed,XEMP-Janaki Kalatuwawa,XEMP -Byorn De Silva,2008-08-31 13:05:00,,2008-09-26 06:11:00,2008-09-15 05:54:00,,,,,0.0,0.0,,,,,,,,,"Dear Carol, 
+
+Regarding seat assignment in the PNL,it is not appearing in the DCS system due to the 
+
+Error of missing of HK for Seat Requst in the PNL it should appear HK status: 
+
+For example : SALEH/AYMANMR .L/12345678 .R/RQST HK 1C 
+
+Tks & Best Regrds, 
+
+Ayman Bin Saleh 
+
+",Default,,,,,,,,,,,,,Customer specific support,Not chargeable,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1320,SITA Addresses to be added.,Support Task,Closed,Major,Fixed,XEMP -Byorn De Silva,XEMP -Byorn De Silva,2009-02-08 07:20:00,,2009-02-15 08:27:00,2009-02-10 11:42:00,,,,,0.0,0.0,,,,,,,,,"
+Dear Bjorn,
+
+Please add CMBKPUL and CMBKLUL for PNL ex CMB.
+
+regards 
+
+
+Munir Parambath
+Regional Manager Ground Ops-ISC
+
+airarabia.com
+",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2887,ISA-#101027 - Inactivate SITA addresses,Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-09-07 04:28:00,,2009-09-07 16:00:00,2009-09-07 16:00:00,,,,,0.0,0.0,,,,,,,,,"
+Request to send PNL for AMM only to AMMKM8X and AMMKP8X.
+
+User request as follows,
+
+
+Dear Saad and Issam,
+
+No need to send PNL to AMMOO8X. Only AMMKP8X and AMMKM8X need PNL.
+
+The below is a list of messages to be sent to our SITA addresses:
+
+AHS-Menzies
+
+SITA Addresses
+
+MVT
+
+AMMKZ8X,AMMOO8X,AMMKK8X,AMMKP8X, AMMKI8X,AMMFF8X
+
+PNL
+
+AMMKM8X, AMMKP8X
+
+LDM
+
+AMMOO8X,AMMKP8X,AMMKI8X,AMMFF8X
+
+TPM
+
+AMMOO8X,AMMKP8X
+
+PSM
+
+AMMOO8X,AMMKP8X,AMMLL8X,AMMSS8X
+
+CGO
+
+AMMFF8X,AMMKK8X,AMMOO8X
+
+
+
+I have attached the G9332LDS/30AUG, kindly review and advise.
+
+
+
+Regarding BSS please be note that our LPO account is
+amm.lostluggage@ahs-group.com and the person incharge is Qasem
+Mahasneh.
+
+
+Regards,
+Ahmad Awad
+Information Technology Officer
+AHS (Jordan) Ltd
+A Menzies Aviation Partner
+Queen Alia International Airport",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2828,ISA-#100996 - Update new sita TLX addresses for BOM,Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-08-31 04:30:00,,2009-08-31 05:20:00,2009-08-31 05:20:00,,,,,0.0,0.0,,,,,,,,,"Dear Supervisor on duty...
+Pls treat this as urgent and very important...
+
+Sita tlx BOMRMIC - need's to be removed with immediate effect...
+
+Further all PNL's for BOM flight need to be addressed to BOMCOXH & emailed addressed to bom.psgrsup@celebinas.in<mailto:bom.psgrsup@celebinas.in>
+
+
+Pls acknowledge this email at the earliest.....
+
+Brgds
+Elvis Pereira
+",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-3203,ISA-#690 - Add SITA address,Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-10-28 07:05:00,,2009-11-01 14:04:00,2009-11-01 14:04:00,,,,,0.0,0.0,,,,,,,,,"Request from user,
+
+Dear support team
+Please amend the accel aero sys to generat the PNL for the flight 3o361 MLH/CMN to adress below :
+
+BSLKMXH BSLKPXH
+
+thanks for your usual coop
+best regards
+Mohamed Amine ABDANE",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-3202,ISA-#717 - Add SITA address,Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-10-28 07:04:00,,2009-11-01 14:05:00,2009-11-01 14:04:00,,,,,0.0,0.0,,,,,,,,,"Request from user as below,
+
+Dear support team,
+
+Please amend the accel aero sys to generat the PNL for the flight
+3o450 BLQ/CMN to adress below :
+
+ALLCKAZ
+
+Thanks for your usual coop
+Best regards
+
+Younes BRAHIMYA",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia Morroc
+AccelAero Reservations,AARESAA-3011,ISA-#101627 - Error in loading CMN CRL flight manifest,Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-09-24 15:29:00,,2009-09-27 01:33:00,2009-09-27 01:33:00,,,,,0.0,0.0,,,,,,,,,"User email as below,
+
+From: Imane Taouss (MAC) [mailto:itaouss@airarabia.com]
+Sent: Thursday, September 24, 2009 5:27 PM
+To: 'Mohamed Nasly'; support@isaaviation.ae
+Cc: Taoufiq Tounsi (MAC)
+Subject: CMN CRL flight manifest ----URGENT!!!!!!!!!!--------
+Importance: High 
+
+URGENT!!!!!!!!!!!!!
+
+Dear Support team ,
+
+We have an urgent request, CMN CRL flight manifest of today 24th sep09 , we
+can not retrieve pax on the flight manifest, attached is the display that we
+got.
+
+This problem is general for everyone and only CMN CRL- Checking staff can
+not retrieve pax especially that even on PNL they have only few names.
+
+Could you please help to solve this problem 
+
+Imane TAOUSS 
+Yield Management Officer
+",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia Morroc
+AccelAero Reservations,AARESAA-1711,Reservation system - Test and ensure all buttons used to 'Save'/'Confirm' etc are protected after 1st save,Bug,Closed,Major,Fixed,XEMP-Janaki Kalatuwawa,XEMP-Janaki Kalatuwawa,2009-03-29 13:12:00,,2010-01-08 03:57:00,2009-12-23 08:30:00,,,,,0.0,0.0,,,,,,,,,Please carry out a full test of the reservation system in different browsers (ie: IE & FF Mozilla versions) and ensure that the data submit buttons are disabled after one click.,Default,,,,,,,,,,,,,Support,,,,,,ISA
+AccelAero Reservations,AARESAA-1704,AARESAA-1651 XBE>> QA Testing,SubTask - Support Task,Closed,Major,Won't Fix,XEMP-Janaki Kalatuwawa,XEMP - Dushani Vigneshwaran (QA),2009-03-27 11:23:00,,2012-01-06 20:22:00,2009-12-03 05:33:00,,AA-G9-008.0,,,0.0,0.0,_thumb_10966.png _thumb_10969.png _thumb_10967.png ,,,,,,,,This JIRA is raised for QA purpose to record all issues related to testing,Default,,,,,,,,,,,,,Product Enhancement,,,,,,ISA
+AccelAero Reservations,AARESAA-2799,AARESAA-2373 Multiple SSR - Itinerray - IBE/XBE,SubTask - Change Request,Closed,Major,Fixed,QACOMPLETED,XTEAM - Duminda Anuradha,2009-08-27 04:32:00,,2012-01-06 20:23:00,2009-11-10 11:17:00,,"AA-G9-012.0 , AA-G9-013.0, AA-G9-013.4, AA-G9M-003.0 , AA-3O-004.0","Agents, Callcentre, IBE",,0.0,0.0,_thumb_10822.png _thumb_10863.png ,,,,,,,,"Incorporate multiple SSR handling into Itinerary pax details grid.
+
+",Default,,,,,,,,,,,,,Customer Specific Customization,,,,,2009-10-04 23:30:00,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2675,AARESAA-2373 XBE/Tools - Flight Manifest - Multiple SSR Support,SubTask - Change Request,Closed,Major,Fixed,QACOMPLETED,XTEAM - Duminda Anuradha,2009-08-08 14:15:00,,2012-01-06 20:23:00,2009-10-25 02:49:00,,AA-G9-012.0,"Agents, Callcentre, IBE",,0.0,0.0,_thumb_10829.png _thumb_10818.png _thumb_10798.png ,,,,,,,,"Ensure SSR details, PSPT and E-ticket details properly displayed in the Manifest after mulitple SSR implementation. 
+
+
+",Default,,,,,,,,,,,,,Customer Specific Customization,,,,,2009-10-04 20:30:00,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2671,AARESAA-2373 XBE/IBE - Reservations backend implementation for multiple SSR per pax per segment,SubTask - Change Request,Closed,Major,Fixed,QACOMPLETED,XTEAM - Duminda Anuradha,2009-08-08 13:12:00,,2012-01-06 20:23:00,2009-11-04 11:58:00,,"AA-G9-012.0 , AA-G9-013.4, AA-G9M-003.0 , AA-3O-004.0",Backend,,0.0,0.0,_thumb_10877.png ,,,,,,,,"1). Add SSR in create booking and add/modify segment - 2d
+2). Cancel SSR in cancel reservation, cancel segment, remove pax and remove infant - 2d
+3). SSR handling split reservation, transfer segment and re-protect passengers - 1d
+4). Retrieve SSR for modify booking and for SSR views - 1d
+5). Add or modify SSR for modify booking - 1d
+
+
+Phase 1 - only HALA services would be implemented with new SSR structure. Each SSR would carry zero or higher charge.
+
+Implement mutliple SSR per pax per segment support in reservation backend""
+
+Only HALA service SSR cancellation logic would be implemented
+
+Cancel the existing SSR when doing transfer or re-protect passenger. Only HALA service SSR handling logic would be implemented
+
+
+This is only required for HALA services SSRs
+
+",Default,,,,,,,,,,,,,Customer Specific Customization,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-570,While reprotecting passengers unable to set the from date as today,Bug,Closed,Critical,Fixed,QACOMPLETED,XTMA - Syam Kumar,2008-08-03 04:46:00,,2012-01-06 20:21:00,2008-10-03 09:56:00,,"AA-IA-001.0, AA-RT-000.0, AA-M8-001.0",Admin,,0.0,0.0,,,,,,,,,"I have raised this issue almost a month ago. We were unable to reprotect passengers for a flight on the same day. 
+
+Today,3/08/2008, we have flights M8663(MLE/KDM),M8664(KDM/MLE),M8773(MLE/GAN),M8774(GAN/MLE). Due to some operational issues they have to combine these flights, so for that a new flight is created as M8971, MLE/KDM/GAN/MLE. All the passengers on the above flights need to be moved to M8971. We are unable to do that.",Default,,,,,,,,,,,,,Support,,,,,2008-08-07 15:22:00,M8 - TMA
+AccelAero Reservations,AARESAA-2471,AARESAA-2450 Meal notifier for Catering,SubTask - Change Request,Closed,Major,Fixed,QACOMPLETED,Thushara Fernando,2009-07-12 07:10:00,,2012-01-06 20:23:00,2009-09-08 05:50:00,,AA-G9-011.0,,,0.0,0.0,,,,,,,,,"Send a email to the selected meals 16 prior to the flight departure contains with meal details in both inbound and outbound flights.
+Job to queue the job and execute 16 hours before the flight departure.
+
+
+This will have a search criterion to search a flight and retrieve the meal details. The meal information will have a summary report in Tabular format.
+Search Criteria
+From Date - Mandatory
+To Date - Mandatory
+Flight Number
+Results
+Flight No Meal Code No of Meals
+G9401 CHML 10
+TXML 27
+HPML 1
+
+
+Provide a facility to send the meal details via email. This will contain the both outbound/Inbound meal details separately.
+",Default,,,,,,,,,,,,,Customer Specific Customization,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-451,AARESAA-431 SITA Address Maintenance - Allow to define email addresses for an airline,SubTask - Task,Closed,Major,Fixed,QACOMPLETED,XEMP -Nuwan Bandara,2008-06-27 06:46:00,,2009-03-02 12:27:00,2008-10-12 12:33:00,,AA-M8-001.0,,,0.0,0.0,,,,,,,,,"SITA Address Maintenance: -
+Allow to define email addresses for an airline.
+Full Email addresses should be allowed to define in a text box and if more than one address, should be allowed to define with comma separators
+",Default,,,,,,,,,,,,,Customer Specific Customization,,,,,,IA - Jupiter Airlines
+AccelAero Reservations,AARESAA-406,AARESAA-377 Airadmin - (SQ) Facility to process Go Show at flight closure time by air port staff,SubTask - Change Request,Closed,Major,Approval Rejected,XEMP-Mohamed Nasly,XTEAM - Duminda Anuradha,2008-06-19 05:33:00,,2010-10-20 10:07:00,2010-10-20 10:07:00,,,Admin,,0.0,0.0,,,,,,,,,"TMA Request
+--------------------
+Reservation cut off time in our system is 30 minutes. Noone even administrator can make modification or booking in this time. Those staffs working at airport, they want to enter go-shows in this time. Please let me know how it can be done. Could you provide a new privilege for this option?
+
+You know our special fare is unavailable in the last 48 hours hence the fare to be chosen in for the go show should be the normal fare which is defined in the system. If the pax is a maldivian then Maldivian normal fare has to be picked up, otherwise the nonmaldivian normal fare . Please ensure system picks up adult/child or infant normal fare based on the pax type. 
+",Default,,,,,,,,,,,,,Product Enhancement,,,,,,M8 - TMA
+AccelAero Reservations,AARESAA-1346,Seats being booked at modification buffer time.,Support Task,Closed,Major,Fixed,QACOMPLETED,XEMP -Byorn De Silva,2009-02-11 18:35:00,,2012-01-06 20:21:00,2009-02-16 12:20:00,,AA-IA-002.0,,,0.0,0.0,,,,,,,,,"Byron,
+
+
+
+Please find below 2 incidents reported by our airport team regarding passengers with seat booking(paid), your comments and feedback to how to overcome this issues is appreciated.
+
+
+
+
+
+G9381/BEY Group of 03 passengers booked under PNR 16880734 reported for check-in and as they have balance to pay their name were not in the system, pax paid the balance and return back to check-in by 0655lt for 0750lt departure. By this time their paid seats 1D,2EF were released to other passengers. But still we managed change their seats as detailed below. Instead of 2EF to 2DE and 1D manually changed onboard. 01D requested passenger was given seat Nbr 6E from counter but same changed to 1D manually onboard. 
+
+
+
+G9603/ALY Group of 2 passengers under PNR 16878432 reported for check-in and as their name were not existing in the system passengers were accepted as NOREC but by the time their paid seat 10AB was released to other passengers, hence we have to change same at boarding gate.",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-1695,"Reservation fully paid, but shows balance due and also still OHD - 17290722",Bug,Closed,Major,Fixed,QACOMPLETED,XEMP-Mohamed Nasly,2009-03-26 10:07:00,,2012-01-06 20:22:00,2009-04-02 11:54:00,,AA-G9-008.0,,,0.0,0.0,_thumb_10309.png ,,,,,,,,"Reservation fully paid, but shows balance due and also still OHD - 17290722
+
+Reservation status = OHD (T_RESERVATION)
+First passenger status = OHD (T_PNR_PASSENGER)
+Second passenger status = CNF (T_PNR_PASSENGER)",Default,,,,,,,,,,,,,Support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2834,AARESAA-2450 Test PNLs With different DCSs,SubTask - Task,Closed,Major,Fixed,QACOMPLETED,Thushara Fernando,2009-08-31 05:41:00,,2010-03-10 11:06:00,2009-12-10 08:45:00,,,,,0.0,0.0,,,,,,,,,Test PNLs With different DCSs,Default,,,,,,,,,,,,,Customer Specific Customization,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2666,Issues/Observations identified before open return CR Production Release,Task,Closed,Major,Incomplete,XEMP - Dhanya Ramachandran,XEMP-Janaki Kalatuwawa,2009-08-07 12:49:00,,2010-10-29 06:29:00,2010-10-29 06:29:00,,,,,0.0,0.0,_thumb_12065.png ,,,,,,,,"Will copy all noted issues under this jira, to be split into separate Jira later.
+
+1. Currency Maintenance
+When split and change dates of an existing rate, to update a rate effective within minutes, date displayed on the screen get advanced by 1 day. Therefore validation force user to key in a day 1 day future and after save, displayed date get changed current date.
+==> NOT OK. Standard issue. 
+
+2. Added a open return booking as on hold. 
+Issue 1 - Once a open return booking added, not possible to change outgoing date before return date is confirmed. 
+==> NOT OK. As discussed, needs to address soon. 
+
+Added another return segment with return date confirmed. Confirmed changes from payment page without making payment. 
+Issue 2 - 2nd segment should be displayed as 2 separate segments, but screen showing these as single segment like in open return. 
+==> NOT OK 
+Issue 3 - when 2nd group selected, no modify segment, only 'Confirm Segment' displayed. 
+==> NOT OK 
+Issue 4 - After a payment also, 2nd return group remain as 1 segment.
+==> NOT OK 
+
+3. Modify Reservation
+Cannot see the buttons on the screen. Screen had been re-adjusted? 
+
+Advance Search - new search criteria 'BC Type' added and when a search is done, results are showing only the segments with selected BC type. Should show the full booking details, not only the segments matching searched BC.
+==> NOT OK 
+
+Made a open return booking and canceled. After that added new segment. In the flight availability screen flight details displayed with a flight selected. Fare Quote and Book buttons are displayed, but no fare Quote. 
+This happens when 'Add Segment' search is for a connection. 
+For single segments this is ok.
+==> NOT OK 
+
+
+4. Flight Manifest 
+Not showing any open return segments. This is correct. Why are we showing legend for BC as ""Open Return #""??
+==> Minor issue",Default,,,,,,,,,,,,,Support,Not chargeable,,,,,ISA
+AccelAero Reservations,AARESAA-2997,ISA-#101504 - G9385 SHJBEY/18SEP,Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-09-22 11:59:00,,2009-10-04 04:53:00,2009-09-24 15:35:00,,,,,0.0,0.0,,,,,,,,,"User email as below,
+
+Dear Nasly / Support,
+
+G9385/18SEP SHJ/BEY flight is seen as closed after the flight expired. Return leg is active.
+Can you please check and let me know who has closed this flight as same does not appear in forward booking downloads.
+
+Thanks
+
+
+Syed Hussain Sakkaf
+
+Manager Business Support",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2949,AARESAA-2373 XBE Issues,SubTask - Bug,Closed,Major,Fixed,QACOMPLETED,XTEAM - Arunika Amarasinghe (QA),2009-09-14 08:05:00,,2012-01-06 20:23:00,2009-10-06 10:48:00,,AA-G9-012.0,,,0.0,0.0,_thumb_10788.png _thumb_10685.png ,,,,,,,,"Cannot make a reservation from XBE.
+Continuous display of progress bar in ""Payments"" tab (xbe.jpg)",Default,,,,,,,,,,,,,Error,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-494,TMA - DCS - Send flight schedules,Change Request,Closed,Minor,Fixed,XEMP-Janaki Kalatuwawa,XTEAM - Duminda Anuradha,2008-07-02 06:32:00,,2008-08-18 04:31:00,2008-08-18 04:31:00,,,,,0.0,0.0,,,,,,AARESAA-528,,,"extract flight schedules compose email and send to specified mail address.
+
+input parameters
+
+departure date range
+email address",Default,,,,,,,,,,,,,Pre-sales,Not chargeable,,,,,
+AccelAero Reservations,AARESAA-3161,AARESAA-3160 IBE Make Reservation,SubTask - Support Task,Closed,Major,Fixed,QACOMPLETED,XEMP - Maniesha Suwanderatne (QA),2009-10-21 04:37:00,,2012-01-06 20:23:00,2009-10-30 06:35:00,,"AA-G9-012.0 , AA-G9-013.0, AA-3O-004.0",,,0.0,0.0,,,,,,,,,IBE Make Reservation,Default,,,,,,,,,,,,,Error,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-3522,ISA-#4683- G9-Fly540,Support Task,Closed,Major,Fixed,XEMP - Charith Paranaliyanage,XEMP - Charith Paranaliyanage,2009-12-21 11:52:00,,2009-12-24 03:15:00,2009-12-24 03:15:00,,,,,0.0,0.0,,,,,,,,,"User email as below,
+
+Dear Support,
+
+Can u urgently resend the pnls for these bookings.
+
+
+Sujal,
+
+Our system support confirmed that the pnls were sent to you.
+Resending same. Meanwhile can you please instruct all your airports
+to accept pax with G9 printouts and accept them as goshows atleast
+and invoice us at the agreed rate. If we have any more customer
+servise issues we will kill this product even before we have kicked
+it off. Kindly oblige.
+
+Brgds
+F
+
+Reservation numbers 
+
+Mugoya/p 19730897
+Kalanzi kagurusi Rodgers 19728325",Default,,,,,,,,,,,,,Customer specific support,,,,,,G9 - Air Arabia
+AccelAero Reservations,AARESAA-2288,Hide Test Screens from Live environments,Task,Closed,Major,Fixed,XEMP-Janaki Kalatuwawa,XTEAM - Duminda Anuradha,2009-06-26 11:47:00,,2009-12-10 08:53:00,2009-12-07 05:00:00,,,,,0.0,0.0,,,,,,,,,test screens are enabled in live environments. need to patch these and hide them and also to prevent this from happening need to introduce a common privilege and add to menu,Default,,,,,,,,,,,,,Error,,,,,,ISA
+AccelAero Reservations,AARESAA-209,IBE Confirmed bookings without payment,Bug,Closed,Critical,Fixed,XEMP-Janaki Kalatuwawa,Indika Athauda,2008-04-28 07:01:00,,2008-06-11 08:10:00,2008-06-10 06:43:00,,,,,0.0,0.0,,,,,,,,,"There are 2 complains for AccelAero about confirmed reservations without payment from IBE. This happened both in AirArabia and FlyYeti. Details are as follows.
+
+AirArabia : 14338511 , 14339582
+FlyYeti : 10025830 , 10025862
+
+
+PS: Finance informed all of the above transactions done with Fraud CreditCards.
+",Default,,,,,,,,,,,,,Support,,,,,,G9 - Air Arabia
+Generated at Tue Mar 19 22:26:05 GMT-00:00 2024 by Dilan Anuruddha using JIRA 6.1.7#6163-sha1:94d557d067e7b31a37a03eea89c85612ea7bb3b6. ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
